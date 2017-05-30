@@ -12,6 +12,9 @@
     <meta name="description" content="AIA Hong Kong provides insurance products for both individuals and businesses. Find out more about our services and get the latest updates!">
     <meta name="format-detection" content="telephone=no">
     <script type="text/javascript">
+    $(document).ready(function(){
+    $(window).scrollTop(0);
+});
         function fallbackSvgs() {
             if (!/Safari|iPhone|iPad|iPod/.test(navigator.userAgent) || !/Apple Computer/.test(navigator.vendor)) return;
             var svgs = document.getElementsByTagName('svg');
@@ -34,13 +37,153 @@
         }
     </script>
 
+     <link rel='stylesheet' href='custom_style.css'>
+  <link rel='stylesheet' href='app.css'>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700|Roboto+Condensed:300,400,700' rel='stylesheet'
+    type='text/css'>
+  <script src="jquery-1.10.2.min.js"></script>
+
+  <script src="appwarp.min.js"></script>
+  <script type="text/javascript">
+  
+  <!--  var apiKey = "af4dc8deae4602107b53dc00320ffbe6f4601c181097332210247042c0b2e"; -->
+ <!--  var secreteKey = "acedbf2c30df3cff12a6592e09441986ffa136e1caedbfd6b4c72ea57dddc3f6"; -->
+	
+	 var apiKey = "cf077a193208596a23db85efe861c415f07b02ab3c605a234e594cb49b617762";
+    var secreteKey = "8ee63e66e9a576fa64bec60f5bc3ddf1c3f1b1ada22ad3e25a39984fb8bd8275";
+    var _warpclient;
+    var nameId = "";
+    var roomsText = "";
+    var inRoom = false;
+    var roomId = "";
+
+    function onConnectDone(res) {
+      if (res == AppWarp.ResultCode.Success) {
+        console.log("Client Connected");
+        console.log("Checking If Admin is Online!!!!");
+        _warpclient.getUserStatus("ADMIN");
+      }
+      else {
+        console.log("Error in Connection");
+      }
+    }
+
+    function onGetUserStatusDone(res) {
+
+      $("#roomInfo").html("onGetUserStatusDone Success");
+      if (res.json.status) {
+        console.log("Admin is Online!!!!");
+        $("#getUsers").html("Admin is available");
+      } else {
+        console.log("Admin is not Online!!!!");
+        $("#getUsers").html("Admin is not available");
+      }
+
+    }
+
+    //sendPrivateChat(toUser, message) 
+
+    function onSendPrivateChatDone(res) {
+      var msg = "onSendPrivateChatDone : <strong>" + AppWarp.ResultCode[res] + "</strong>";
+      console.log(msg);
+      if (AppWarp.ResultCode[res] == "Success") {
+
+      } else {
+
+      }
+    }
+
+    function onPrivateChatReceived(sender, chat) {
+      var msg = "<strong>" + sender + "</strong> privately says <i> " + chat + "</i>";
+      console.log(msg);
+      setResponse(sender, chat)
+    }
+
+    function setResponse(sender, chat) {
+      Date.prototype.monthNames = [
+        "January", "February", "March",
+        "April", "May", "June",
+        "July", "August", "September",
+        "October", "November", "December"
+      ];
+
+      Date.prototype.getShortMonthName = function () {
+        return this.monthNames[this.getMonth()].substr(0, 3);
+      };
+      var today = new Date();
+      var dd = today.getDate();
+      var mm = today.getShortMonthName();
+      var currDate = mm + " " + dd
+
+      if (sender === nameId) {
+        var liHtml = '<li><div class="row"><div class="col-xs-12"><div class="meta-info user_info_right"><a href="#">' + sender + '</a> on ' + currDate + '</div></div></div><div class="row"><div class="col-xs-2"> </div><div class="col-xs-10"><div class="chat-bubble chat-bubble-right"><div class="bubble-arrow"></div><p class="pd0 mr0">' + chat + '</p></div></div></div></li>'
+        $("#response").html($("#response").html() + liHtml);
+      }
+      else {
+        var liHtml = '<li><div class="row"><div class="col-xs-12"><div class="meta-info user_info_left"><a href="#">' + sender + '</a> on ' + currDate + '</div></div></div><div class="row"><div class="col-xs-10"><div class="chat-bubble chat-bubble-left"><div class="bubble-arrow"></div><p class="pd0 mr0">' + chat + '</p> </div>  </div> <div class="col-xs-2"> </div></div></li>'
+        $("#response").html($("#response").html() + liHtml);
+      }
+
+
+      var fixedScroll = document.getElementById("chatDiv");
+      fixedScroll.scrollTop = fixedScroll.scrollHeight;
+
+
+    }
+
+    function openChatWindow() {
+      $('#chat').fadeOut(500);
+      $('#appwarpchatRoomForm').fadeIn(1000);
+      countMsg = 0
+      $("#chatnote").text("");
+    }
+    function closeChat() {
+      $('#appwarpchatRoomForm').fadeOut(500);
+      $('#chat').fadeIn(1000);
+    }
+
+
+
+
+    $(document).ready(function () {
+      nameId = "User1"
+      console.log("Connecting...");
+      AppWarp.WarpClient.initialize(apiKey, secreteKey);
+      _warpclient = AppWarp.WarpClient.getInstance();
+      _warpclient.setResponseListener(AppWarp.Events.onConnectDone, onConnectDone);
+      _warpclient.setResponseListener(AppWarp.Events.onUserStatusDone, onGetUserStatusDone);
+      _warpclient.setResponseListener(AppWarp.Events.onSendPrivateChatDone, onSendPrivateChatDone);
+      _warpclient.setNotifyListener(AppWarp.Events.onPrivateChatReceived, onPrivateChatReceived);
+      _warpclient.connect(nameId);
+
+      $("#chatBtn").click(function () {
+
+        if ($("#chatText").val() != "") {
+          _warpclient.sendPrivateChat("ADMIN", $("#chatText").val());
+          setResponse(nameId, $("#chatText").val())
+          $("#chatText").val("");
+        }
+
+      });
+
+
+    });
+  </script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="http://www.aia.com.hk/favicon.ico">
     <meta name="google-site-verification" content="54r_aeWlMn4GlJ3E33iIBXCVRWlQ9u3NirgocpAQpz4" />
+    <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
     <link rel="stylesheet" href="../etc/clientlibs/aia/aia-header.min.bcd411696935f5791900a3b839f536d9.css" type="text/css">
+    
     <link rel="stylesheet" href="term-life-insurance/css/custom_style.css">
+
+     <script type="text/javascript" src="../resources/js/bootstrap.min.js"></script>
+       <script type="text/javascript" src="../resources/js/jquery.min.js"></script>
     <script type="text/javascript" src="../etc/clientlibs/aia/aia-header.min.0e0a259e5b0465d894c27c2f951779d0.js"></script>
+   
     <link rel="canonical" href="index.html" />
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -1251,13 +1394,15 @@ brown"></span></h6>
                         <img src="term-life-insurance/images/Chiro-Banner_s3.jpg">
                         <div class="banner_content">
                         <h4 class="banner_heading">
-                        Max life 
+                        AIA
                         </h4>
                         <h3 class="banner_title">Online Term Plan Plus</h3>
                         <div class="pera">
-                        Securing your family has never been more affordable get a life cover of 1 cr. at just Rs. 576/month*
+                        Securing your family has never been more affordable get a life cover of HK$ 100k at just HK$ 576/month*
                         </div>
-                        <a class="login_btn" href="#">Social login</a>
+                            <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+    </fb:login-button>
+                        <!--<a class="login_btn" href="#">Social login</a>-->
                         </div>
                     </div>
                 </div>
@@ -1427,8 +1572,8 @@ brown"></span></h6>
                   <div id="individual" data-id="cards" class="row tab-pane fade in card-row margin-bottom-xxl active ">
                     <div class="product-hero-icon section">
                       <ul class="text-center margin-bottom-sm-l">
-                        <li>
-                          <div class="hover-thumb"> <a href="our-products/savings.html">
+                        <li data-toggle="modal" data-target="#location_popup">
+                          <div class="hover-thumb"> <a href="#">
                             <img class="icon icon-l " src="../content/dam/aia/icons/primary/normal/savings-prime1.png" alt="Savings">
                             </a> </div>
                           <p class="bt5 b6"> <a href="our-products/savings.html" class="bt5 b6" aria-hidden="true" tabindex="-1"> Savings </a> </p>
@@ -1822,10 +1967,71 @@ brown"></span></h6>
     <script type="text/javascript" src="../etc/clientlibs/aia/aia-footer.min.26662511a9eccc290c94140746cd126c.js"></script>
     <script type="text/javascript" src="../etc/clientlibs/aia/country-footer/hk.min.98f8a9d2435a1a03199d2d66a3f1ce53.js"></script>
     <div class="cloudservices servicecomponents"> </div>
-    sfgsgsgss
-    <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-    </fb:login-button>
 
+        <div class="row send">
+              <!--// Notification widget begins-->
+<div class="row chatwin" id="chat" style="display: block;">
+        <div class="create-chat-message-w">
+          <div class="input-group">
+            <span class="input-group-btn">
+                <button type="button" class="btn btn-primary" onclick="openChatWindow()"><i class="fa fa-comment-o"></i>Chat<span id="chatnote" class="badge"></span></button>
+            </span>
+          </div>
+
+        </div>
+      </div>
+
+            <div id="appwarpchatRoomForm" class="chatBox">
+        <div class="widget widget-blue">
+          <div class="widget-title">
+            <div class="widget-controls">
+              <button type="button" class="close" onclick="closeChat()" id="close"><i class="fa fa-times-circle mz"></i></button>
+            </div>
+            <h3>Chat Room</h3>
+          </div>
+        </div>
+        <div class="row pdrb15 hg400 widget-content" style="margin: 0px !important;">
+          <div class="col-md-4 user_col">
+            <h3>Support</h3>
+            <div id="getUsers"></div>
+          </div>
+          <!--// Button widget ends-->
+
+          <!--// Left Column  ends-->
+          <!--// Right Column  begins-->
+          <div class="col-md-8 chat_col">
+            <div class="row">
+              <h3>Chat</h3>
+              <div id="responseManager">
+                <div id="chatDiv">
+                  <ul class="chat-messages-list" id="response"></ul>
+                </div>
+              </div>
+            </div>
+            <div class="row send">
+              <!--// Notification widget begins-->
+              <div class="widget widget-green" id="notificationManagerWidget">
+                <div class="widget-foot">
+                  <div class="create-chat-message-w">
+                    <div class="input-group">
+                      <input type="text" id="chatText" maxlength="500" placeholder="Your message here..." class="form-control">
+                      <span class="input-group-btn">
+                          <button type="button" id="chatBtn" class="btn btn-primary" >Send</button>
+                        </span>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+              <!--// Notification widget ends-->
+            </div>
+
+          </div>
+          <!--// Right Column  ends-->
+        </div>
+      </div>
+    <!--// Notification widget ends-->
 </body>
 
 <script>
@@ -1862,5 +2068,18 @@ brown"></span></h6>
     }
 </script>
 <!-- Mirrored from www.aia.com.hk/en/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 May 2017 01:57:22 GMT -->
+
+
+<!-- Modal -->
+<div id="location_popup" data-modal-tag-move-to="body" class="modal fade aia-modal in" data-target="/content/group/en/tools/modal-pages/home-our-products/critical-illness-protection/jcr:content/content.html" ><div class="modal-dialog partial-screen-modal-dialog"><div class="modal-content"><div class="modal-header bg-t2"><button class="modal-header-btn pull-left" data-dismiss="modal"><img src="term-life-insurance/images/closewhite-glyph.png" alt="close"></button><h6 class="w text-center"> Map Location</h6></div><div class="modal-container padding-top-3xl"><div class="section-container section"><section style="background-color:bg-w;">
+    <div class="container ">
+    <div class="map_container">
+        <img src="term-life-insurance/images/map.png"
+    </div>
+    </div>
+</section>
+</div>
+
+</div></div></div></div>
 
 </html>

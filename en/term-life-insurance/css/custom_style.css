@@ -41,10 +41,15 @@
      width: 100px;
     margin-bottom: 21px;
 }
+.feature_section a:hover, .feature_section a:focus, .feature_section a:active{text-decoration:none; }
+.single_section  .thumbnail{ border:none;margin-bottom: 0;}
+.plans_section ul{margin: 0; padding: 0}
 .plans_section ul li{ list-style: none; display: inline-block;margin: 20px 20px;}
 .plans_section ul li p{
 	margin-top: 20px;
 }
+.map_container img{ width:100%;}
+#location_popup .modal-header-btn img{ width: 24px}
 @media screen and (max-width:992px){
 	.banner_content{width: 50%;}
 .banner_content .banner_title{    font-size: 29px; margin: 0 0  10px }
@@ -60,3 +65,18 @@
     display: inline-block;
     margin-top: 15px;}
 }
+@media screen and (max-width:480px){
+.banner_section img{ height: 225px;}
+.banner_content{ width: 78%}
+}
+     /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
