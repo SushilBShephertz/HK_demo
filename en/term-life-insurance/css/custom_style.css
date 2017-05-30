@@ -12,9 +12,8 @@
 }
 .banner_content{
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 8%;
+    top: 17%;
+   left: 8%;
     color: #000;
         width: 30%;
     
@@ -44,7 +43,15 @@
 .feature_section a:hover, .feature_section a:focus, .feature_section a:active{text-decoration:none; }
 .single_section  .thumbnail{ border:none;margin-bottom: 0;}
 .plans_section ul{margin: 0; padding: 0}
-.plans_section ul li{ list-style: none; display: inline-block;margin: 20px 20px;}
+.plans_section ul li{ list-style: none; display: inline-block;  margin: 20px 10px;  width: 150px;
+    vertical-align: text-top;}
+.plans_section ul li img{transition: 0.5s ease-in-out;border-radius: 100%;}
+.plans_section ul li:hover img{
+    	font-size: 96px;
+    border: 2px solid #e8e8e8;
+    border-radius: 100%;
+    padding: 3px;
+    }
 .plans_section ul li p{
 	margin-top: 20px;
 }
