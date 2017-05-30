@@ -126,8 +126,8 @@ function getEliteTermPremium() {
 $('#et-signature-proceed-btn').on('click', function(e) {
 
 		// success
-					    	    		window.onbeforeunload=null;
-					    	    		window.location.href= contextPath+'/'+language+'/term-life-insurance/'+selectPlanNextPageFlow;
+		// 			    	    		window.onbeforeunload=null;
+					    	    		// window.location.href= contextPath+'/'+language+'/term-life-insurance/'+selectPlanNextPageFlow;
 	
 	// if (!$("#signature").jSignature('getData', 'native').length) {
     // 	$('#signature-section .fwd-error-red .help-block').html(getBundle(getBundleLanguage, "error.signature.empty")).css('display', 'block');
