@@ -2953,3 +2953,14 @@ button.close {
     font-size: 16px;
     color: #061d2a !important;
 }
+
+@media only screen and (max-width: 1024px) and (min-width: 960px){
+.mrlt50neg{margin-left: -50px !important;}
+.fwd-savie-wrapper .fwd-container.container-fluid {
+    padding-right: 30px;
+    margin: 0 50px!important;}
+.fwd-savie-wrapper .container-fluid.fwd-container .et-before-we-start, .fwd-savie-wrapper .container-fluid.fwd-container .et-about-urself, .fwd-savie-wrapper .container-fluid.fwd-container .et-plan-option{
+padding: 33px 50px 33px 50px !important;
+}	
+.fwd-savie-wrapper .et-accrdn-list { padding: 50px 15px 0 15px !important;}
+}
