@@ -9734,6 +9734,10 @@ span.dup-error-msg {
     padding: 7px 40px;
     font: normal 20px "AIASans","Calibri",sans-serif;
 }
+.fwd-savie-wrapper button:hover, .fwd-savie-wrapper a:hover {
+	border: solid 1px #e86487;
+	background: #e86487;
+}
 
 @media ( min-width : 992px) {
 	/* line 277, ../sass/partials/_page-application.scss */
@@ -13039,6 +13043,9 @@ span.dup-error-msg {
 	padding-top: 0;
 	padding-bottom: 30px;
 	text-align: center;
+	color: #363e3f;
+    font-size: 30px;
+    font-family: "AIASans","Calibri",sans-serif;
 }
 
 @media ( min-width : 992px) {
@@ -13084,9 +13091,10 @@ span.dup-error-msg {
 	width: 100%;
 	max-width: 520px;
 	height: 60px;
-	border: solid 1px #554344;
-	font-size: 24px;
-	font-family: 'Calibri';
+	border: solid 1px #b8123e;
+	background-color: #b8123e;
+	padding: 7px 40px;
+    font: normal 20px "AIASans","Calibri",sans-serif;
 }
 /* line 477, ../sass/partials/_declaration-authorization.scss */
 .fwd-savie-wrapper .declare-authorize.et-declaration-section .agreement-description .et-btn-view-summary
@@ -13807,6 +13815,9 @@ span.dup-error-msg {
 	padding-bottom: 40px;
 	line-height: 25px;
 	text-align: center;
+	color: #363e3f;
+    font-size: 30px;
+    font-family: "AIASans","Calibri",sans-serif;
 }
 
 @media ( min-width : 992px) {
@@ -22086,7 +22097,8 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	background: #fff;
 	color: #554344;
 	font-size: 24px;
-	font: normal 20px "AIASans","Calibri",sans-serif;;
+	font: normal 20px "AIASans","Calibri",sans-serif;
+	line-height: 40px;
 }
 
 @media ( min-width : 992px) {
@@ -24001,7 +24013,6 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	#cannot-apply-modal .modal-body form, #customer-service-modal .modal-body form
 		{
 		margin-top: 32px;
-		padding: 0 20px;
 	}
 }
 /* line 92, ../sass/partials/_et-cannot-apply-modal.scss */
@@ -24031,7 +24042,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	/* line 99, ../sass/partials/_et-cannot-apply-modal.scss */
 	#cannot-apply-modal .modal-body form .input-items label,
 		#customer-service-modal .modal-body form .input-items label {
-		width: 40%;
+		width: 35%;
 		float: left;
 		padding-top: 6px;
 	}

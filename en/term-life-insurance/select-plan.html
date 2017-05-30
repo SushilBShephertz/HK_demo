@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="../../resources/css/jquery.mCustomScrollbar.min.css">
     <link rel="stylesheet" href="../../etc/clientlibs/aia/aia-header.min.bcd411696935f5791900a3b839f536d9.css"
           type="text/css">
-
+	
 
     <!--Js -->
     <script type="text/javascript"
@@ -54,6 +54,22 @@
 
         // global variables
         var UILANGUAGE = 'en';
+		
+								function showYes1(){
+								console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+								$("#tick1").css("display", "block");
+								//$("#tick1").display = "block";
+						}
+						function showYes2(){
+								console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+								$("#tick2").css("display", "block");
+								//$("#tick1").display = "block";
+						}
+						function showYes3(){
+								console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+								$("#tick3").css("display", "block");
+								//$("#tick1").display = "block";
+						}
     </script>
     <!-- Start Visual Website Optimizer Asynchronous Code -->
     <script type='text/javascript'>
@@ -4124,10 +4140,12 @@ brown"></span></h6>
                             policies issued to you as Insured at FWD Life Insurance Company (Bermuda) Limited not more
                             than HK$2 million?
                         </p>
+
                         <div class="clearfix">
                             <input type="radio" id="et-before-yes" name="et-before" value="et-before-yes">
                             <label class="et-before-we-start-yes pull-left elterm-btn-default" for="et-before-yes">
-                                <span class="et-before-text">Yes</span>
+								<img id="tick1" src="../term-life-insurance/images/tick.png" class="tickCss" style="">
+                                <span class="et-before-text" onclick="showYes1()">Yes</span>
                             </label>
                             <input type="radio" id="et-before-no" name="et-before" value="et-before-no">
                             <input type="hidden" id="channel">
@@ -4144,7 +4162,8 @@ brown"></span></h6>
                         <div class="clearfix">
                             <input type="radio" id="et-before-yes-02" name="et-before-02" value="et-before-yes">
                             <label class="et-before-we-start-yes pull-left elterm-btn-default" for="et-before-yes-02">
-                                <span class="et-before-text">Yes</span>
+								<img id="tick2" src="../term-life-insurance/images/tick.png" class="tickCss" style="">
+                                <span class="et-before-text" onclick="showYes2()">Yes</span>
                             </label>
                             <input type="radio" id="et-before-no-02" name="et-before-02" value="et-before-no">
                             <label class="et-before-we-start-no no pull-right elterm-btn-default" for="et-before-no-02"
@@ -4160,7 +4179,8 @@ brown"></span></h6>
                         <div class="clearfix">
                             <input type="radio" id="et-before-yes-03" name="et-before-03" value="et-before-yes">
                             <label class="et-before-we-start-yes pull-left elterm-btn-default" for="et-before-yes-03">
-                                <span class="et-before-text">Yes</span>
+							<img id="tick3" src="../term-life-insurance/images/tick.png" class="tickCss" style="">
+                                <span class="et-before-text" onclick="showYes3()">Yes</span>
                             </label>
                             <input type="radio" id="et-before-no-03" name="et-before-03" value="et-before-no">
                             <label class="et-before-we-start-no no pull-right elterm-btn-default" for="et-before-no-03"
