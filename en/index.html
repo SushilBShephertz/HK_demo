@@ -10,6 +10,13 @@
 <meta name="keywords" content="">
 <meta name="description" content="AIA Hong Kong provides insurance products for both individuals and businesses. Find out more about our services and get the latest updates!">
 <meta name="format-detection" content="telephone=no">
+  <link rel='stylesheet' href='custom_style.css'>
+  <link rel='stylesheet' href='app.css'>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700|Roboto+Condensed:300,400,700' rel='stylesheet'
+    type='text/css'>
+<script src="jquery-1.10.2.min.js"></script>
+<script src="appwarp.min.js"></script>
 <script type="text/javascript">
         function fallbackSvgs() {
             if (!/Safari|iPhone|iPad|iPod/.test(navigator.userAgent) || !/Apple Computer/.test(navigator.vendor)) return;
@@ -28,6 +35,195 @@
             });
         }
     </script>
+
+  <script type="text/javascript">
+    var apiKey = "112af4dc8deae4602107b53dc00320ffbe6f4601c181097332210247042c0b2e";
+    var secreteKey = "acedbf2c30df3cff12a6592e09441986ffa136e1caedbfd6b4c72ea57dddc3f6";
+
+    var _warpclient;
+    var nameId = "";
+    var roomsText = "";
+    var inRoom = false;
+    var roomId = "";
+	var questionAnswers=0;
+
+    function onConnectDone(res) {
+	
+      if (res == AppWarp.ResultCode.Success) {
+        console.log("Client Connected");
+        console.log("Checking If Admin is Online!!!!");
+        _warpclient.getUserStatus("ADMIN");
+      }
+      else {
+        console.log("Error in Connection");
+      }
+    }
+
+    function onGetUserStatusDone(res) {
+
+      $("#roomInfo").html("onGetUserStatusDone Success");
+      if (res.json.status) {
+        console.log("Admin is Online!!!!");
+        $("#getUsers").html("Admin is available");
+      } else {
+        console.log("Admin is not Online!!!!");
+        $("#getUsers").html("Admin is not available");
+      }
+
+    }
+
+    //sendPrivateChat(toUser, message) 
+
+    function onSendPrivateChatDone(res) {
+      var msg = "onSendPrivateChatDone : <strong>" + AppWarp.ResultCode[res] + "</strong>";
+      console.log(msg);
+      if (AppWarp.ResultCode[res] == "Success") {
+
+      } else {
+
+      }
+    }
+
+	function sendQuestionFromAdmin(answer){
+	var resAns = answer.toLowerCase();
+
+	if(questionAnswers==0){
+	if(resAns=="n"||resAns=="no"){
+	      questionAnswers++;
+	      setResponse("Admin", "")
+		  setTimeout(function(){ setResponse("Admin", "Are you looking to protect yourself or your family members?)"); },500);
+	}
+	else if(resAns=="y"||resAns=="yes"){
+	 questionAnswers++;
+	  setResponse("Admin", "")
+	 setTimeout(function(){ setResponse("Admin", "I am unable to get you, please contact at contact@shephertz.com"); },500);
+	}
+	else{
+	setTimeout(function(){ setResponse("Admin", "I am unable to get you, please choose an option(Y/N)"); },500);
+	}
+	}
+	else if(questionAnswers==1){
+	if(resAns=="yes"||resAns=="y"){
+	 questionAnswers++;
+		setResponse("Admin", "")
+		setTimeout(function(){ setResponse("Admin", "Are you looking to protect your Health?"); },500);
+	}
+	else if(resAns=="n"||resAns=="no"){
+	 questionAnswers++;
+	  setResponse("Admin", "")
+	 setTimeout(function(){ setResponse("Admin", "I am unable to get you, please contact at contact@shephertz.com"); },500);
+	}
+	else{
+	setTimeout(function(){ setResponse("Admin", "I am unable to get you, please choose an option(Y/N)"); },500);
+	}
+	}
+	else if(questionAnswers==2){
+	if(resAns=="no"||resAns=="n"){
+	 questionAnswers++;
+	  setResponse("Admin", "")
+	 setTimeout(function(){ setResponse("Admin", "Are you looking to protect your Life?"); },500);
+	}
+	else if(resAns=="y"||resAns=="yes"){
+	 questionAnswers++;
+	  setResponse("Admin", "")
+	 setTimeout(function(){ setResponse("Admin", "I am unable to get you, please contact at contact@shephertz.com"); },500);
+	}
+	else{
+	 setTimeout(function(){ setResponse("Admin", "I am unable to get you, please choose an option(Y/N)"); },500);
+	}
+	}
+	else if(questionAnswers==3){
+	  setResponse("Admin", "")
+	 setTimeout(function(){ setResponse("Admin", "Thanks for sharing your feedback,<a href=\"http://192.168.1.90/AIA-Git/HK_demo/en/ourproducts.html\"> click here</a> to know best product for you. "); },500);
+	}
+	else{
+	setTimeout(function(){ setResponse("Admin", "I am unable to get you, please contact at contact@shephertz.com"); },500);
+	}
+	}
+    function onPrivateChatReceived(sender, chat) {
+      var msg = "<strong>" + sender + "</strong> privately says <i> " + chat + "</i>";
+      console.log(msg);
+      setResponse(sender, chat)
+    }
+
+    function setResponse(sender, chat) {
+      Date.prototype.monthNames = [
+        "January", "February", "March",
+        "April", "May", "June",
+        "July", "August", "September",
+        "October", "November", "December"
+      ];
+
+      Date.prototype.getShortMonthName = function () {
+        return this.monthNames[this.getMonth()].substr(0, 3);
+      };
+      var today = new Date();
+      var dd = today.getDate();
+      var mm = today.getShortMonthName();
+      var currDate = mm + " " + dd
+
+      if (sender === nameId) {
+	  
+        var liHtml = '<li><div class="row"><div class="col-xs-12"><div class="meta-info user_info_right"><a href="#">' + sender + '</a> on ' + currDate + '</div></div></div><div class="row"><div class="col-xs-2"> </div><div class="col-xs-10"><div class="chat-bubble chat-bubble-right"><div class="bubble-arrow"></div><p class="pd0 mr0">' + chat + '</p></div></div></div></li>'
+        $("#response").html($("#response").html() + liHtml);
+		sendQuestionFromAdmin(chat);
+		
+      }
+	  else if(sender=="Admin" && chat==""){
+	     var liHtml = '<div class="meta-info user_info_left">Bot is typing....  </div>'
+       // $("#response").html($("#response").html() + liHtml);
+	  }
+      else {
+        var liHtml = '<li><div class="row"><div class="col-xs-12"><div class="meta-info user_info_left"><a href="#">' + sender+ '</a> on ' + currDate + '</div></div></div><div class="row"><div class="col-xs-10"><div class="chat-bubble chat-bubble-left"><div class="bubble-arrow"></div><p class="pd0 mr0">' + chat + '</p> </div>  </div> <div class="col-xs-2"> </div></div></li>'
+        $("#response").html($("#response").html() + liHtml);
+      }
+
+
+      var fixedScroll = document.getElementById("chatDiv");
+      fixedScroll.scrollTop = fixedScroll.scrollHeight;
+
+
+    }
+
+    function openChatWindow() {
+      $('#chat').fadeOut(500);
+      $('#appwarpchatRoomForm').fadeIn(1000);
+      countMsg = 0
+      $("#chatnote").text("");
+    }
+    function closeChat() {
+      $('#appwarpchatRoomForm').fadeOut(500);
+      $('#chat').fadeIn(1000);
+    }
+
+
+
+
+    $(document).ready(function () {
+      nameId = "Chauhan1"
+      console.log("Connecting...");
+      AppWarp.WarpClient.initialize(apiKey, secreteKey);
+      _warpclient = AppWarp.WarpClient.getInstance();
+      _warpclient.setResponseListener(AppWarp.Events.onConnectDone, onConnectDone);
+      _warpclient.setResponseListener(AppWarp.Events.onUserStatusDone, onGetUserStatusDone);
+      _warpclient.setResponseListener(AppWarp.Events.onSendPrivateChatDone, onSendPrivateChatDone);
+      _warpclient.setNotifyListener(AppWarp.Events.onPrivateChatReceived, onPrivateChatReceived);
+     // _warpclient.connect(nameId);
+      setResponse("Admin", "Are you looking to invest or save for your future ?");
+      $("#chatBtn").click(function () {
+
+        if ($("#chatText").val() != "") {
+          _warpclient.sendPrivateChat("ADMIN", $("#chatText").val());
+          setResponse(nameId, $("#chatText").val())
+		
+          $("#chatText").val("");
+        }
+
+      });
+
+
+    });
+  </script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="http://www.aia.com.hk/favicon.ico">
@@ -1577,6 +1773,70 @@ $(function() {
 <script type="text/javascript" src="../etc/clientlibs/aia/aia-footer.min.26662511a9eccc290c94140746cd126c.js"></script> 
 <script type="text/javascript" src="../etc/clientlibs/aia/country-footer/hk.min.98f8a9d2435a1a03199d2d66a3f1ce53.js"></script>
 <div class="cloudservices servicecomponents"> </div>
+    <div class="row send">
+              <!--// Notification widget begins-->
+<div class="row chatwin" id="chat" style="display: block;">
+        <div class="create-chat-message-w">
+          <div class="input-group">
+            <span class="input-group-btn">
+                <button type="button" class="btn btn-primary" onclick="openChatWindow()"><i class="fa fa-comment-o"></i>Chat<span id="chatnote" class="badge"></span></button>
+            </span>
+          </div>
+
+        </div>
+      </div>
+
+            <div id="appwarpchatRoomForm" class="chatBox">
+        <div class="widget widget-blue">
+          <div class="widget-title">
+            <div class="widget-controls">
+              <button type="button" class="close" onclick="closeChat()" id="close"><i class="fa fa-times-circle mz"></i></button>
+            </div>
+            <h3>Chat Room</h3>
+          </div>
+        </div>
+        <div class="row pdrb15 hg400 widget-content" style="margin: 0px !important;">
+          <div class="col-md-4 user_col">
+            <h3>Support</h3>
+            <div id="getUsers"></div>
+          </div>
+          <!--// Button widget ends-->
+
+          <!--// Left Column  ends-->
+          <!--// Right Column  begins-->
+          <div class="col-md-8 chat_col">
+            <div class="row">
+              <h3>Chat</h3>
+              <div id="responseManager">
+                <div id="chatDiv">
+                  <ul class="chat-messages-list" id="response"></ul>
+                </div>
+              </div>
+            </div>
+            <div class="row send">
+              <!--// Notification widget begins-->
+              <div class="widget widget-green" id="notificationManagerWidget">
+                <div class="widget-foot">
+                  <div class="create-chat-message-w">
+                    <div class="input-group">
+                      <input type="text" id="chatText" maxlength="500" placeholder="Your message here..." class="form-control">
+                      <span class="input-group-btn">
+                          <button type="button" id="chatBtn" class="btn btn-primary" >Send</button>
+                        </span>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+              <!--// Notification widget ends-->
+            </div>
+
+          </div>
+          <!--// Right Column  ends-->
+        </div>
+      </div>
+    <!--// Notification widget ends-->
 </body>
 
 <!-- Mirrored from www.aia.com.hk/en/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 May 2017 01:57:22 GMT -->
