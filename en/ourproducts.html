@@ -1816,7 +1816,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
     function checkLoginState() {
         FB.getLoginStatus(function(response) {
             //statusChangeCallback(response);
-            window.location.href = "http://192.168.1.90/AIA-Git/HK_demo/en/term-life-insurance/select-plan.html";
+            setTimeout(function() {
+                window.location.href = "http://192.168.1.90/AIA-Git/HK_demo/en/term-life-insurance/select-plan.html";
+            }, 1000);
+
         });
     }
 </script>
