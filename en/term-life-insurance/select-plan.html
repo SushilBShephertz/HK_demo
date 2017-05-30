@@ -386,18 +386,18 @@
 
         function submitUserInfo() {
             $('#personal-info').addClass('hide-element');
+            $('#et-personal-info-next').addClass('hide-element');
             // $('#et-medical-declaration').addClass('hide-element');
             //s  $('#et-application-info-section').addClass('hide-element');
             $('#et-beneficiary-info-section').removeClass('hide-element');
 
         }
 
-        function gotoDeclaratin() {
-            $('et-application-fourth-section').removeClass('hide-element');
-        }
-
         function gotoSignature() {
-            $('et-application-fourth-section').removeClass('hide-element');
+            console.log("SIGN@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
+            
+            $('#et-application-second-section').addClass('hide-element');
+            $('#et-application-fourth-section').removeClass('hide-element');
         }
 
         function submitLoginForm(formID) {
@@ -7947,7 +7947,7 @@
                     <!--END OF EMPLOYEMENT INFO SECTION-->
                     <!--BENEFICIARIES INFO SECTION-->
                     <div id="et-beneficiary-info-section" class="hide-element">
-                        <div class="page-divider"></div>
+                        <!--<div class="page-divider"></div>-->
                         <!--Beneficiary info Widget-->
                         <div id="beneficiary-info" class="page-application container-fluid fwd-container et-beneficiaries-section">
                             <div class="beneficiary-info-header">
@@ -9102,7 +9102,7 @@
                     <p class="et-sig-label text-center">
                         Please sign in the grey area
                     </p>
-                    <div id="signature" class="signature-image"></div>
+                    <div id="signature" style="height: 200px;" class="signature-image"></div>
                     <div class="et-clear-signature">
                         <a href="#" id="et-clear-signature" title="Clear signature" class="">Clear</a>
                         <span class="pull-right" style="font-size: 14px;">Signed in Hong Kong.</span>
@@ -9499,6 +9499,7 @@
         });
 
         $('#et-beneficiary-info-next').on('click', function(e) {
+            $("#et-beneficiary-info-section").addClass("hide-element");
             putEtPageKeySession("7");
             if (typeof ga !== 'undefined') {
                 ga('create', 'UA-60032236-1', 'auto');

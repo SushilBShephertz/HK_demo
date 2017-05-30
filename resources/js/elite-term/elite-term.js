@@ -121,111 +121,115 @@ function getEliteTermPremium() {
 }
 
 $('#et-signature-proceed-btn').on('click', function(e) {
-	
-	if (!$("#signature").jSignature('getData', 'native').length) {
-    	$('#signature-section .fwd-error-red .help-block').html(getBundle(getBundleLanguage, "error.signature.empty")).css('display', 'block');
-	}
-	else if(!$('#eliteTermsInsuredInfoForm').data('bootstrapValidator').isValid()){
-		console.log('Applicant Form validation failure');
-		$('#et-medical-dec-next').click();
-	}
-	else if(!$('#etEmploymentInfoForm').data('bootstrapValidator').isValid()){
-		console.log('Employment Form validation failure');
-		$('#et-personal-info-next').click();
-	}
-	else if(!isBeneficaryValid()){
-		console.log('Beneficiary Form validation failure');
-		$('#et-employment-info-next').click();
-	}
-	else{
-		$('#et-signature-proceed-btn').attr('disabled',"true");
-		var formdata =  $('#eliteTermsInsuredInfoForm').serialize()+"&"+
-	    $('#etEmploymentInfoForm').serialize()+"&"+
-	    $('#etLicenseInfoForm').serialize()+"&"+
-	    $('#beneficiaryInfoForm\\[0\\]').serialize()+"&"+
-	    $('#beneficiaryInfoForm\\[1\\]').serialize()+"&"+
-	    $('#beneficiaryInfoForm\\[2\\]').serialize();
 
-	    $('#loading-overlay').modal({
-	       backdrop: 'static',
-	       keyboard: false
-	    });
-
-		$.ajax({
-		        type: "POST",
-		        url:contextPath+'/ajax/eliteTerm/createEliteTermPolicy',
-		        data: formdata,
-		        success:function(data){
-					if(data==null || data=='' ){
-						//Unknown errors
-			    	    $('#signature-section .fwd-error-red .help-block').html(getBundle(getBundleLanguage, "system.error.message")).css('display', 'block');
-			    	    $('#loading-overlay').modal('hide');
-			    	    
-					} else if( data.errMsgs == 'session expired'){
-						//Timeout errors
-						$('#loading-overlay').modal('hide');
-						$('#timeout-modal').modal('show'); 
-
-					} else if( data.errMsgs != null ){
-						//Other errors
-						$('#signature-section .fwd-error-red .help-block').html(getBundle(getBundleLanguage, "system.error.message")).css('display', 'block');
-						$('#loading-overlay').modal('hide');
-					} else {
-						var $sigdiv = $("#signature");
-						var datapair = $sigdiv.jSignature("getData", "image");
-						var obj = datapair[1];
-						if(datapair[1].length > signatureFileSize*1024 ){
-					    	$('#signature-section .fwd-error-red .help-block').html(getBundle(getBundleLanguage, "error.signature.size")).css('display', 'block');
-					    	$('#loading-overlay').modal('hide');
-
-						}else if($('.correct-signature').hasClass('hide-element')){
-							$('#signature-section .fwd-error-red .help-block').html(getBundle(getBundleLanguage, "error.signature.empty")).css('display', 'block');
-							$('#loading-overlay').modal('hide');
-
-						}else{
-							$.ajax({     
-					    	    url:contextPath+'/ajax/eliteTerm/uploadSignature',     
-					    	    type:'post',     
-					    	    data:{    
-					    	    	"image" : datapair[1],
-					    	    	"policyNo" : data.policyNo
-					       		},     
-					    	    success:function(data){
-					    	    	if(data==null || data == ''){
-					    	    		//Unknown errors
-					    	    		$('#signature-section .fwd-error-red .help-block').html(getBundle(getBundleLanguage, "system.error.message")).css('display', 'block');
-					    	    		$('#loading-overlay').modal('hide');
-
-					    	    	} else if( data.errMsgs == 'session expired'){
-					    	    		//Timeout errors
-					    	    		$('#loading-overlay').modal('hide');
-					    	    		$('#timeout-modal').modal('show'); 
-
-					    	    	} else if( data.errMsgs != null ){
-					    	    		//Other errors
-					    	    		$('#signature-section .fwd-error-red .help-block').html(getBundle(getBundleLanguage, "system.error.message")).css('display', 'block');
-					    	    		$('#loading-overlay').modal('hide');
-
-					    	    	} else {
-					    	    		// success
+		// success
 					    	    		window.onbeforeunload=null;
 					    	    		window.location.href= contextPath+'/'+language+'/term-life-insurance/'+selectPlanNextPageFlow;
-					    	    	}
-					    	    },
-								error:function(){
-									$('#signature-section .fwd-error-red .help-block').html(getBundle(getBundleLanguage, "system.error.message")).css('display', 'block');
-									$('#loading-overlay').modal('hide');
-								}
-					    	});
-						}
-					}
+	
+	// if (!$("#signature").jSignature('getData', 'native').length) {
+    // 	$('#signature-section .fwd-error-red .help-block').html(getBundle(getBundleLanguage, "error.signature.empty")).css('display', 'block');
+	// }
+	// else if(!$('#eliteTermsInsuredInfoForm').data('bootstrapValidator').isValid()){
+	// 	console.log('Applicant Form validation failure');
+	// 	$('#et-medical-dec-next').click();
+	// }
+	// else if(!$('#etEmploymentInfoForm').data('bootstrapValidator').isValid()){
+	// 	console.log('Employment Form validation failure');
+	// 	$('#et-personal-info-next').click();
+	// }
+	// else if(!isBeneficaryValid()){
+	// 	console.log('Beneficiary Form validation failure');
+	// 	$('#et-employment-info-next').click();
+	// }
+	// else{
+	// 	$('#et-signature-proceed-btn').attr('disabled',"true");
+	// 	var formdata =  $('#eliteTermsInsuredInfoForm').serialize()+"&"+
+	//     $('#etEmploymentInfoForm').serialize()+"&"+
+	//     $('#etLicenseInfoForm').serialize()+"&"+
+	//     $('#beneficiaryInfoForm\\[0\\]').serialize()+"&"+
+	//     $('#beneficiaryInfoForm\\[1\\]').serialize()+"&"+
+	//     $('#beneficiaryInfoForm\\[2\\]').serialize();
 
-				},
-				error:function(){
-					$('#signature-section .fwd-error-red .help-block').html(getBundle(getBundleLanguage, "system.error.message")).css('display', 'block');
-					$('#loading-overlay').modal('hide');
-				}
-		});
+	//     $('#loading-overlay').modal({
+	//        backdrop: 'static',
+	//        keyboard: false
+	//     });
+
+	// 	$.ajax({
+	// 	        type: "POST",
+	// 	        url:contextPath+'/ajax/eliteTerm/createEliteTermPolicy',
+	// 	        data: formdata,
+	// 	        success:function(data){
+	// 				if(data==null || data=='' ){
+	// 					//Unknown errors
+	// 		    	    $('#signature-section .fwd-error-red .help-block').html(getBundle(getBundleLanguage, "system.error.message")).css('display', 'block');
+	// 		    	    $('#loading-overlay').modal('hide');
+			    	    
+	// 				} else if( data.errMsgs == 'session expired'){
+	// 					//Timeout errors
+	// 					$('#loading-overlay').modal('hide');
+	// 					$('#timeout-modal').modal('show'); 
+
+	// 				} else if( data.errMsgs != null ){
+	// 					//Other errors
+	// 					$('#signature-section .fwd-error-red .help-block').html(getBundle(getBundleLanguage, "system.error.message")).css('display', 'block');
+	// 					$('#loading-overlay').modal('hide');
+	// 				} else {
+	// 					var $sigdiv = $("#signature");
+	// 					var datapair = $sigdiv.jSignature("getData", "image");
+	// 					var obj = datapair[1];
+	// 					if(datapair[1].length > signatureFileSize*1024 ){
+	// 				    	$('#signature-section .fwd-error-red .help-block').html(getBundle(getBundleLanguage, "error.signature.size")).css('display', 'block');
+	// 				    	$('#loading-overlay').modal('hide');
+
+	// 					}else if($('.correct-signature').hasClass('hide-element')){
+	// 						$('#signature-section .fwd-error-red .help-block').html(getBundle(getBundleLanguage, "error.signature.empty")).css('display', 'block');
+	// 						$('#loading-overlay').modal('hide');
+
+	// 					}else{
+	// 						$.ajax({     
+	// 				    	    url:contextPath+'/ajax/eliteTerm/uploadSignature',     
+	// 				    	    type:'post',     
+	// 				    	    data:{    
+	// 				    	    	"image" : datapair[1],
+	// 				    	    	"policyNo" : data.policyNo
+	// 				       		},     
+	// 				    	    success:function(data){
+	// 				    	    	if(data==null || data == ''){
+	// 				    	    		//Unknown errors
+	// 				    	    		$('#signature-section .fwd-error-red .help-block').html(getBundle(getBundleLanguage, "system.error.message")).css('display', 'block');
+	// 				    	    		$('#loading-overlay').modal('hide');
+
+	// 				    	    	} else if( data.errMsgs == 'session expired'){
+	// 				    	    		//Timeout errors
+	// 				    	    		$('#loading-overlay').modal('hide');
+	// 				    	    		$('#timeout-modal').modal('show'); 
+
+	// 				    	    	} else if( data.errMsgs != null ){
+	// 				    	    		//Other errors
+	// 				    	    		$('#signature-section .fwd-error-red .help-block').html(getBundle(getBundleLanguage, "system.error.message")).css('display', 'block');
+	// 				    	    		$('#loading-overlay').modal('hide');
+
+	// 				    	    	} else {
+	// 				    	    		// success
+	// 				    	    		window.onbeforeunload=null;
+	// 				    	    		window.location.href= contextPath+'/'+language+'/term-life-insurance/'+selectPlanNextPageFlow;
+	// 				    	    	}
+	// 				    	    },
+	// 							error:function(){
+	// 								$('#signature-section .fwd-error-red .help-block').html(getBundle(getBundleLanguage, "system.error.message")).css('display', 'block');
+	// 								$('#loading-overlay').modal('hide');
+	// 							}
+	// 				    	});
+	// 					}
+	// 				}
+
+	// 			},
+	// 			error:function(){
+	// 				$('#signature-section .fwd-error-red .help-block').html(getBundle(getBundleLanguage, "system.error.message")).css('display', 'block');
+	// 				$('#loading-overlay').modal('hide');
+	// 			}
+	// 	});
 	}
 });
 
