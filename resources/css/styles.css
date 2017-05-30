@@ -22280,7 +22280,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 .fwd-savie-wrapper .container-fluid.fwd-full-container .et-header-browse .reset-padding
 	{
 	padding: 0;
-	border-left: solid 2px #ffa344;
+	border-left: solid 2px #cacaca;
 }
 
 @media ( min-width : 992px) {
@@ -22355,11 +22355,12 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	border: 0;
 	/*height: 100px;*/
 	height: 80px;
-	background-color: #ff8200;
-	color: #fff;
+	background-color: #dbdad4;
+	color: #84837f;
 	font-size: 24px;
-	border-top: solid 1px #ff8200;
-	border-bottom: solid 1px #ff8200;
+	border-top: solid 1px #dbdad4;
+	border-bottom: solid 1px #dbdad4;
+	font-family: "AIASans","Calibri",sans-serif;
 }
 /* line 110, ../sass/partials/_elite-terms-select-plan.scss */
 .fwd-savie-wrapper .container-fluid.fwd-full-container .et-header-browse .et-header-info-btn:hover
@@ -22372,7 +22373,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	.fwd-savie-wrapper .container-fluid.fwd-full-container .et-header-browse .et-header-info-btn:hover
 		{
 		background-color: #fff;
-		color: #ff8200;
+		color: #554344;
 	}
 }
 /* line 119, ../sass/partials/_elite-terms-select-plan.scss */
@@ -22396,8 +22397,8 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	/* line 126, ../sass/partials/_elite-terms-select-plan.scss */
 	.fwd-savie-wrapper .container-fluid.fwd-full-container .et-header-browse .et-header-info-btn.no-hover:hover
 		{
-		background-color: #ff8200;
-		color: #fff;
+		background-color: #dbdad4;
+		color: #554344;
 	}
 }
 
@@ -22406,7 +22407,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	.fwd-savie-wrapper .container-fluid.fwd-full-container .et-header-browse .et-header-info-btn.active
 		{
 		background-color: #fff;
-		color: #ff8200;
+		color: #554344;
 	}
 }
 /* line 142, ../sass/partials/_elite-terms-select-plan.scss */
@@ -22452,9 +22453,10 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	.fwd-savie-wrapper .container-fluid.fwd-container .et-plan-option h2.et-plan-option-text
 	{
 	margin: 0;
-	color: #fc6d08;
+	color: #363e3f;
 	font-size: 30px;
 	text-align: center;
+	font-family: "AIASans","Calibri",sans-serif;
 }
 
 @media ( min-width : 992px) {
@@ -22474,8 +22476,9 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	.fwd-savie-wrapper .container-fluid.fwd-container .et-plan-option p.et-bfr-start-txt
 	{
 	color: #061d2a;
-	font-size: 18px;
-	line-height: 22px;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 @media ( min-width : 992px) {
@@ -22531,7 +22534,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	{
 	display: table;
 	position: relative;
-	background-color: white;
+	background-color: #769fab;
 	width: 48%;
 	height: 50px;
 	cursor: pointer;
@@ -22540,8 +22543,9 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	color: #ff8200;
 	font-size: 24px;
 	text-align: center;
-	border: solid 1px #ff8200;
-	font-family: "Calibri-Bold";
+	border: 1px solid #485b70;
+	font: normal 20px "AIASans","Calibri",sans-serif;
+    background-color: #769fab;
 }
 
 @media ( min-width : 992px) {
@@ -22577,7 +22581,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 		.fwd-savie-wrapper .container-fluid.fwd-container .et-plan-option label.et-before-we-start-no.no
 		{
 		float: left !important;
-		margin-left: 20px;
+		/****margin-left: 20px; ****/
 	}
 }
 /* line 247, ../sass/partials/_elite-terms-select-plan.scss */
@@ -23837,8 +23841,9 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	margin-left: 5px;
 	margin-right: 15px;
 	color: #061d2a;
-	font-size: 18px;
-	line-height: 22px;
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 
@@ -25691,14 +25696,16 @@ label.et-bene-radio,#et-application-second-section label,
 
 .fwd-savie-wrapper #et-select-plan-section .container-fluid.fwd-container .et-before-we-start .elterm-btn-default:hover,
 .fwd-savie-wrapper #et-select-plan-section .container-fluid.fwd-container .et-before-we-start input[type=radio]:checked+.elterm-btn-default{
-	background-color: #ff8200;
+	background-color: #769fab;
 	color: #fff;
 }
 .fwd-savie-wrapper .container-fluid.fwd-container .et-before-we-start label.et-before-we-start-yes{
 	border-radius: 0;
-	color: #ff8200;
-	border: solid 1px #ff8200;
-	font-family: "Calibri-Bold";
+    color: #fff;
+    border: solid 1px #485b70;
+    font-family: "Calibri-Bold";
+    background-color: #596c80;
+    font: normal 20px "AIASans","Calibri",sans-serif;
 }
 
 .fwd-savie-wrapper #employment-info .content #has-regular-income .regular-income-specific{
