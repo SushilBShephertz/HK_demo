@@ -92,7 +92,7 @@
 	if(resAns=="n"||resAns=="no"){
 	      questionAnswers++;
 	      setResponse("Admin", "")
-		  setTimeout(function(){ setResponse("Admin", "Are you looking to protect yourself or your family members?)"); },500);
+		  setTimeout(function(){ setResponse("Admin", "Are you looking to protect yourself or your family members?"); },500);
 	}
 	else if(resAns=="y"||resAns=="yes"){
 	 questionAnswers++;
@@ -201,6 +201,34 @@
         $("#persona4").removeClass("persona-selected");
         $("#persona5").removeClass("persona-selected");
         $("#persona6").removeClass("persona-selected");
+      }else if ( id == 'persona3'){
+        $("#persona3").addClass("persona-selected");
+        $("#persona1").removeClass("persona-selected");
+        $("#persona2").removeClass("persona-selected");
+        $("#persona4").removeClass("persona-selected");
+        $("#persona5").removeClass("persona-selected");
+        $("#persona6").removeClass("persona-selected");
+      }else if ( id == 'persona4'){
+        $("#persona4").addClass("persona-selected");
+        $("#persona1").removeClass("persona-selected");
+        $("#persona3").removeClass("persona-selected");
+        $("#persona2").removeClass("persona-selected");
+        $("#persona5").removeClass("persona-selected");
+        $("#persona6").removeClass("persona-selected");
+      }else if ( id == 'persona5'){
+        $("#persona5").addClass("persona-selected");
+        $("#persona1").removeClass("persona-selected");
+        $("#persona3").removeClass("persona-selected");
+        $("#persona4").removeClass("persona-selected");
+        $("#persona2").removeClass("persona-selected");
+        $("#persona6").removeClass("persona-selected");
+      }else if ( id == 'persona6'){
+        $("#persona6").addClass("persona-selected");
+        $("#persona1").removeClass("persona-selected");
+        $("#persona3").removeClass("persona-selected");
+        $("#persona4").removeClass("persona-selected");
+        $("#persona5").removeClass("persona-selected");
+        $("#persona2").removeClass("persona-selected");
       }
      
       $('#chat').fadeOut(500);
@@ -218,7 +246,7 @@
 
 
     $(document).ready(function () {
-      nameId = "Chauhan1"
+      nameId = "Guest"
       console.log("Connecting...");
       AppWarp.WarpClient.initialize(apiKey, secreteKey);
       _warpclient = AppWarp.WarpClient.getInstance();
@@ -1325,33 +1353,33 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                           <p class="bt5 b6"> <a href="our-products/savings.html" class="bt5 b6" aria-hidden="true" tabindex="-1">Male Under 30</a> </p>
                         </li>
                         <li class="hidden-xs">
-                          <div class="hover-thumb"> <a href="our-products/insurance-with-investment-focus.html">
+                          <div class="hover-thumb"> 
                             <image  id="persona2" onclick="openChatWindow('persona2')" class="icon icon-m " src="term-life-insurance/images/icon2.png" alt="Married"></image>
-                            </a> </div>
+                            </div>
                           <p class="bt5 b6"> <a href="our-products/insurance-with-investment-focus.html" class="bt5 b6" aria-hidden="true" tabindex="-1">Married</a> </p>
                         </li>
                         <li class="hidden-xs">
-                          <div class="hover-thumb"> <a href="our-products/life-protection.html">
+                          <div class="hover-thumb">
                             <image id="persona3" onclick="openChatWindow('persona3')"  class="icon icon-m " src="term-life-insurance/images/icon3.png" alt="Family"></image>
-                            </a> </div>
+                            </div>
                           <p class="bt5 b6"> <a href="our-products/life-protection.html" class="bt5 b6" aria-hidden="true" tabindex="-1">Family</a> </p>
                         </li>
                         <li class="hidden-xs">
-                          <div class="hover-thumb"> <a href="our-products/critical-illness-protection.html">
+                          <div class="hover-thumb"> 
                             <image id="persona4" onclick="openChatWindow('persona4')"  class="icon icon-m " src="term-life-insurance/images/icon4.png" alt="Businessman"></image>
-                            </a> </div>
+                            </div>
                           <p class="bt5 b6"> <a href="our-products/critical-illness-protection.html" class="bt5 b6" aria-hidden="true" tabindex="-1">Businessman</a> </p>
                         </li>
                         <li class="hidden-xs">
-                          <div class="hover-thumb"> <a href="our-products/medical-protection.html">
+                          <div class="hover-thumb">
                             <image id="persona5" onclick="openChatWindow('persona5')"  class="icon icon-m " src="term-life-insurance/images/icon5.png" alt="Single Professional"></image>
-                            </a> </div>
+                             </div>
                           <p class="bt5 b6"> <a href="our-products/medical-protection.html" class="bt5 b6" aria-hidden="true" tabindex="-1">Single Professional</a> </p>
                         </li>
                         <li class="hidden-xs">
-                          <div class="hover-thumb"> <a href="our-products/retirement-income.html">
-                            <image id="persona6" onclick="openChatWindow('persona5')"  class="icon icon-m " src="term-life-insurance/images/icon6.png" alt="Female Under 30"></image>
-                            </a> </div>
+                          <div class="hover-thumb"> 
+                            <image id="persona6" onclick="openChatWindow('persona6')"  class="icon icon-m " src="term-life-insurance/images/icon6.png" alt="Female Under 30"></image>
+                             </div>
                           <p class="bt5 b6"> <a href="our-products/retirement-income.html" class="bt5 b6" aria-hidden="true" tabindex="-1"> Female Under 30 </a> </p>
                         </li>                       
                       </ul>

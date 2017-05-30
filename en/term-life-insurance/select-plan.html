@@ -52,6 +52,10 @@
             };
         }
 
+         $('html, body').animate({
+                scrollTop: 0
+            }, 500);
+
         // global variables
         var UILANGUAGE = 'en';
 		
@@ -343,6 +347,10 @@
         }
     }
 
+     $(document).ready(function(){
+    $(window).scrollTop(0);
+});
+
     $(window).bind("pageshow", function (event) {
         if (event.originalEvent.persisted) {
             //window.location.reload();
@@ -476,6 +484,12 @@
 
 
 
+    }
+
+    function gotoUserProfile(){
+        
+        $('#et-application-info-section').removeClass('hide-element');
+        $('#et-medical-declaration').addClass('hide-element')
     }
 
     function submitLoginForm(formID) {
@@ -4864,8 +4878,8 @@ brown"></span></h6>
                                     </div>
                                 </div>
                                 <div class="et-medical-next-brn next-btn">
-                                    <button id="et-medical-dec-next" type="submit" class="btn next pi et-medic-next"
-                                            disabled>
+                                    <button onclick="gotoUserProfile()" type="submit" class="btn next pi et-medic-next"
+                                            >
                                         Next
                                     </button>
                                 </div>
@@ -11569,7 +11583,7 @@ brown"></span></h6>
                         </label>
                         <div class="clearfix"></div>
                         <div class="page-divider"></div>
-                        <h5>
+                        <h5 style="font-size: 16px;line-height: 22px;">
                             If you do NOT wish FWD Life Insurance Company (Bermuda) Limited to use Your Personal Data in
                             direct marketing or provide Your Personal Data to other persons or companies for their use
                             in direct marketing, please tick the appropriate box(es) below to exercise.
