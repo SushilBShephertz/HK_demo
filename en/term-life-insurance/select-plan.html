@@ -210,36 +210,53 @@
             'affiliate': '',
         };
     </script>
-    <link rel="icon" type="image/x-icon" href="https://i.fwd.com.hk/resources/images/favicon.ico"/>
-    <style>
-        .navbar-brand .navbar-brand-img {
-            height: 64px;
-            margin-top: -10px;
-        }
-    </style>
+    <link rel="icon" type="image/x-icon" href="http://www.aia.com.hk/favicon.ico" />
+	<style>
+	.navbar-brand .navbar-brand-img {height: 64px; margin-top: -10px;}
+	</style>
 </head>
 
 <body>
-
-<link rel="icon" type="image/x-icon" href="https://i.fwd.com.hk/resources/images/favicon.ico"/>
-<!-- <a href="javascript:void(0)" id="testajax" >Press</a> -->
-<!-- header.notification.bar -->
-<script type="text/javascript">
-    var obj = {
-        'topBar': {
-            'mobileDefaultHeight': 0,
-            'desktopDefaultHeight': 42,
-            'classname': {
-                'mobile': 'div.commonBody',
-                'desktop': 'nav.navbar.navbar-inverse'
-            }
-        },
-        'nBarOnly': {
-            'mobile': 0,
-            'desktop': 56,
-            'classname': {
-                'mobile': '.header-notification-box.header-notification-box--mobile',
-                'desktop': '.header-notification-box.header-notification-box--desktop'
+    <!--Google Code for SEO-->
+    <noscript>
+    <iframe src="http://www.googletagmanager.com/ns.html?id=GTM-MWPF25" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+  </noscript>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' +
+                l :
+                '';
+            j.async = true;
+            j.src = '../../../www.googletagmanager.com/gtm5445.html?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MWPF25');
+    </script>
+    <!--END -Google Code for SEO-->
+    <!-- Google Enabling Rich Snippets for Products -->
+    <!-- <div itemscope itemtype="http://schema.org/Product"> -->
+    <!--    <div itemprop="offers" itemscope itemtype="http://schema.org/Offer"> -->
+    <!--    </div> -->
+    <!-- </div> -->
+    <!--END -Google Enabling Rich Snippets for Products-->
+    <link rel="icon" type="image/x-icon" href="http://www.aia.com.hk/favicon.ico" />
+    <!-- <a href="javascript:void(0)" id="testajax" >Press</a> -->
+    <!-- header.notification.bar -->
+    <script type="text/javascript">
+        var obj = {
+            'topBar': {
+                'mobileDefaultHeight': 0,
+                'desktopDefaultHeight': 42,
+                'classname': {
+                    'mobile': 'div.commonBody',
+                    'desktop': 'nav.navbar.navbar-inverse'
+                }
             },
             'content': {
                 'ifwd_repair': {
@@ -414,6 +431,14 @@
 
         $('#et-application-second-section').addClass('hide-element');
         $('#et-application-fourth-section').removeClass('hide-element');
+
+        setTimeout(function(){
+            $('html, body').animate({
+                scrollTop: 0
+            }, 500);
+
+        },200);
+
     }
 
     function gotoFinalPayment() {
@@ -422,8 +447,19 @@
     }
 
     function gotoDeclaration() {
-        $("#et-application-second-section").removeClass("hide-element");
         $("#et-beneficiary-info-section").addClass("hide-element");
+        $("#et-application-second-section").removeClass("hide-element");
+
+        setTimeout(function(){
+            $('html, body').animate({
+                scrollTop: 0
+            }, 500);
+
+        },200);
+
+
+
+
     }
 
     function submitLoginForm(formID) {
@@ -12277,22 +12313,95 @@ brown"></span></h6>
             <canvas id="et-temp-canvas"></canvas>
         </div>
     </div>
+    <!-- END OF SIGNATURE SECTION -->
 
+    </div>
+    <div id="et-application-five-section" class="hide-element">
+        <div class="container-fluid fwd-container et-personal-info">
+            <div id="personal-info" class="personal-info-widget page-application et-application-page">
+                <h2>
+                    Total Amount: HK$291.2(3monts)
+                    <!-- <button type="button" class="tooltip-button btn-app-info-tooltip"  data-container="body" data-toggle="tooltip" data-placement="top" title="Applicant and the insured must be the same person" data-template= 	'<div class="tooltip et-app-info-tooltip" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>'><span class="info-tooltip"></span></button> -->
+                    <!--button type="button" class="tooltip-button btn-app-info-tooltip" title="Applicant and the insured must be the same person.">
 
-</div>
-<!-- END OF SIGNATURE SECTION -->
-<div id="et-application-five-section" class="hide-element">
-    PAYMENT
-    ffgf
-    hgfh
-    ffgh
-    f
-    hffh
-</div>
-</div>
-</div>
-<!-- END Application Wrapper -->
-<!--
+            </button-->
+                </h2>
+                <form id="eliteTermsInsuredInfoForm" method="post" class="form-horizontal bv-form" action="#" onsubmit="return false;" novalidate="novalidate">
+                    <div class="row margin">
+                        <div class="col-sm-12 col-md-12 left">
+                            <div class="clearfix">
+                                <h2 class="et-bfr-txt">Payment Details...</h2>
+                                <div class="left-desktop description">
+                                    <label for="give-last-name" class="application-page-input-text et-input-label">
+                                        Card Type
+                                    </label>
+                                </div>
+                                <div class="left-desktop form-group">
+                                    <img src="icon1.png"></img><img src="icon1.png"></img>
+                                </div>
+                            </div>
+                            <div class="clearfix">
+                                <div class="left-desktop description">
+                                    <label class="application-page-input-text et-input-label">Credit Card No.
+                                    </label>
+                                </div>
+                                <div class="left-desktop text-box">
+                                    <input class="form-control gray-textbox" autocomplete="off" id="savieApplicantBean.chineseName" name="savieApplicantBean.chineseName" type="text" value="" placeholder="Name in Chinese(Optional)" data-bv-field="savieApplicantBean.chineseName">                                                    <span class="error-msg has-error" id="savieApplicantBeanchineseNameMsg"><small class="help-block" data-bv-validator="stringLength" data-bv-for="savieApplicantBean.chineseName" data-bv-result="NOT_VALIDATED" style="display: none;">[et.selectPlan.Chinese.Name.must.be.no.more.than.6.characters]</small><small class="help-block" data-bv-validator="regexp" data-bv-for="savieApplicantBean.chineseName" data-bv-result="NOT_VALIDATED" style="display: none;">[error.chinese.name.invalid]</small></span>
+                                </div>
+                            </div>
+                            <div class="clearfix form-group">
+                                <div class="left-desktop description">
+                                    <label for="sales-illu-dob" class="application-page-input-text et-input-label">Expiry Date</label>
+                                </div>
+                                <div class="left-desktop text-box et-date-info clearfix">
+                                    <div class="clearfix">
+                                        <input type="text" class="form-control gray-textbox pull-left et-80-width" name="dob" id="sales-illu-dob" placeholder="DD-MM-YYYY" onfocusin="fnSetStyle()" readonly="" value="" data-bv-field="dob">
+                                        <div class="et-app-edit-wrapper">
+                                            <a href="#" title="Edit Date of birth" class="et-app-sum-edit et-app-edit" id="edit-birthday" data-target="#et-about-yoursel-section">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <span class="error-msg has-error" id="sales-illu-dob-msg"><small class="help-block" data-bv-validator="notEmpty" data-bv-for="dob" data-bv-result="NOT_VALIDATED" style="display: none;">[et.selectPlan.Please.enter.your.Date.of.birth]</small></span>
+                                </div>
+                            </div>
+                            <div class="clearfix">
+                                <div class="left-desktop description">
+                                    <label for="savieApplicantBean.gender" class="application-page-input-text et-input-label">Name on Credit Card</label>
+                                </div>
+                                <div class="left-desktop text-box et-date-info clearfix">
+                                    <input type="hidden" name="savieApplicantBeanSmoke" id="savieApplicantBeanSmoke" value=""> <input type="hidden" name="savieApplicantBeanGender" id="savieApplicantBeanGender" value=""> <input type="text" class="form-control gray-textbox pull-left et-80-width" name="savieApplicantBean.gender" id="Usergender" placeholder="Gender" readonly="" value="Female">
+                                    <div class="et-app-edit-wrapper">
+                                        <a href="#" title="Edit Gender" class="et-app-sum-edit et-app-edit" id="edit-gender" data-target="#et-about-yoursel-section">
+
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix form-group has-error">
+                                <div class="left-desktop description">
+                                    <label for="savieApplicantBean.hkId" class="application-page-input-text et-input-label">Security Code</label>
+                                </div>
+                                <div class="left-desktop text-box">
+                                    <input class="form-control gray-textbox capitalize placeholder-lower" autocomplete="off" id="savieApplicantBean.hkId" name="savieApplicantBean.hkId" type="text" value="" placeholder="X123456(7) without()" data-bv-field="savieApplicantBean.hkId">
+                                    <span class="error-msg has-error" id="hkidMessage"><small class="help-block" data-bv-validator="notEmpty" data-bv-for="savieApplicantBean.hkId" data-bv-result="NOT_VALIDATED" style="display: none;">[et.selectPlan.HKID.is.required]</small><small class="help-block" data-bv-validator="callback" data-bv-for="savieApplicantBean.hkId" data-bv-result="NOT_VALIDATED" style="display: none;">[form.hkid.invalid]</small></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <input type="hidden" id="theClubMembershipNo" name="theClubMembershipNo" class="form-control bmg_custom_placeholder gray-textbox check-emp login-input" value="">
+                </form></div>
+            <div class="next-btn center">
+                <button id="et-personal-info-next" class="btn next pi" onclick="" type="button">
+                    Next
+                </button>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <!-- END Application Wrapper -->
+    <!--
             MODAL SECTION
          -->
 <!-- GET PROMOTION CODE MODAL -->
@@ -12689,10 +12798,10 @@ brown"></span></h6>
     });
 
     $('#et-signature-proceed-btn').on('click', function (e) {
-        if (typeof ga !== 'undefined') {
-            ga('create', 'UA-60032236-1', 'auto');
-            ga('send', 'pageview', '/en/term-life-insurance/select-plan/step-11');
-        }
+//        if (typeof ga !== 'undefined') {
+//            ga('create', 'UA-60032236-1', 'auto');
+//            ga('send', 'pageview', '/en/term-life-insurance/select-plan/step-11');
+//        }
     });
 
     //select-plan

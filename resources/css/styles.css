@@ -33,7 +33,7 @@
 }
 
 @font-face {
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	src: url("https://i.fwd.com.hk/resources/fonts/Calibri-Bold_gdi.eot");
 	/* IE9 Com@media screen and (min-width: 768px) and (max-width: 991px) {pat Modes */
 	src: url("https://i.fwd.com.hk/resources/fonts/Calibri-Bold_gdi.eot?#iefix")
@@ -65,7 +65,7 @@ body {
 }
 
 body .bold{
-	font-family: 'Calibri-bold', Calibri, sans-serif !important;
+	font-family: 'Calibri', Calibri, sans-serif !important;
 }
 
 body.chin,
@@ -126,7 +126,7 @@ body.modal-open footer {
 /* line 25, ../sass/partials/_common.scss */
 .fwd-savie-wrapper h1, .fwd-savie-wrapper h2, .fwd-savie-wrapper h3,
 	.fwd-savie-wrapper h4, .fwd-savie-wrapper h5 {
-	font-family: 'Calibri-Bold', Arial;
+	font-family: 'Calibri', Arial;
 }
 /* line 29, ../sass/partials/_common.scss */
 .fwd-savie-wrapper h2 {
@@ -160,17 +160,16 @@ body.modal-open footer {
 /* line 62, ../sass/partials/_common.scss */
 .fwd-savie-wrapper .btn-orange {
 	color: #fff;
-	background: #ff8200;
-	font-size: 24px;
-	font-family: 'Calibri-Bold';
+	background: #b8123e;
 	padding: 7px 40px;
+	font: normal 20px "AIASans","Calibri",sans-serif;
 }
 /* line 70, ../sass/partials/_common.scss */
 .fwd-savie-wrapper .btn-orange:hover, .fwd-savie-wrapper .btn-orange:focus
 	{
-	background: #fff;
-	color: #ff8200;
-	border: 1px solid #ff8200;
+	background: #e86487;
+	color: #fff;
+	border: 1px solid #e86487;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
 	-ms-transition: background 0.1s ease-in;
@@ -181,17 +180,17 @@ body.modal-open footer {
 /* line 78, ../sass/partials/_common.scss */
 .fwd-savie-wrapper .btn-white {
 	background-color: #fff;
-	color: #ff8200;
+	color: #554344;
 	font-size: 24px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	padding: 7px 40px;
-	border: 1px solid #ff8200;
+	border: 1px solid #554344;
 }
 /* line 87, ../sass/partials/_common.scss */
 .fwd-savie-wrapper .btn-white:hover, .fwd-savie-wrapper .btn-white:focus
 	{
 	color: #fff;
-	background-color: #ff8200;
+	background-color: #554344;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
 	-ms-transition: background 0.1s ease-in;
@@ -202,9 +201,9 @@ body.modal-open footer {
 .fwd-savie-wrapper .btn-full {
 	width: 100%;
 	height: 50px;
-	font-family: 'Calibri-bold';
+	font-family: 'Calibri';
 	font-size: 24px;
-	background-color: #ff8200;
+	background-color: #554344;
 	color: #fff;
 }
 /* line 103, ../sass/partials/_common.scss */
@@ -350,7 +349,7 @@ label {
 	height: 33px;
 	background-color: #061d29;
 	color: #fff;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 14px;
 }
 
@@ -415,7 +414,7 @@ label {
 	border: 0;
 	background-color: transparent;
 	color: #373a36;
-	border-left: solid 4px #ff8200;
+	border-left: solid 4px #554344;
 	font-size: 14px;
 	font-family: 'Calibri';
 }
@@ -509,7 +508,7 @@ label {
 	border-top: none;
 	color: #373a36;
 	font-size: 14px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	text-align: center;
 	padding: 10px 0;
 }
@@ -599,7 +598,7 @@ label {
 .fwd-savie-wrapper header .navbar-fixed-top .buttons-and-chat .btn-chat
 	{
 	float: left;
-	background-color: #ff8200;
+	background-color: #554344;
 	font-size: 16px;
 	color: #fff;
 	height: 33px;
@@ -616,7 +615,7 @@ label {
 		height: 40px;
 		padding: 8px;
 		margin-left: 5px;
-		font-family: 'Calibri-Bold';
+		font-family: 'Calibri';
 		font-size: 14px;
 		line-height: 24px;
 		color: #fff;
@@ -626,7 +625,7 @@ label {
 .fwd-savie-wrapper header .navbar-fixed-top .buttons-and-chat .btn-eServices-fwd-hk
 	{
 	float: left;
-	background-color: #ff8200;
+	background-color: #554344;
 	font-size: 14px;
 	color: #fff;
 	height: 33px;
@@ -644,7 +643,7 @@ label {
 		height: 40px;
 		padding: 8px;
 		margin-left: 5px;
-		font-family: 'Calibri-Bold';
+		font-family: 'Calibri';
 		font-size: 16px;
 		line-height: 24px;
 		color: #fff;
@@ -665,7 +664,7 @@ label {
 		width: auto;
 		max-width: none;
 		height: 40px;
-		font-family: 'Calibri-Bold';
+		font-family: 'Calibri';
 		font-size: 16px;
 		padding: 9px 17px;
 	}
@@ -742,7 +741,7 @@ label {
 .fwd-savie-wrapper header .navbar-fixed-top .buttons-and-chat .btn-chinese .login-eServices
 	{
 	position: relative;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 14px;
 }
 
@@ -753,7 +752,7 @@ label {
 		width: auto;
 		max-width: none;
 		height: 40px;
-		font-family: 'Calibri-Bold';
+		font-family: 'Calibri';
 		font-size: 14px;
 		padding: 9px 17px;
 	}
@@ -762,7 +761,7 @@ label {
 .fwd-savie-wrapper header .navbar-fixed-top .buttons-and-chat .btn-login
 	{
 	display: none;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 16px;
 	background-color: black;
 	height: 50px;
@@ -885,7 +884,7 @@ label {
 	/* line 488, ../sass/partials/_header.scss */
 	.fwd-savie-wrapper header .navbar-menu .header-menu li {
 		display: table-cell;
-		color: #ff8200;
+		color: #554344;
 		font-weight: bold;
 		font-size: 20px;
 		width: 172px;
@@ -897,7 +896,7 @@ label {
 	.fwd-savie-wrapper header .navbar-menu .header-menu li:focus,
 	.fwd-savie-wrapper header .navbar-menu .header-menu li:active,
 	.fwd-savie-wrapper header .navbar-menu .header-menu li.active {
-	background: #ff8200;
+	background: #554344;
 	color: #fff;
 	-webkit-transition: background 0.25s ease-in;
 	-moz-transition: background 0.25s ease-in;
@@ -908,7 +907,7 @@ label {
 /* line 509, ../sass/partials/_header.scss */
 .fwd-savie-wrapper header .navbar-menu .header-menu li.open {
 	color: #fff;
-	background-color: #ff8200;
+	background-color: #554344;
 }
 /* line 515, ../sass/partials/_header.scss */
 .fwd-savie-wrapper header .navbar-menu .header-menu li.full-width {
@@ -926,7 +925,7 @@ label {
 .fwd-savie-wrapper header .navbar-menu .header-menu li.full-width .dropdown-toggle a
 	{
 	text-decoration: none;
-	color: #ff8200;
+	color: #554344;
 }
 /* line 532, ../sass/partials/_header.scss */
 .fwd-savie-wrapper header .navbar-menu .header-menu li.full-width .dropdown-toggle a:focus,
@@ -948,7 +947,7 @@ label {
 	padding: 0 30px 0 15px;
 	margin-top: 28px;
 	margin-bottom: 18px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 24px;
 }
 /* line 553, ../sass/partials/_header.scss */
@@ -966,8 +965,8 @@ label {
 .fwd-savie-wrapper header .navbar-menu .header-menu li .dropdown-menu .savie-dropdown h3
 	{
 	font-size: 24px;
-	font-family: 'Calibri-Bold';
-	color: #ff8200;
+	font-family: 'Calibri';
+	color: #554344;
 	margin-top: 0;
 	margin-bottom: 25px;
 }
@@ -1042,7 +1041,7 @@ label {
 /* line 635, ../sass/partials/_header.scss */
 .fwd-savie-wrapper header .navbar-menu .header-menu.et-header-menu li .orange-header-menu
 	{
-	color: #ff8200;
+	color: #554344;
 }
 
 @media ( min-width : 992px) {
@@ -1085,12 +1084,12 @@ label {
 .fwd-savie-wrapper header .navbar-menu.teaser-header .header-menu li .orange-header-menu span
 	{
 	display: block;
-	color: #ff8200;
+	color: #554344;
 	position: absolute;
 	top: 25px;
 	width: 100%;
 	font-size: 14px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 }
 /* line 684, ../sass/partials/_header.scss */
 .fwd-savie-wrapper header .navbar-menu.teaser-header .header-menu li .orange-header-menu:hover,
@@ -1183,7 +1182,7 @@ label {
 	width: 25px;
 	height: 4px;
 	border-radius: 4px;
-	background-color: #f68a1d;
+	background-color: #363e3f;
 }
 /* line 63, ../sass/partials/_header-mobile.scss */
 .fwd-savie-wrapper .header-nav-mobile .navbar-toggle.shown-sm .red-circle
@@ -1231,7 +1230,7 @@ label {
 /* line 104, ../sass/partials/_header-mobile.scss */
 .fwd-savie-wrapper .header-nav-mobile .header-nav-menu-mobile .mobile-accrdn-list
 	{
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 30px;
 }
 /* line 108, ../sass/partials/_header-mobile.scss */
@@ -1251,7 +1250,7 @@ label {
 	background-color: #061d2a;
 	color: #fff;
 	font-size: 24px;
-	font-family: 'calibri-Bold';
+	font-family: 'Calibri';
 	outline: 0;
 	border-radius: 0;
 	border: 0;
@@ -1263,7 +1262,7 @@ label {
 .fwd-savie-wrapper .header-nav-mobile .header-nav-menu-mobile .mobile-accrdn-list .notifications span.circle
 	{
 	background-color: #fff;
-	color: #ff8200;
+	color: #554344;
 	border-radius: 50%;
 	margin-left: 77px;
 	font-size: 18px;
@@ -1279,7 +1278,7 @@ label {
 .fwd-savie-wrapper .header-nav-mobile .header-nav-menu-mobile .mobile-accrdn-list .mobile-top-menu
 	{
 	color: #fff;
-	background-color: #ff8200;
+	background-color: #554344;
 	border-radius: 0;
 	border: 0;
 	padding: 10px 40px;
@@ -1314,7 +1313,7 @@ label {
 	display: table;
 	width: 100%;
 	padding: 0;
-	border-bottom: 1px solid #ff8200;
+	border-bottom: 1px solid #554344;
 }
 /* line 188, ../sass/partials/_header-mobile.scss */
 .fwd-savie-wrapper .header-nav-mobile .header-nav-menu-mobile .mobile-accrdn-list .mobile-top-menu.teaser-menu span
@@ -1342,7 +1341,7 @@ label {
 	.fwd-savie-wrapper .header-nav-mobile .header-nav-menu-mobile .mobile-accrdn-list .mobile-top-menu.teaser-menu:active
 	{
 	outline: 0;
-	background: #ff8200;
+	background: #554344;
 }
 /* line 211, ../sass/partials/_header-mobile.scss */
 .fwd-savie-wrapper .header-nav-mobile .header-nav-menu-mobile .mobile-accrdn-list .mobile-top-menu.teaser-menu:hover span,
@@ -1366,11 +1365,11 @@ label {
 /* line 227, ../sass/partials/_header-mobile.scss */
 .fwd-savie-wrapper .header-nav-mobile .header-nav-menu-mobile .mobile-accrdn-list .mobile-top-submenu a
 	{
-	color: #ff8200;
+	color: #554344;
 	background-color: #fff;
 	border-radius: 0;
-	border-bottom: solid 1px #ff8200;
-	border-top: solid 1px #ff8200;
+	border-bottom: solid 1px #554344;
+	border-top: solid 1px #554344;
 	padding-left: 35px;
 	padding-right: 5px;
 }
@@ -1402,7 +1401,7 @@ label {
 /* line 264, ../sass/partials/_header-mobile.scss */
 .fwd-savie-wrapper .header-nav-mobile .header-nav-menu-mobile .menu-bottom .mobile-menu-footer-whole a i
 	{
-	color: #ff8200;
+	color: #554344;
 }
 /* line 269, ../sass/partials/_header-mobile.scss */
 .fwd-savie-wrapper .header-nav-mobile .header-nav-menu-mobile .menu-bottom .mobile-menu-footer-whole a i:focus,
@@ -1629,7 +1628,7 @@ label {
 	{
 	display: inline;
 	font-size: 16px;
-	color: #ff8200;
+	color: #554344;
 	padding-right: 0px;
 	padding-left: 0px;
 	font-family: 'Calibri';
@@ -1654,7 +1653,7 @@ label {
 	{
 	display: inline;
 	padding: 0;
-	color: #ff8200;
+	color: #554344;
 }
 
 @media ( min-width : 992px) {
@@ -1670,7 +1669,7 @@ label {
 	.fwd-savie-wrapper footer .menu-footer .footer-hotline-max-width .footer-orange-menu li a:active,
 	.fwd-savie-wrapper footer .menu-footer .footer-hotline-max-width .footer-orange-menu li a:hover
 	{
-	color: #ff8200;
+	color: #554344;
 	background: transparent;
 }
 
@@ -1753,7 +1752,7 @@ label {
 	/* line 226, ../sass/partials/_footer.scss */
 	.fwd-savie-wrapper footer .menu-footer .footer-hotline-max-width .footer-menu-right
 		{
-		font-family: 'Calibri-Bold', sans-serif;
+		font-family: 'Calibri', sans-serif;
 		padding-left: 0;
 		float: right;
 		clear: none;
@@ -1981,8 +1980,8 @@ label {
 .fwd-savie-wrapper #other-benefits ul a.read-more {
 	cursor: pointer;
 	font-size: 14px;
-	color: #ff8200;
-	border-bottom: solid 1px #ff8200;
+	color: #554344;
+	border-bottom: solid 1px #554344;
 }
 /* line 101, ../sass/partials/_other-benefits.scss */
 .fwd-savie-wrapper #other-benefits ul li {
@@ -2095,7 +2094,7 @@ label {
 }
 /* line 197, ../sass/partials/_other-benefits.scss */
 .disclaimer-policy p a {
-	color: #f68a1d;
+	color: #363e3f;
 	text-decoration: underline;
 }
 /* line 201, ../sass/partials/_other-benefits.scss */
@@ -2164,17 +2163,17 @@ label {
 	width: 170px;
 	font-size: 24px;
 	font-weight: bold;
-	background: #ff8200;
+	background: #554344;
 	padding: 8px 0;
 	margin-top: 7px;
-	border: 1px solid #ff8200;
+	border: 1px solid #554344;
 }
 /* line 55, ../sass/partials/_next-stop.scss */
 .fwd-savie-wrapper #next-step button:hover, .fwd-savie-wrapper #next-step button:focus
 	{
 	outline: 0;
 	background: #fff;
-	color: #ff8200;
+	color: #554344;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
 	-ms-transition: background 0.1s ease-in;
@@ -2275,7 +2274,7 @@ label {
 
 /* line 6, ../sass/partials/_features.scss */
 .fwd-savie-wrapper #features a {
-	color: #f68a1d;
+	color: #363e3f;
 }
 /* line 10, ../sass/partials/_features.scss */
 .fwd-savie-wrapper #features #feature-list {
@@ -2356,7 +2355,7 @@ label {
 /* line 81, ../sass/partials/_features.scss */
 .fwd-savie-wrapper #features #time a, .fwd-savie-wrapper #features #secure a,
 	.fwd-savie-wrapper #features #rewards a {
-	border-bottom: 1px solid #f68a1d;
+	border-bottom: 1px solid #363e3f;
 }
 /* line 85, ../sass/partials/_features.scss */
 .fwd-savie-wrapper #features #time a:hover, .fwd-savie-wrapper #features #secure a:hover,
@@ -2366,7 +2365,7 @@ label {
 }
 /* line 91, ../sass/partials/_features.scss */
 .fwd-savie-wrapper #features #secure {
-	background-color: #ff8200;
+	background-color: #554344;
 }
 
 @media ( min-width : 992px) {
@@ -2478,13 +2477,13 @@ label {
 .fwd-savie-wrapper .banner-widget .text-content.et-text-content {
 	margin-top: 0;
 	font-size: 30px;
-	font-family: 'Calibri-bold';
+	font-family: 'Calibri';
 	color: #fff;
 }
 /* line 48, ../sass/partials/_image-banner.scss */
 .fwd-savie-wrapper .banner-widget .buy-now {
 	font-size: 28px;
-	font-family: 'Calibri-bold';
+	font-family: 'Calibri';
 	color: white;
 	border: 1px solid #ff8000;
 	background-color: #ff8000;
@@ -2555,8 +2554,8 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 /* line 92, ../sass/partials/_image-banner.scss */
 .fwd-savie-wrapper .banner-widget .widget-btns a {
 	color: #fff;
-	background: #ff8200;
-	font-family: 'Calibri-Bold';
+	background: #554344;
+	font-family: 'Calibri';
 	font-size: 28px;
 	padding: 8px 75px;
 	margin: 0 2px;
@@ -2574,8 +2573,8 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 .fwd-savie-wrapper .banner-widget .widget-btns a:hover,
 	.fwd-savie-wrapper .banner-widget .widget-btns a:focus {
 	background: #fff;
-	color: #ff8200;
-	border: 1px solid #ff8200;
+	color: #554344;
+	border: 1px solid #554344;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
 	-ms-transition: background 0.1s ease-in;
@@ -2680,7 +2679,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 }
 /* line 28, ../sass/partials/_box.scss */
 .fwd-savie-wrapper .box-container .btn {
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 24px;
 	text-align: center;
 	width: 100%;
@@ -2776,7 +2775,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 .et-benefit-item h4 {
 	margin-top: 20px;
 	color: #373a36;
-	font-family: 'Calibri-Bold', Arial;
+	font-family: 'Calibri', Arial;
 	font-size: 18px;
 	line-height: 25px;
 }
@@ -2899,7 +2898,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 }
 /* line 172, ../sass/partials/_benefits.scss */
 .et-overlay-wrapper h5 {
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 18px;
 }
 
@@ -2964,7 +2963,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 }
 /* line 17, ../sass/partials/_our-blog.scss */
 .fwd-savie-wrapper .blog-widget .read-blog-mobile {
-	background: #ff8200;
+	background: #554344;
 	padding: 8px 0;
 	position: absolute;
 	width: 100%;
@@ -2972,7 +2971,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 /* line 22, ../sass/partials/_our-blog.scss */
 .fwd-savie-wrapper .blog-widget .read-blog-mobile a {
 	font-size: 24px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	color: #fff;
 }
 
@@ -2990,7 +2989,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 }
 /* line 42, ../sass/partials/_our-blog.scss */
 .fwd-savie-wrapper .blog-widget .read-blog-desktop h2 {
-	color: #ff8200;
+	color: #554344;
 	padding-bottom: 44px;
 	margin-top: 30px;
 }
@@ -3034,13 +3033,13 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 }
 /* line 83, ../sass/partials/_our-blog.scss */
 .fwd-savie-wrapper .blog-widget #sticker {
-	background: #ff8200;
+	background: #554344;
 	padding: 10px 0;
 }
 /* line 86, ../sass/partials/_our-blog.scss */
 .fwd-savie-wrapper .blog-widget #sticker a {
 	font-size: 24px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	color: #fff;
 }
 /* line 93, ../sass/partials/_our-blog.scss */
@@ -3251,7 +3250,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 }
 /* line 88, ../sass/partials/_three-column-widget.scss */
 .fwd-savie-wrapper .three-column-widget .fwd-col .col-content h2 {
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 24px;
 	margin-bottom: 0;
 	margin-top: 0;
@@ -3278,7 +3277,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 /* line 113, ../sass/partials/_three-column-widget.scss */
 .fwd-savie-wrapper .three-column-widget .fwd-col .col-content h3 {
 	margin-top: 0px;
-	color: #ff8200;
+	color: #554344;
 	font-size: 18px;
 	text-align: left;
 }
@@ -3337,7 +3336,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 	line-height: 14px;
 	padding-bottom: 15px;
 	margin: 0;
-	color: #ff8200;
+	color: #554344;
 }
 /* line 168, ../sass/partials/_three-column-widget.scss */
 .fwd-savie-wrapper .three-column-widget .fwd-col .col-content .et-get-qoute img
@@ -3467,7 +3466,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 .fwd-savie-wrapper .three-column-widget .fwd-col .col-content-teaser h3
 	{
 	margin-top: 0px;
-	color: #ff8200;
+	color: #554344;
 	font-size: 30px;
 }
 
@@ -3516,7 +3515,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 	line-height: 14px;
 	padding-bottom: 15px;
 	margin: 0;
-	color: #ff8200;
+	color: #554344;
 }
 /* line 316, ../sass/partials/_three-column-widget.scss */
 .fwd-savie-wrapper .three-column-widget hr {
@@ -3550,7 +3549,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 @media ( min-width : 992px) {
 	/* line 329, ../sass/partials/_three-column-widget.scss */
 	.fwd-savie-wrapper .three-column-widget h1 {
-		font-family: 'Calibri-Bold', Arial;
+		font-family: 'Calibri', Arial;
 	}
 	/* line 338, ../sass/partials/_three-column-widget.scss */
 	.fwd-savie-wrapper .three-column-widget h1 span:after {
@@ -3633,7 +3632,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 .fwd-savie-wrapper .three-column-widget a, .fwd-savie-wrapper .three-column-widget a:focus
 	{
 	color: #f6871f;
-	font-family: 'Calibri-Bold', Arial;
+	font-family: 'Calibri', Arial;
 	font-size: 24px;
 }
 /* line 417, ../sass/partials/_three-column-widget.scss */
@@ -3740,7 +3739,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 /* line 3, ../sass/partials/_email.scss */
 .fwd-savie-wrapper .email-row {
 	border: 1px solid #b7c3cd;
-	font-family: 'Calibri-Bold', Arial;
+	font-family: 'Calibri', Arial;
 	margin-left: 15px;
 	margin-right: 15px;
 	padding-top: 13px;
@@ -3929,8 +3928,8 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 }
 /* line 143, ../sass/partials/_email.scss */
 .fwd-savie-wrapper .email-row .email-input p a {
-	color: #f68a1d;
-	border-bottom: solid 1px #f68a1d;
+	color: #363e3f;
+	border-bottom: solid 1px #363e3f;
 }
 /* line 148, ../sass/partials/_email.scss */
 .fwd-savie-wrapper .email-row .email-input p a:hover {
@@ -3950,7 +3949,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 	left: 1px;
 	top: 62px;
 	background: #fff;
-	border: 1px solid #ff8200;
+	border: 1px solid #554344;
 	float: left;
 	clear: both;
 }
@@ -3979,7 +3978,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 	background: transparent;
 	top: 3px;
 	left: 2px;
-	border: 2px solid #ff8200;
+	border: 2px solid #554344;
 	border-top: none;
 	border-right: none;
 	-webkit-transform: rotate(-45deg);
@@ -4068,16 +4067,16 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 /* line 62, ../sass/partials/_login.scss */
 .fwd-savie-wrapper .modal.fade .modal-dialog .modal-content .modal-header h4
 	{
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 36px;
-	color: #f68a1d;
+	color: #363e3f;
 }
 /* line 67, ../sass/partials/_login.scss */
 .fwd-savie-wrapper .modal.fade .modal-dialog .modal-content .modal-header h4.h4-plan-details
 	{
 	font-size: 24px;
 	color: #f58220;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 }
 /* line 74, ../sass/partials/_login.scss */
 .fwd-savie-wrapper .modal.fade .modal-dialog .modal-content .modal-header .close
@@ -4117,15 +4116,15 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 	{
 	color: #0a1d29;
 	font-size: 18px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	padding-top: 10px;
 }
 /* line 109, ../sass/partials/_login.scss */
 .fwd-savie-wrapper .modal.fade .modal-dialog .modal-content .modal-body a
 	{
 	font-size: 18px;
-	color: #f68a1d;
-	border-bottom: 1px solid #f68a1d;
+	color: #363e3f;
+	border-bottom: 1px solid #363e3f;
 }
 /* line 114, ../sass/partials/_login.scss */
 .fwd-savie-wrapper .modal.fade .modal-dialog .modal-content .modal-body a.link-plan-details
@@ -4175,7 +4174,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 	.fwd-savie-wrapper .modal.fade .modal-dialog .modal-content .modal-body input[type="password"]:focus,
 	.fwd-savie-wrapper .modal.fade .modal-dialog .modal-content .modal-body input[type="password"]:hover
 	{
-	border-color: #f68a1d;
+	border-color: #363e3f;
 	-webkit-box-shadow: none;
 	outline: -webkit-focus-ring-color auto 0px;
 }
@@ -4249,7 +4248,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 	margin: 0;
 	text-align: center;
 	color: #0a1d29;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 }
 /* line 218, ../sass/partials/_login.scss */
 .fwd-savie-wrapper .modal.fade .modal-dialog .modal-content .modal-footers h6.plan-details,
@@ -4287,9 +4286,9 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 /* line 240, ../sass/partials/_login.scss */
 .fwd-savie-wrapper .modal.fade .modal-dialog .modal-content .modal-footers a
 	{
-	color: #f68a1d;
+	color: #363e3f;
 	font-size: 24px;
-	border-bottom: 1px solid #f68a1d;
+	border-bottom: 1px solid #363e3f;
 }
 /* line 245, ../sass/partials/_login.scss */
 .fwd-savie-wrapper .modal.fade .modal-dialog .modal-content .modal-footers a.register
@@ -4303,7 +4302,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 	/* line 245, ../sass/partials/_login.scss */
 	.fwd-savie-wrapper .modal.fade .modal-dialog .modal-content .modal-footers a.register
 		{
-		font-family: 'Calibri-Bold';
+		font-family: 'Calibri';
 	}
 }
 /* line 255, ../sass/partials/_login.scss */
@@ -4489,7 +4488,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 	.fwd-savie-wrapper .login-mobile input[type="text"]:hover,
 	.fwd-savie-wrapper .login-mobile input[type="password"]:focus,
 	.fwd-savie-wrapper .login-mobile input[type="password"]:hover {
-	border-color: #f68a1d;
+	border-color: #363e3f;
 	-webkit-box-shadow: none;
 	outline: -webkit-focus-ring-color auto 0px;
 }
@@ -4501,9 +4500,9 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 }
 /* line 453, ../sass/partials/_login.scss */
 .fwd-savie-wrapper .login-mobile a {
-	color: #f68a1d;
+	color: #363e3f;
 	font-size: 18px;
-	border-bottom: 1px solid #f68a1d;
+	border-bottom: 1px solid #363e3f;
 }
 /* line 459, ../sass/partials/_login.scss */
 .fwd-savie-wrapper .login-mobile a:hover, .fwd-savie-wrapper .login-mobile a:focus
@@ -4546,7 +4545,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 /* LOGOUT */
 /* line 3, ../sass/partials/_logout.scss */
 .fwd-savie-wrapper .fwd-container.container-fluid.eServices-logout {
-	border-top: solid 1px #ff8200;
+	border-top: solid 1px #554344;
 }
 
 @media ( min-width : 992px) {
@@ -4569,7 +4568,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 }
 /* line 20, ../sass/partials/_logout.scss */
 .fwd-savie-wrapper .logout-wrapper .logout-content-section h1 {
-	color: #ff8200;
+	color: #554344;
 	margin-bottom: 15px;
 	line-height: 24px;
 	font-size: 24px;
@@ -4967,7 +4966,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 	.fwd-savie-wrapper #fwd-carousel .carousel-inner .item p,
 		.fwd-savie-wrapper #fwd-carousel .carousel-inner .item.next p {
 		font-size: 24px;
-		font-family: 'Calibri-Bold';
+		font-family: 'Calibri';
 		line-height: 24px;
 	}
 }
@@ -4999,7 +4998,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 
 /* line 40, ../sass/partials/_date-picker.scss */
 .datepicker table tr td.active.active {
-	background-color: #ff8200;
+	background-color: #554344;
 }
 
 /* line 44, ../sass/partials/_date-picker.scss */
@@ -5009,46 +5008,47 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 
 /* line 48, ../sass/partials/_date-picker.scss */
 .datepicker table tr td.day:hover {
-	background: #ff8200 !important;
+	background: #596c80 !important;	
+	color: #fff;
 }
 
 /* line 52, ../sass/partials/_date-picker.scss */
 .datepicker table tr td span:hover {
-	background: #ff8200 !important;
+	background: #596c80 !important;
 	color: #fff;
 }
 
 /* line 57, ../sass/partials/_date-picker.scss */
 .datepicker table tr td.active.active {
-	background-color: #ff8200 !important;
+	background-color: #554344 !important;
 }
 
 /* line 61, ../sass/partials/_date-picker.scss */
 .datepicker table tr td span.active.active {
-	background-color: #ff8200 !important;
+	background-color: #554344 !important;
 }
 
 /* line 4, ../sass/partials/_tooltip.scss */
 .fwd-savie-wrapper .tooltip .tooltip-inner {
-	background-color: #ff8200;
+	background-color: #554344;
 	padding: 8px 15px;
 	text-align: left;
 }
 /* line 10, ../sass/partials/_tooltip.scss */
 .fwd-savie-wrapper .tooltip.right .tooltip-arrow {
-	border-right-color: #ff8200;
+	border-right-color: #554344;
 }
 /* line 14, ../sass/partials/_tooltip.scss */
 .fwd-savie-wrapper .tooltip.left .tooltip-arrow {
-	border-left-color: #ff8200;
+	border-left-color: #554344;
 }
 /* line 18, ../sass/partials/_tooltip.scss */
 .fwd-savie-wrapper .tooltip.top .tooltip-arrow {
-	border-top-color: #ff8200;
+	border-top-color: #554344;
 }
 /* line 22, ../sass/partials/_tooltip.scss */
 .fwd-savie-wrapper .tooltip.bottom .tooltip-arrow {
-	border-bottom-color: #ff8200;
+	border-bottom-color: #554344;
 }
 
 /* line 1, ../sass/partials/_loading-mask.scss */
@@ -5513,7 +5513,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 /* line 319, ../sass/partials/_o2o-landing.scss */
 .fwd-savie-wrapper .o2o-landing.saving-plans .savings-banner-text p {
 	padding: 8px 48px 5px;
-	background-color: #ff8200;
+	background-color: #554344;
 	max-width: 355px;
 	margin: 0 auto;
 	color: #fff;
@@ -5542,7 +5542,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 }
 /* line 345, ../sass/partials/_o2o-landing.scss */
 .fwd-savie-wrapper .o2o-landing.saving-plans .savings-banner p .bold {
-	font-family: 'Calibri-bold';
+	font-family: 'Calibri';
 }
 
 @media ( min-width : 992px) {
@@ -5692,7 +5692,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 	.fwd-savie-wrapper .o2o-landing.saving-plans .savings-menu .sign-up a .action-text h2
 	{
 	font-size: 26px;
-	font-family: 'Calibri-bold';
+	font-family: 'Calibri';
 	padding: 0 15px;
 	margin: 0 0 15px;
 }
@@ -5772,11 +5772,11 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 }
 /* line 531, ../sass/partials/_o2o-landing.scss */
 .fwd-savie-wrapper .o2o-landing.saving-plans .savings-menu .sign-up {
-	background-color: #ff8200;
+	background-color: #554344;
 }
 /* line 534, ../sass/partials/_o2o-landing.scss */
 .fwd-savie-wrapper .o2o-landing.saving-plans .savings-menu .sign-up a {
-	background-color: #ff8200;
+	background-color: #554344;
 }
 
 @media ( min-width : 992px) {
@@ -5797,7 +5797,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 }
 /* line 554, ../sass/partials/_o2o-landing.scss */
 .fwd-savie-wrapper .o2o-landing.fwd-action .action-two {
-	background-color: #ff8200;
+	background-color: #554344;
 }
 
 @media ( min-width : 992px) {
@@ -5948,10 +5948,10 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 #customerCenter .modal-dialog .modal-content .modal-footer .bottom-section button
 	{
 	background: #fff;
-	color: #ff8200;
-	border: 1px solid #ff8200;
+	color: #554344;
+	border: 1px solid #554344;
 	font-size: 24px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	padding: 7px 40px;
 	width: 100%;
 	max-width: 338px;
@@ -6000,7 +6000,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 @media ( min-width : 992px) {
 	/* line 724, ../sass/partials/_o2o-landing.scss */
 	#signup-now-modal #signup-btn {
-		background-color: #ff8200;
+		background-color: #554344;
 		color: white;
 	}
 }
@@ -6027,7 +6027,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 }
 /* line 746, ../sass/partials/_o2o-landing.scss */
 #signup-now-modal .fwd-checkbox p a {
-	color: #ff8200;
+	color: #554344;
 	text-decoration: underline;
 }
 /* line 752, ../sass/partials/_o2o-landing.scss */
@@ -6127,7 +6127,7 @@ span.o2o-top {
 /* line 69, ../sass/partials/_page-product-details.scss */
 .fwd-savie-wrapper .product-details .carousel .carousel-inner .item .carousel-caption.add-padding
 	{
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	padding-bottom: 80px;
 }
 /* line 73, ../sass/partials/_page-product-details.scss */
@@ -6190,7 +6190,7 @@ span.o2o-top {
 	/* line 21, ../sass/partials/_product-info.scss */
 	.fwd-savie-wrapper #motto h2 {
 		padding: 0px 26%;
-		font-family: 'Calibri-Bold';
+		font-family: 'Calibri';
 		font-size: 36px;
 		margin-top: 0;
 		margin-bottom: 0;
@@ -6395,7 +6395,7 @@ span.o2o-top {
 	color: white;
 	font-weight: bold;
 	padding: 11px 0;
-	background: #f68a1d;
+	background: #363e3f;
 	width: 63%;
 	text-align: center;
 	margin: 0;
@@ -6604,7 +6604,7 @@ span.o2o-top {
  */
 /* line 5, ../sass/partials/_page-sales-illustration.scss */
 .fwd-savie-wrapper .page-sales-illustration {
-	border-top: 1px solid #ff8200;
+	border-top: 1px solid #554344;
 }
 
 @media ( min-width : 992px) {
@@ -6642,7 +6642,7 @@ span.o2o-top {
 	#illustration-filters .btn.btn-orange.calculate:focus,
 	#illustration-filters .btn.btn-orange.calculate:active {
 	color: #fff;
-	background-color: #ff8200;
+	background-color: #554344;
 }
 
 @media ( min-width : 992px) {
@@ -6650,7 +6650,7 @@ span.o2o-top {
 	#illustration-filters .btn.btn-orange.calculate:hover,
 		#illustration-filters .btn.btn-orange.calculate:focus,
 		#illustration-filters .btn.btn-orange.calculate:active {
-		color: #ff8200;
+		color: #554344;
 		background-color: #fff;
 	}
 }
@@ -6661,11 +6661,11 @@ span.o2o-top {
 }
 /* line 52, ../sass/partials/_page-sales-illustration.scss */
 #illustration-filters .tooltip-inner {
-	background-color: #ff8200;
+	background-color: #554344;
 }
 /* line 56, ../sass/partials/_page-sales-illustration.scss */
 #illustration-filters .tooltip.right .tooltip-arrow {
-	border-right-color: #ff8200;
+	border-right-color: #554344;
 }
 /* line 61, ../sass/partials/_page-sales-illustration.scss */
 #illustration-filters .info-tip {
@@ -7334,7 +7334,7 @@ span.o2o-top {
 
 /* line 618, ../sass/partials/_page-sales-illustration.scss */
 ul.explanation-list {
-	color: #ff8200;
+	color: #554344;
 	font-size: 13px;
 	margin-top: 10px;
 	padding-right: 22px;
@@ -7374,7 +7374,7 @@ span.explanation {
 
 /* line 660, ../sass/partials/_page-sales-illustration.scss */
 .fwd-container.proceed-block {
-	color: #ff8200;
+	color: #554344;
 }
 /* line 663, ../sass/partials/_page-sales-illustration.scss */
 .fwd-container.proceed-block button.next {
@@ -7421,7 +7421,7 @@ span.explanation {
 
 /* line 4, ../sass/partials/_next-sales.scss */
 .fwd-savie-wrapper .next-sales-block {
-	background: #ff8200;
+	background: #554344;
 }
 
 @media ( min-width : 992px) {
@@ -7448,7 +7448,7 @@ span.explanation {
 }
 /* line 24, ../sass/partials/_next-sales.scss */
 .fwd-savie-wrapper .next-sales-block .explanation-content ul li {
-	color: #ff8200;
+	color: #554344;
 	font-size: 15px;
 	line-height: 18px;
 }
@@ -7474,7 +7474,7 @@ span.explanation {
 }
 /* line 49, ../sass/partials/_next-sales.scss */
 .fwd-savie-wrapper .next-sales-block .next-btn {
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 24px;
 	text-align: center;
 	width: 100%;
@@ -7492,7 +7492,7 @@ span.explanation {
 .fwd-savie-wrapper .next-sales-block .next-btn:hover, .fwd-savie-wrapper .next-sales-block .next-btn:focus
 	{
 	color: #fff;
-	background: #ff8200;
+	background: #554344;
 }
 
 @media ( min-width : 992px) {
@@ -7500,8 +7500,8 @@ span.explanation {
 	.fwd-savie-wrapper .next-sales-block .next-btn:hover, .fwd-savie-wrapper .next-sales-block .next-btn:focus
 		{
 		background: #fff;
-		color: #ff8200;
-		border: 1px solid #ff8200;
+		color: #554344;
+		border: 1px solid #554344;
 		-webkit-transition: background 0.1s ease-in;
 		-moz-transition: background 0.1s ease-in;
 		-ms-transition: background 0.1s ease-in;
@@ -7551,7 +7551,7 @@ span.explanation {
 	float: none;
 	width: 70px;
 	height: 70px;
-	background: #ff8200;
+	background: #554344;
 }
 /* line 25, ../sass/partials/_sticky-sales.scss */
 .fwd-savie-wrapper .sales-sticky-filter ul.nav-tabs>li>a {
@@ -7723,7 +7723,7 @@ span.explanation {
 /* line 2, ../sass/partials/_slider.scss */
 .fwd-savie-wrapper #RC .slider-selection, .fwd-savie-wrapper #RC2 .slider-selection
 	{
-	background: #ff8200;
+	background: #554344;
 	border-radius: 0;
 }
 /* line 6, ../sass/partials/_slider.scss */
@@ -7751,8 +7751,8 @@ span.explanation {
 /* line 25, ../sass/partials/_slider.scss */
 .fwd-savie-wrapper #ET .slider-selection, .fwd-savie-wrapper #RC2 .slider-selection
 	{
-	background: #ff8200;
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8200', endColorstr='#ff8200', GradientType=0);
+	background: #b8123e;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#554344', endColorstr='#554344', GradientType=0);
 	border-radius: 0;
 }
 /* line 29, ../sass/partials/_slider.scss */
@@ -7786,7 +7786,7 @@ span.explanation {
 	right: 0;
 	text-decoration: none;
 	color: white;
-	background-color: #ff8200;
+	background-color: #554344;
 	font-size: 12px;
 	padding: 21px 16px 22px;
 	display: none;
@@ -7844,7 +7844,7 @@ span.explanation {
 		{
 		height: 80px;
 		font-size: 36px;
-		font-family: 'Calibri-Bold';
+		font-family: 'Calibri';
 		width: 220px;
 	}
 }
@@ -7886,11 +7886,11 @@ span.explanation {
 }
 /* line 59, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .tooltip-inner {
-	background-color: #ff8200;
+	background-color: #554344;
 }
 /* line 63, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .tooltip.right .tooltip-arrow {
-	border-right-color: #ff8200;
+	border-right-color: #554344;
 }
 /* line 68, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .info-table-tip {
@@ -7929,7 +7929,7 @@ span.explanation {
 		height: 80px;
 		width: 535px;
 		font-size: 36px;
-		font-family: 'Calibri-Bold';
+		font-family: 'Calibri';
 	}
 }
 /* line 105, ../sass/partials/_investment.scss */
@@ -7986,7 +7986,7 @@ span.explanation {
 }
 /* line 139, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .investment-table-desktop {
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 30px;
 	padding-bottom: 15px;
 	position: relative;
@@ -8007,12 +8007,12 @@ span.explanation {
 /* line 153, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .investment-table-desktop .tooltip-inner
 	{
-	background-color: #ff8200;
+	background-color: #554344;
 }
 /* line 157, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .investment-table-desktop .tooltip.right .tooltip-arrow
 	{
-	border-right-color: #ff8200;
+	border-right-color: #554344;
 }
 /* line 162, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .investment-table-desktop .info-tip {
@@ -8025,7 +8025,7 @@ span.explanation {
 }
 /* line 171, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .investment-table-desktop h2 {
-	color: #ff8200;
+	color: #554344;
 	text-align: center;
 	margin: 0;
 	padding-top: 0px;
@@ -8155,7 +8155,7 @@ span.explanation {
 /* line 282, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .investment-summary-title-desktop {
 	font-size: 30px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	padding-bottom: 15px;
 }
 
@@ -8270,7 +8270,7 @@ span.explanation {
 	left: 0;
 	background: linear-gradient(top, #222222 0%, #45484d 100%);
 	border-radius: 7px;
-	background: #ff8200;
+	background: #554344;
 }
 /* line 371, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .investment-summary-title-desktop .checkbox-credit-rates li label.total-premium:after
@@ -8388,7 +8388,7 @@ span.explanation {
 }
 /* line 480, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .nav.nav-pills.nav-justified {
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 24px;
 }
 
@@ -8409,14 +8409,14 @@ span.explanation {
 .fwd-savie-wrapper .investment .nav.nav-pills.nav-justified li.active a
 	{
 	border-radius: 0;
-	background-color: #ff8200;
+	background-color: #554344;
 	color: #fff;
 }
 /* line 504, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .nav.nav-pills.nav-justified li.active a:hover,
 	.fwd-savie-wrapper .investment .nav.nav-pills.nav-justified li.active a:focus
 	{
-	background-color: #ff8200;
+	background-color: #554344;
 	color: #fff;
 	border-radius: 0;
 }
@@ -8432,7 +8432,7 @@ span.explanation {
 /* line 524, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .tab-content.credits {
 	font-size: 18px;
-	color: #ff8200;
+	color: #554344;
 	font-family: 'Calibri';
 }
 /* line 529, ../sass/partials/_investment.scss */
@@ -8450,8 +8450,8 @@ span.explanation {
 /* line 538, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .tab-content.credits .expand-desktop a {
 	font-size: 24px;
-	color: #ff8200;
-	border-bottom: 1px solid #ff8200;
+	color: #554344;
+	border-bottom: 1px solid #554344;
 	line-height: 24px;
 }
 /* line 546, ../sass/partials/_investment.scss */
@@ -8635,7 +8635,7 @@ span.explanation {
 	color: #000;
 	padding-top: 10px;
 	padding-right: 4px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 18px;
 	margin: 0 0 10px 0;
 	padding: 10px 4px 0 0;
@@ -8646,7 +8646,7 @@ span.explanation {
 	width: 100%;
 	height: 42px;
 	background-color: #fff;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 	margin: 2px;
 }
 
@@ -8656,8 +8656,8 @@ span.explanation {
 		{
 		float: right;
 		background-color: transparent;
-		border: solid 1px #ff8200;
-		color: #ff8200;
+		border: solid 1px #554344;
+		color: #554344;
 		margin: 0;
 		height: 40px;
 	}
@@ -8681,7 +8681,7 @@ span.explanation {
 	.fwd-savie-wrapper .investment .tab-content.credits .percent-buttons button:focus
 	{
 	color: #fff;
-	background-color: #ff8200;
+	background-color: #554344;
 	border: 0;
 	outline: none;
 }
@@ -8689,7 +8689,7 @@ span.explanation {
 .fwd-savie-wrapper .investment .tab-content.credits .percent-buttons button.active
 	{
 	color: #fff;
-	background-color: #ff8200;
+	background-color: #554344;
 	border: 0;
 	outline: none;
 }
@@ -8706,7 +8706,7 @@ span.explanation {
 }
 /* line 736, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .tab-content.credits table {
-	border-top: dashed 1px #ff8200;
+	border-top: dashed 1px #554344;
 	font-size: 22px;
 	text-align: center;
 	margin-bottom: 0;
@@ -8770,7 +8770,7 @@ span.explanation {
 }
 /* line 788, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .tab-content.credits table thead {
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 18px;
 }
 
@@ -8903,7 +8903,7 @@ span.explanation {
 /* line 882, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .tab-content.credits table tbody tr td.black-text span
 	{
-	color: #ff8200;
+	color: #554344;
 }
 /* line 887, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .tab-content.credits table tbody tr td.right-border
@@ -8938,7 +8938,7 @@ span.explanation {
 	/* line 902, ../sass/partials/_investment.scss */
 	.fwd-savie-wrapper .investment .tab-content.credits table tbody tr td.bottom-border
 		{
-		border-bottom: dashed 1px #ff8200;
+		border-bottom: dashed 1px #554344;
 	}
 }
 /* line 920, ../sass/partials/_investment.scss */
@@ -8973,9 +8973,9 @@ span.explanation {
 }
 /* line 942, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment-summary .fwd-chart .fwd-chart-age {
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 18px;
-	color: #ff8200;
+	color: #554344;
 }
 
 @media ( min-width : 992px) {
@@ -9018,7 +9018,7 @@ span.explanation {
 	background: rgba(176, 189, 189, 0.6);
 	padding: 52px 20px;
 	border-radius: 50%;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	color: #ffffff;
 	line-height: 18px;
 }
@@ -9047,7 +9047,7 @@ span.explanation {
 	position: absolute;
 	width: 100%;
 	z-index: 5;
-	background-color: #ff8200;
+	background-color: #554344;
 }
 /* line 12, ../sass/partials/_application-orange-header.scss */
 .fwd-savie-wrapper .application-page-header.sticky-bar {
@@ -9134,7 +9134,7 @@ span.explanation {
 	height: 100px;
 	width: 100%;
 	border: 0;
-	background-color: #ff8200;
+	background-color: #554344;
 }
 /* line 80, ../sass/partials/_application-orange-header.scss */
 .fwd-savie-wrapper .application-page-header .orange-section .orange-menu-desktop .orange-menu-btn:focus,
@@ -9159,7 +9159,7 @@ span.explanation {
 	{
 	position: absolute;
 	z-index: 5;
-	background-color: #ff8200;
+	background-color: #554344;
 	height: 80px;
 	left: 92px;
 }
@@ -9216,14 +9216,14 @@ span.explanation {
 /* line 138, ../sass/partials/_application-orange-header.scss */
 .fwd-savie-wrapper .application-page-header .orange-section .dollars-monthly-right span.dollars
 	{
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 30px;
 	line-height: 32px;
 }
 /* line 144, ../sass/partials/_application-orange-header.scss */
 .fwd-savie-wrapper .application-page-header .orange-section .dollars-monthly-right span.dollars2
 	{
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 24px;
 	line-height: 32px;
 }
@@ -9541,7 +9541,7 @@ span.dup-error-msg {
 	height: 40px;
 	position: absolute;
 	font-size: 18px;
-	color: #ff8200;
+	color: #554344;
 	padding-top: 11px;
 	right: 0;
 	padding-right: 17px;
@@ -9578,7 +9578,7 @@ span.dup-error-msg {
 	height: 40px;
 	position: absolute;
 	font-size: 18px;
-	color: #ff8200;
+	color: #554344;
 	padding-top: 11px;
 	top: 0;
 	bottom: 10px;
@@ -9600,7 +9600,7 @@ span.dup-error-msg {
 	height: 40px;
 	position: absolute;
 	font-size: 18px;
-	color: #ff8200;
+	color: #554344;
 	padding-top: 11px;
 	top: 0;
 	bottom: 10px;
@@ -9614,6 +9614,9 @@ span.dup-error-msg {
 	margin-bottom: 3px;
 	margin-top: 8px;
 	color: #061d2a;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 18px;
+    line-height: 26px;
 }
 
 @media ( min-width : 992px) {
@@ -9677,7 +9680,7 @@ span.dup-error-msg {
 	right: 15px;
 	top: 10px;
 	font-size: 18px;
-	color: #ff8200;
+	color: #554344;
 }
 /* line 237, ../sass/partials/_page-application.scss */
 .fwd-savie-wrapper .page-application .btn-group.bootstrap-select .application-select.selection
@@ -9692,11 +9695,11 @@ span.dup-error-msg {
 	width: 100%;
 	max-width: 520px;
 	height: 60px;
-	border: solid 1px #ff8200;
-	background: #ff8200;
+	border: solid 1px #554344;
+	background: #554344;
 	color: white;
 	font-size: 24px;
-	font-family: 'Calibri-bold';
+	font-family: 'Calibri';
 }
 
 @media ( min-width : 992px) {
@@ -9716,7 +9719,7 @@ span.dup-error-msg {
 	-o-transition: background 0.1s ease-in;
 	transition: background 0.1s ease-in;
 	background: #fff;
-	color: #ff8200;
+	color: #554344;
 }
 /* line 277, ../sass/partials/_page-application.scss */
 .fwd-savie-wrapper button.next, .fwd-savie-wrapper a.next {
@@ -9724,11 +9727,12 @@ span.dup-error-msg {
 	width: 100%;
 	max-width: 520px;
 	height: 60px;
-	border: solid 1px #ff8200;
-	background: #ff8200;
-	color: white;
-	font-size: 24px;
-	font-family: 'Calibri-bold';
+	border: solid 1px #b8123e;
+	background: #b8123e;
+	color: #fff;
+    background: #b8123e;
+    padding: 7px 40px;
+    font: normal 20px "AIASans","Calibri",sans-serif;
 }
 
 @media ( min-width : 992px) {
@@ -9748,7 +9752,7 @@ span.dup-error-msg {
 	-o-transition: background 0.1s ease-in;
 	transition: background 0.1s ease-in;
 	background: #fff;
-	color: #ff8200;
+	color: #554344;
 }
 /* line 304, ../sass/partials/_page-application.scss */
 .fwd-savie-wrapper button.next-orange {
@@ -9756,11 +9760,11 @@ span.dup-error-msg {
 	width: 100%;
 	max-width: 520px;
 	height: 60px;
-	border: solid 1px #ff8200;
-	background: #ff8200;
+	border: solid 1px #554344;
+	background: #554344;
 	color: white;
 	font-size: 24px;
-	font-family: 'Calibri-bold';
+	font-family: 'Calibri';
 }
 
 @media ( min-width : 992px) {
@@ -9779,11 +9783,11 @@ span.dup-error-msg {
 	-o-transition: background 0.1s ease-in;
 	transition: background 0.1s ease-in;
 	background: #fff;
-	color: #ff8200;
+	color: #554344;
 }
 /* line 332, ../sass/partials/_page-application.scss */
 .fwd-savie-wrapper button.next:focus, .fwd-savie-wrapper a.next:focus {
-	color: #ff8200;
+	color: #554344;
 	outline: 0;
 }
 /* line 347, ../sass/partials/_page-application.scss */
@@ -9808,7 +9812,7 @@ span.dup-error-msg {
 	position: absolute;
 	left: 0;
 	top: 3px;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 }
 /* line 367, ../sass/partials/_page-application.scss */
 .fwd-savie-wrapper .fwd-checkbox label:after {
@@ -9818,7 +9822,7 @@ span.dup-error-msg {
 	position: absolute;
 	top: 4px;
 	left: 3px;
-	border: 2px solid #ff8200;
+	border: 2px solid #554344;
 	border-top: none;
 	border-right: none;
 	background: transparent;
@@ -9878,7 +9882,7 @@ span.dup-error-msg {
 }
 /* line 20, ../sass/partials/_personal_info.scss */
 .fwd-savie-wrapper .personal-info-widget {
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 18px;
 }
 /* line 24, ../sass/partials/_personal_info.scss */
@@ -9968,10 +9972,13 @@ span.dup-error-msg {
 /* line 102, ../sass/partials/_personal_info.scss */
 .fwd-savie-wrapper .personal-info-widget h2 {
 	margin: 0;
-	color: #ff8200;
+	color: #554344;
 	text-align: center;
 	padding-bottom: 20px;
 	position: relative;
+	color: #363e3f;
+    font-size: 30px;
+    font-family: "AIASans","Calibri",sans-serif;
 }
 
 @media ( min-width : 992px) {
@@ -10009,7 +10016,7 @@ span.dup-error-msg {
 }
 /* line 142, ../sass/partials/_personal_info.scss */
 .fwd-savie-wrapper .personal-info-widget h2 .tooltip-inner {
-	background-color: #ff8200;
+	background-color: #554344;
 	font-size: 14px;
 	font-family: 'Calibri';
 	max-width: 100%;
@@ -10075,9 +10082,9 @@ span.dup-error-msg {
 .fwd-savie-wrapper .personal-info-widget .btn.btn-next {
 	font-size: 24px;
 	color: #fff;
-	background-color: #ff8200;
+	background-color: #554344;
 	width: 100%;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 	height: 55px;
 }
 
@@ -10090,23 +10097,23 @@ span.dup-error-msg {
 /* line 217, ../sass/partials/_personal_info.scss */
 .fwd-savie-wrapper .personal-info-widget .btn.btn-next:hover,
 	.fwd-savie-wrapper .personal-info-widget .btn.btn-next:focus {
-	color: #ff8200;
+	color: #554344;
 	background-color: #fff;
 	box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0);
 }
 /* line 223, ../sass/partials/_personal_info.scss */
 .fwd-savie-wrapper .personal-info-widget .btn.btn-next.active {
-	color: #ff8200;
+	color: #554344;
 	background-color: #fff;
 	box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0);
 }
 /* line 231, ../sass/partials/_personal_info.scss */
 .fwd-savie-wrapper .personal-info-widget .btn.gender-btn {
 	font-family: 'Calibri';
-	background-color: #ff8200;
+	background-color: #554344;
 	font-size: 18px;
 	color: #fff;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 	width: 105px;
 	height: 38px;
 }
@@ -10126,7 +10133,7 @@ span.dup-error-msg {
 /* line 250, ../sass/partials/_personal_info.scss */
 .fwd-savie-wrapper .personal-info-widget .btn.gender-btn.active {
 	background-color: #fff;
-	color: #ff8200;
+	color: #554344;
 	box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0);
 }
 
@@ -10144,7 +10151,7 @@ span.dup-error-msg {
 .fwd-savie-wrapper .personal-info-widget .btn.gender-btn:hover,
 	.fwd-savie-wrapper .personal-info-widget .btn.gender-btn:focus {
 	background-color: #fff;
-	color: #ff8200;
+	color: #554344;
 }
 
 @media ( min-width : 992px) {
@@ -10228,9 +10235,9 @@ span.dup-error-msg {
 	position: relative;
 	cursor: pointer;
 	width: 100%;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 	text-align: center;
-	color: #ff8200;
+	color: #554344;
 	font-family: 'Calibri';
 	font-weight: normal;
 	height: 40px;
@@ -10238,7 +10245,7 @@ span.dup-error-msg {
 /* line 345, ../sass/partials/_personal_info.scss */
 .fwd-savie-wrapper .personal-info-widget .gender-section label.pi-male-radio:hover
 	{
-	background-color: #ff8200;
+	background-color: #554344;
 	color: #fff;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
@@ -10275,7 +10282,7 @@ span.dup-error-msg {
 	/* line 362, ../sass/partials/_personal_info.scss */
 	.fwd-savie-wrapper .personal-info-widget .gender-section label.pi-male-radio:after
 		{
-		background-color: #ff8200;
+		background-color: #554344;
 		opacity: 0;
 		width: 16px;
 		height: 16px;
@@ -10299,7 +10306,7 @@ span.dup-error-msg {
 /* line 384, ../sass/partials/_personal_info.scss */
 .fwd-savie-wrapper .personal-info-widget .gender-section label.pi-male-radio :checked+span.pi-male-text
 	{
-	background: #ff8200;
+	background: #554344;
 	display: table;
 	color: #fff;
 	width: 101%;
@@ -10315,7 +10322,7 @@ span.dup-error-msg {
 	/* line 384, ../sass/partials/_personal_info.scss */
 	.fwd-savie-wrapper .personal-info-widget .gender-section label.pi-male-radio :checked+span.pi-male-text
 		{
-		background-color: #ff8200;
+		background-color: #554344;
 		width: 16px;
 		height: 16px;
 		position: absolute;
@@ -10357,9 +10364,9 @@ span.dup-error-msg {
 	position: relative;
 	cursor: pointer;
 	width: 100%;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 	text-align: center;
-	color: #ff8200;
+	color: #554344;
 	font-family: 'Calibri';
 	font-weight: normal;
 	height: 40px;
@@ -10367,7 +10374,7 @@ span.dup-error-msg {
 /* line 445, ../sass/partials/_personal_info.scss */
 .fwd-savie-wrapper .personal-info-widget .gender-section label.pi-female-radio:hover
 	{
-	background-color: #ff8200;
+	background-color: #554344;
 	color: #fff;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
@@ -10404,7 +10411,7 @@ span.dup-error-msg {
 	/* line 462, ../sass/partials/_personal_info.scss */
 	.fwd-savie-wrapper .personal-info-widget .gender-section label.pi-female-radio:after
 		{
-		background-color: #ff8200;
+		background-color: #554344;
 		opacity: 0;
 		width: 16px;
 		height: 16px;
@@ -10428,7 +10435,7 @@ span.dup-error-msg {
 /* line 484, ../sass/partials/_personal_info.scss */
 .fwd-savie-wrapper .personal-info-widget .gender-section label.pi-female-radio :checked+span.pi-female-text
 	{
-	background: #ff8200;
+	background: #554344;
 	display: table;
 	color: #fff;
 	width: 101%;
@@ -10444,7 +10451,7 @@ span.dup-error-msg {
 	/* line 484, ../sass/partials/_personal_info.scss */
 	.fwd-savie-wrapper .personal-info-widget .gender-section label.pi-female-radio :checked+span.pi-female-text
 		{
-		background-color: #ff8200;
+		background-color: #554344;
 		width: 16px;
 		height: 16px;
 		position: absolute;
@@ -10556,7 +10563,7 @@ span.dup-error-msg {
 /* line 600, ../sass/partials/_personal_info.scss */
 .fwd-savie-wrapper .personal-info-widget .left-desktop.text-box span.orange
 	{
-	color: #ff8200;
+	color: #554344;
 }
 /* line 606, ../sass/partials/_personal_info.scss */
 .fwd-savie-wrapper .personal-info-widget .left-desktop.check-box {
@@ -10599,7 +10606,7 @@ span.dup-error-msg {
 	position: absolute;
 	left: 0;
 	bottom: 65px;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 }
 /* line 636, ../sass/partials/_personal_info.scss */
 .fwd-savie-wrapper .personal-info-widget .checkbox-section .pull-left.left-checkbox label:after
@@ -10610,7 +10617,7 @@ span.dup-error-msg {
 	position: absolute;
 	top: 3px;
 	left: 2px;
-	border: 2px solid #ff8200;
+	border: 2px solid #554344;
 	border-top: none;
 	border-right: none;
 	background: transparent;
@@ -10780,7 +10787,7 @@ span.dup-error-msg {
 }
 /* line 788, ../sass/partials/_personal_info.scss */
 .et-app-info-tooltip .tooltip-inner {
-	background-color: #ff8200;
+	background-color: #554344;
 	font-size: 14px;
 	font-family: 'Calibri';
 	max-width: 100%;
@@ -10855,8 +10862,8 @@ span.dup-error-msg {
 }
 /* line 9, ../sass/partials/_employment-info.scss */
 .fwd-savie-wrapper #employment-info h2 {
-	color: #ff8200;
-	font-family: 'Calibri-bold';
+	color: #554344;
+	font-family: 'Calibri';
 	font-size: 30px;
 	margin: 32px 0 0;
 }
@@ -10880,7 +10887,7 @@ span.dup-error-msg {
 .fwd-savie-wrapper #employment-info .content .employment-info-row label
 	{
 	color: black;
-	font-family: 'Calibri-bold';
+	font-family: 'Calibri';
 	font-size: 18px;
 	margin-bottom: 7px;
 	color: #061d2a;
@@ -10998,10 +11005,11 @@ span.dup-error-msg {
 }
 /* line 11, ../sass/partials/_beneficiary-info.scss */
 .fwd-savie-wrapper #beneficiary-info .beneficiary-info-header h2 {
-	color: #ff8200;
-	font-family: 'Calibri-bold';
-	font-size: 30px;
-	margin: 80px 0 0;
+	margin: 0;
+    color: #363e3f;
+    font-size: 30px;
+    text-align: center;
+    font-family: "AIASans","Calibri",sans-serif;;
 }
 /* line 17, ../sass/partials/_beneficiary-info.scss */
 .fwd-savie-wrapper #beneficiary-info .beneficiary-info-header h2 .i-logo
@@ -11046,7 +11054,7 @@ span.dup-error-msg {
 /* line 54, ../sass/partials/_beneficiary-info.scss */
 .fwd-savie-wrapper #beneficiary-info .beneficiary-info-header h2 .tooltip-inner
 	{
-	background-color: #ff8200;
+	background-color: #554344;
 	font-size: 14px;
 	font-family: 'Calibri';
 	max-width: 100%;
@@ -11200,8 +11208,8 @@ span.dup-error-msg {
 /* line 180, ../sass/partials/_beneficiary-info.scss */
 .fwd-savie-wrapper #beneficiary-info .content h3.mobile-desc {
 	margin: 0;
-	color: #ff8200;
-	font-family: 'Calibri-Bold';
+	color: #554344;
+	font-family: 'Calibri';
 }
 /* line 185, ../sass/partials/_beneficiary-info.scss */
 .fwd-savie-wrapper #beneficiary-info .content h3.mobile-desc span {
@@ -11229,7 +11237,7 @@ span.dup-error-msg {
 .fwd-savie-wrapper #beneficiary-info .content .beneficiary-info-row .remove-bnfry-btn .fa.fa-minus-circle
 	{
 	font-size: 20px;
-	color: #ff8200;
+	color: #554344;
 	padding-right: 10px;
 	height: 24px;
 	vertical-align: middle;
@@ -11340,7 +11348,7 @@ span.dup-error-msg {
 /* line 283, ../sass/partials/_beneficiary-info.scss */
 .fwd-savie-wrapper #beneficiary-info .content .beneficiary-info-row .orange-hover:hover
 	{
-	background: #ff8200;
+	background: #554344;
 }
 /* line 286, ../sass/partials/_beneficiary-info.scss */
 .fwd-savie-wrapper #beneficiary-info .content .beneficiary-info-row .form-control.gray-textbox
@@ -11390,9 +11398,9 @@ span.dup-error-msg {
 	position: relative;
 	cursor: pointer;
 	width: 100%;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 	text-align: center;
-	color: #ff8200;
+	color: #554344;
 	font-family: 'Calibri';
 	font-weight: normal;
 	height: 40px;
@@ -11400,7 +11408,7 @@ span.dup-error-msg {
 /* line 335, ../sass/partials/_beneficiary-info.scss */
 .fwd-savie-wrapper #beneficiary-info .content .beneficiary-info-row .clearfix.upper-radio-buttons label.own-estate-radio:hover
 	{
-	background-color: #ff8200;
+	background-color: #554344;
 	color: #fff;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
@@ -11437,7 +11445,7 @@ span.dup-error-msg {
 	/* line 352, ../sass/partials/_beneficiary-info.scss */
 	.fwd-savie-wrapper #beneficiary-info .content .beneficiary-info-row .clearfix.upper-radio-buttons label.own-estate-radio:after
 		{
-		background-color: #ff8200;
+		background-color: #554344;
 		opacity: 0;
 		width: 16px;
 		height: 16px;
@@ -11461,7 +11469,7 @@ span.dup-error-msg {
 /* line 374, ../sass/partials/_beneficiary-info.scss */
 .fwd-savie-wrapper #beneficiary-info .content .beneficiary-info-row .clearfix.upper-radio-buttons label.own-estate-radio :checked+span.own-estate-text
 	{
-	background: #ff8200;
+	background: #554344;
 	display: table;
 	color: #fff;
 	width: 100%;
@@ -11477,7 +11485,7 @@ span.dup-error-msg {
 	/* line 374, ../sass/partials/_beneficiary-info.scss */
 	.fwd-savie-wrapper #beneficiary-info .content .beneficiary-info-row .clearfix.upper-radio-buttons label.own-estate-radio :checked+span.own-estate-text
 		{
-		background-color: #ff8200;
+		background-color: #554344;
 		width: 16px;
 		height: 16px;
 		position: absolute;
@@ -11519,9 +11527,9 @@ span.dup-error-msg {
 	position: relative;
 	cursor: pointer;
 	width: 100%;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 	text-align: center;
-	color: #ff8200;
+	color: #554344;
 	font-family: 'Calibri';
 	font-weight: normal;
 	height: 40px;
@@ -11529,7 +11537,7 @@ span.dup-error-msg {
 /* line 435, ../sass/partials/_beneficiary-info.scss */
 .fwd-savie-wrapper #beneficiary-info .content .beneficiary-info-row .clearfix.upper-radio-buttons label.name-others-radio:hover
 	{
-	background-color: #ff8200;
+	background-color: #554344;
 	color: #fff;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
@@ -11566,7 +11574,7 @@ span.dup-error-msg {
 	/* line 452, ../sass/partials/_beneficiary-info.scss */
 	.fwd-savie-wrapper #beneficiary-info .content .beneficiary-info-row .clearfix.upper-radio-buttons label.name-others-radio:after
 		{
-		background-color: #ff8200;
+		background-color: #554344;
 		opacity: 0;
 		width: 16px;
 		height: 16px;
@@ -11590,7 +11598,7 @@ span.dup-error-msg {
 /* line 474, ../sass/partials/_beneficiary-info.scss */
 .fwd-savie-wrapper #beneficiary-info .content .beneficiary-info-row .clearfix.upper-radio-buttons label.name-others-radio :checked+span.name-others-text
 	{
-	background: #ff8200;
+	background: #554344;
 	display: table;
 	color: #fff;
 	width: 100%;
@@ -11606,7 +11614,7 @@ span.dup-error-msg {
 	/* line 474, ../sass/partials/_beneficiary-info.scss */
 	.fwd-savie-wrapper #beneficiary-info .content .beneficiary-info-row .clearfix.upper-radio-buttons label.name-others-radio :checked+span.name-others-text
 		{
-		background-color: #ff8200;
+		background-color: #554344;
 		width: 16px;
 		height: 16px;
 		position: absolute;
@@ -11658,7 +11666,7 @@ span.dup-error-msg {
 	width: 105px;
 	height: 40px;
 	border-radius: 0;
-	border: 1px solid #ff8200;
+	border: 1px solid #554344;
 	display: block;
 	line-height: 22px;
 	text-align: center;
@@ -11668,14 +11676,14 @@ span.dup-error-msg {
 	position: relative;
 	float: left;
 	font-family: 'Calibri';
-	color: #ff8200;
+	color: #554344;
 	padding-top: 7px;
 	font-weight: normal;
 }
 /* line 553, ../sass/partials/_beneficiary-info.scss */
 .fwd-savie-wrapper #beneficiary-info .content .beneficiary-info-row .radio-buttons label:hover
 	{
-	background: #ff8200;
+	background: #554344;
 	color: white;
 }
 
@@ -11704,7 +11712,7 @@ span.dup-error-msg {
 	left: -1px;
 	width: 105px;
 	height: 40px;
-	background: #ff8200;
+	background: #554344;
 	content: '';
 	opacity: 0;
 	color: white;
@@ -11746,7 +11754,7 @@ span.dup-error-msg {
 		border-radius: 50%;
 		content: '';
 		border: 1px solid #9da7a9;
-		color: #ff8200;
+		color: #554344;
 	}
 	/* line 610, ../sass/partials/_beneficiary-info.scss */
 	.fwd-savie-wrapper #beneficiary-info .content .beneficiary-info-row .radio-buttons label:before,
@@ -11759,7 +11767,7 @@ span.dup-error-msg {
 		height: 12px;
 		top: 3px;
 		left: 3px;
-		border: 1px solid #ff8200;
+		border: 1px solid #554344;
 	}
 	/* line 619, ../sass/partials/_beneficiary-info.scss */
 	.fwd-savie-wrapper #beneficiary-info .content .beneficiary-info-row .radio-buttons .male:before
@@ -11888,7 +11896,7 @@ span.dup-error-msg {
 /* line 740, ../sass/partials/_beneficiary-info.scss */
 .fwd-savie-wrapper #beneficiary-info.et-beneficiaries-section .content .beneficiary-info-row .radio-buttons input[type="radio"]:checked+label
 	{
-	background: #ff8200;
+	background: #554344;
 	color: #fff;
 }
 /* line 749, ../sass/partials/_beneficiary-info.scss */
@@ -11931,7 +11939,7 @@ span.dup-error-msg {
 }
 /* line 31, ../sass/partials/_payment.scss */
 .fwd-savie-wrapper .fwd-payment .payment-h2 {
-	color: #ff8200;
+	color: #554344;
 	padding-bottom: 5px;
 }
 
@@ -12007,7 +12015,7 @@ span.dup-error-msg {
 @media ( min-width : 992px) {
 	/* line 75, ../sass/partials/_payment.scss */
 	.fwd-savie-wrapper .fwd-payment form .pay-later span.pay-la {
-		font-family: 'Calibri-Bold';
+		font-family: 'Calibri';
 		margin-left: 30px;
 		color: #1b2e3a;
 		margin-top: 0;
@@ -12024,9 +12032,9 @@ span.dup-error-msg {
 	border-radius: 0;
 	width: 100%;
 	height: 100%;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 	background-color: #fff;
-	color: #ff8200;
+	color: #554344;
 	font-family: 'Calibri';
 	font-weight: normal;
 	padding-top: 15px;
@@ -12052,7 +12060,7 @@ span.dup-error-msg {
 	opacity: 0;
 	width: 99.96%;
 	height: 99%;
-	background-color: #ff8200;
+	background-color: #554344;
 	border-radius: 0;
 	content: '';
 	color: #fff;
@@ -12069,7 +12077,7 @@ span.dup-error-msg {
 		content: '';
 		width: 14px;
 		height: 14px;
-		background-color: #ff8200;
+		background-color: #554344;
 		top: 2px;
 		left: 2px;
 		border-radius: 50%;
@@ -12144,7 +12152,7 @@ span.dup-error-msg {
 @media ( min-width : 992px) {
 	/* line 202, ../sass/partials/_payment.scss */
 	.fwd-savie-wrapper .fwd-payment form .pay-online span.pay-ol {
-		font-family: 'Calibri-Bold';
+		font-family: 'Calibri';
 		margin-left: 30px;
 		color: #1b2e3a;
 		margin-top: 0;
@@ -12162,11 +12170,11 @@ span.dup-error-msg {
 	width: 100%;
 	height: 100%;
 	background-color: #fff;
-	color: #ff8200;
+	color: #554344;
 	font-family: 'Calibri';
 	font-weight: normal;
 	padding-top: 10px;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 	overflow: hidden;
 	line-height: 18px;
 }
@@ -12190,7 +12198,7 @@ span.dup-error-msg {
 	opacity: 0;
 	width: 99.96%;
 	height: 99%;
-	background-color: #ff8200;
+	background-color: #554344;
 	border-radius: 0;
 	content: '';
 	color: #fff;
@@ -12207,7 +12215,7 @@ span.dup-error-msg {
 		content: '';
 		width: 14px;
 		height: 14px;
-		background-color: #ff8200;
+		background-color: #554344;
 		top: 2px;
 		left: 2px;
 		border-radius: 50%;
@@ -12272,7 +12280,7 @@ span.dup-error-msg {
 }
 /* line 334, ../sass/partials/_payment.scss */
 .fwd-savie-wrapper .fwd-payment form .form-group .payment-link {
-	color: #f68a1d;
+	color: #363e3f;
 	font-family: "Calibri-Bold";
 }
 /* line 339, ../sass/partials/_payment.scss */
@@ -12324,7 +12332,7 @@ span.dup-error-msg {
 	left: 1px;
 	top: 8px;
 	background: #fff;
-	border: 1px solid #ff8200;
+	border: 1px solid #554344;
 }
 /* line 381, ../sass/partials/_payment.scss */
 .fwd-savie-wrapper .fwd-payment form .policy-group label:after {
@@ -12336,7 +12344,7 @@ span.dup-error-msg {
 	background: transparent;
 	top: 3px;
 	left: 2px;
-	border: 2px solid #ff8200;
+	border: 2px solid #554344;
 	border-top: none;
 	border-right: none;
 	-webkit-transform: rotate(-45deg);
@@ -12439,8 +12447,8 @@ span.dup-error-msg {
 .fwd-savie-wrapper .fwd-payment form .btn-proceed {
 	font-size: 24px;
 	font-family: "Calibri-Bold";
-	color: #ff8200;
-	border: solid 1px #ff8200;
+	color: #554344;
+	border: solid 1px #554344;
 	background-color: #fff;
 	padding: 12px 0;
 	margin: 5px 0;
@@ -12451,7 +12459,7 @@ span.dup-error-msg {
 	.fwd-savie-wrapper .fwd-payment form .btn-proceed:hover,
 	.fwd-savie-wrapper .fwd-payment form .btn-proceed:focus {
 	color: #fff;
-	background-color: #ff8200;
+	background-color: #554344;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
 	-ms-transition: background 0.1s ease-in;
@@ -12479,7 +12487,7 @@ span.dup-error-msg {
 /* line 16, ../sass/partials/_declaration-authorization.scss */
 .fwd-savie-wrapper .declare-authorize h2 {
 	margin: 0;
-	color: #ff8200;
+	color: #554344;
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -12544,7 +12552,7 @@ span.dup-error-msg {
 /* line 73, ../sass/partials/_declaration-authorization.scss */
 .fwd-savie-wrapper .declare-authorize .declare-agree {
 	padding: 0 0 13px 0;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 14px;
 }
 /* line 81, ../sass/partials/_declaration-authorization.scss */
@@ -12592,7 +12600,7 @@ span.dup-error-msg {
 /* line 118, ../sass/partials/_declaration-authorization.scss */
 .fwd-savie-wrapper .declare-authorize .agreement-description .clearfix.declaration.application-declaration span.order
 	{
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 }
 /* line 124, ../sass/partials/_declaration-authorization.scss */
 .fwd-savie-wrapper .declare-authorize .agreement-description .clearfix.declaration.application-declaration.sub-header,
@@ -12659,15 +12667,15 @@ span.dup-error-msg {
 /* line 170, ../sass/partials/_declaration-authorization.scss */
 .fwd-savie-wrapper .declare-authorize .agreement-description .yes-policy-replace-desc span.orange-number
 	{
-	color: #ff8200;
-	font-family: 'Calibri-Bold';
+	color: #554344;
+	font-family: 'Calibri';
 }
 /* line 177, ../sass/partials/_declaration-authorization.scss */
 .fwd-savie-wrapper .declare-authorize .agreement-description .pull-left.yes-policy-replace-desc
 	{
 	width: 85%;
 	font-size: 14px;
-    font-family: 'Calibri-Bold';
+    font-family: 'Calibri';
     color: #061d2a;
     line-height: 15px;
     padding-top: 3px;
@@ -12705,7 +12713,7 @@ span.dup-error-msg {
 	{
 	width: 85%;
 	font-size: 14px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	color: #061d2a;
 	line-height: 15px;
 	padding-top: 3px;
@@ -12809,7 +12817,7 @@ span.dup-error-msg {
 	width: 89%;
 	color: #9ba5a7;
 	font-size: 16px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	line-height: 19px;
 }
 
@@ -12823,8 +12831,8 @@ span.dup-error-msg {
 }
 /* line 276, ../sass/partials/_declaration-authorization.scss */
 .fwd-savie-wrapper .declare-authorize .agreement-description a.link {
-	border-bottom: solid 1px #ff8200;
-	color: #ff8200;
+	border-bottom: solid 1px #554344;
+	color: #554344;
 }
 /* line 283, ../sass/partials/_declaration-authorization.scss */
 .fwd-savie-wrapper .declare-authorize .agreement-description .pull-left.yes-policy-replace-check
@@ -12854,7 +12862,7 @@ span.dup-error-msg {
 	width: 14px;
 	height: 14px;
 	position: absolute;
-	background-color: #ff8200;
+	background-color: #554344;
 	border-radius: 50%;
 	top: 1px;
 	left: 1px;
@@ -12904,7 +12912,7 @@ span.dup-error-msg {
 	width: 14px;
 	height: 14px;
 	position: absolute;
-	background-color: #ff8200;
+	background-color: #554344;
 	border-radius: 50%;
 	top: 1px;
 	left: 1px;
@@ -12974,7 +12982,7 @@ span.dup-error-msg {
 	position: absolute;
 	top: 3px;
 	left: 2px;
-	border: 2px solid #ff8200;
+	border: 2px solid #554344;
 	border-top: none;
 	border-right: none;
 	background: transparent;
@@ -13076,16 +13084,16 @@ span.dup-error-msg {
 	width: 100%;
 	max-width: 520px;
 	height: 60px;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 	font-size: 24px;
-	font-family: 'Calibri-bold';
+	font-family: 'Calibri';
 }
 /* line 477, ../sass/partials/_declaration-authorization.scss */
 .fwd-savie-wrapper .declare-authorize.et-declaration-section .agreement-description .et-btn-view-summary
 	{
 	margin: 0;
 	background: #fff;
-	color: #ff8200;
+	color: #554344;
 }
 
 @media ( max-width : 992px) {
@@ -13099,7 +13107,7 @@ span.dup-error-msg {
 /* line 482, ../sass/partials/_declaration-authorization.scss */
 .fwd-savie-wrapper .declare-authorize.et-declaration-section .agreement-description .et-btn-view-summary:hover
 	{
-	background: #ff8200;
+	background: #554344;
 	color: #fff;
 }
 /* line 488, ../sass/partials/_declaration-authorization.scss */
@@ -13181,7 +13189,7 @@ span.dup-error-msg {
 	/* line 27, ../sass/partials/_signature.scss */
 	.fwd-savie-wrapper .signature .eservices-h2 {
 		display: block;
-		color: #ff8200;
+		color: #554344;
 		margin: 0;
 		text-align: left;
 	}
@@ -13220,9 +13228,9 @@ span.dup-error-msg {
 	position: relative;
 	cursor: pointer;
 	width: 100%;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 	text-align: center;
-	color: #ff8200;
+	color: #554344;
 	font-family: 'Calibri';
 	font-weight: normal;
 	height: 40px;
@@ -13230,7 +13238,7 @@ span.dup-error-msg {
 /* line 77, ../sass/partials/_signature.scss */
 .fwd-savie-wrapper .signature .clearfix.height label.offline-signature-radio:hover
 	{
-	background-color: #ff8200;
+	background-color: #554344;
 	color: #fff;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
@@ -13267,7 +13275,7 @@ span.dup-error-msg {
 	/* line 94, ../sass/partials/_signature.scss */
 	.fwd-savie-wrapper .signature .clearfix.height label.offline-signature-radio:after
 		{
-		background-color: #ff8200;
+		background-color: #554344;
 		opacity: 0;
 		width: 16px;
 		height: 16px;
@@ -13291,7 +13299,7 @@ span.dup-error-msg {
 /* line 116, ../sass/partials/_signature.scss */
 .fwd-savie-wrapper .signature .clearfix.height label.offline-signature-radio :checked+span.offline-signature-text
 	{
-	background: #ff8200;
+	background: #554344;
 	display: table;
 	color: #fff;
 	width: 101%;
@@ -13307,7 +13315,7 @@ span.dup-error-msg {
 	/* line 116, ../sass/partials/_signature.scss */
 	.fwd-savie-wrapper .signature .clearfix.height label.offline-signature-radio :checked+span.offline-signature-text
 		{
-		background-color: #ff8200;
+		background-color: #554344;
 		width: 16px;
 		height: 16px;
 		position: absolute;
@@ -13349,9 +13357,9 @@ span.dup-error-msg {
 	position: relative;
 	cursor: pointer;
 	width: 100%;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 	text-align: center;
-	color: #ff8200;
+	color: #554344;
 	font-family: 'Calibri';
 	font-weight: normal;
 	height: 40px;
@@ -13359,7 +13367,7 @@ span.dup-error-msg {
 /* line 178, ../sass/partials/_signature.scss */
 .fwd-savie-wrapper .signature .clearfix.height label.digital-signature-radio:hover
 	{
-	background-color: #ff8200;
+	background-color: #554344;
 	color: #fff;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
@@ -13396,7 +13404,7 @@ span.dup-error-msg {
 	/* line 195, ../sass/partials/_signature.scss */
 	.fwd-savie-wrapper .signature .clearfix.height label.digital-signature-radio:after
 		{
-		background-color: #ff8200;
+		background-color: #554344;
 		opacity: 0;
 		width: 16px;
 		height: 16px;
@@ -13420,7 +13428,7 @@ span.dup-error-msg {
 /* line 217, ../sass/partials/_signature.scss */
 .fwd-savie-wrapper .signature .clearfix.height label.digital-signature-radio :checked+span.digital-signature-text
 	{
-	background: #ff8200;
+	background: #554344;
 	display: table;
 	color: #fff;
 	width: 101%;
@@ -13436,7 +13444,7 @@ span.dup-error-msg {
 	/* line 217, ../sass/partials/_signature.scss */
 	.fwd-savie-wrapper .signature .clearfix.height label.digital-signature-radio :checked+span.digital-signature-text
 		{
-		background-color: #ff8200;
+		background-color: #554344;
 		width: 16px;
 		height: 16px;
 		position: absolute;
@@ -13478,7 +13486,7 @@ span.dup-error-msg {
 }
 /* line 272, ../sass/partials/_signature.scss */
 .fwd-savie-wrapper .signature .orange-tooltip+.tooltip>.tooltip-inner {
-	background-color: #ff8200;
+	background-color: #554344;
 	border-radius: 6px;
 }
 /* line 278, ../sass/partials/_signature.scss */
@@ -13519,7 +13527,7 @@ span.dup-error-msg {
 }
 /* line 314, ../sass/partials/_signature.scss */
 .fwd-savie-wrapper .signature .orange-tooltip+.tooltip>.tooltip-arrow {
-	border-right-color: #ff8200;
+	border-right-color: #554344;
 }
 /* line 319, ../sass/partials/_signature.scss */
 .fwd-savie-wrapper .signature span.check-correct-signature {
@@ -13717,7 +13725,7 @@ span.dup-error-msg {
 	{
 	color: #1b2e3a;
 	font-size: 17px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 }
 /* line 499, ../sass/partials/_signature.scss */
 .fwd-savie-wrapper .signature .pull-left.digital-signature p {
@@ -13751,7 +13759,7 @@ span.dup-error-msg {
 	{
 	color: #1b2e3a;
 	font-size: 17px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 }
 /* line 529, ../sass/partials/_signature.scss */
 .fwd-savie-wrapper .signature .pull-left.offline-signature p {
@@ -13794,7 +13802,7 @@ span.dup-error-msg {
 /* line 566, ../sass/partials/_signature.scss */
 .fwd-savie-wrapper .et-signature h2 {
 	margin: 0;
-	color: #ff8200;
+	color: #554344;
 	padding-top: 0;
 	padding-bottom: 40px;
 	line-height: 25px;
@@ -13944,14 +13952,14 @@ span.dup-error-msg {
 		height: 41px;
 		font-size: 18px;
 		margin-top: 30px;
-		color: #ff8200;
+		color: #554344;
 		background: #fff;
 	}
 	/* line 113, ../sass/partials/_docu_upload.scss */
 	.fwd-savie-wrapper .document-upload .eservices-submit-btn .next.eservices-next:hover
 		{
 		color: #fff;
-		background: #ff8200;
+		background: #554344;
 	}
 }
 /* line 121, ../sass/partials/_docu_upload.scss */
@@ -14041,7 +14049,7 @@ span.dup-error-msg {
 /* line 184, ../sass/partials/_docu_upload.scss */
 .fwd-savie-wrapper .document-upload .upload-now-section .document-upload-progress .progress-bar
 	{
-	background-color: #ff8200;
+	background-color: #554344;
 }
 /* line 188, ../sass/partials/_docu_upload.scss */
 .fwd-savie-wrapper .document-upload .upload-now-section .document-upload-progress .upload-cancel-btn
@@ -14092,7 +14100,7 @@ span.dup-error-msg {
 	top: 0;
 	left: 0;
 	right: 0;
-	background-color: #ff8200;
+	background-color: #554344;
 	margin: 0;
 	height: 100%;
 }
@@ -14125,7 +14133,7 @@ span.dup-error-msg {
 .fwd-savie-wrapper .document-upload .upload-now-section .finish-upload {
 	width: 100%;
 	height: 162px;
-	background-color: #ff8200;
+	background-color: #554344;
 	position: absolute;
 	z-index: 4;
 }
@@ -14190,7 +14198,7 @@ span.dup-error-msg {
 	{
 	color: #373a36;
 	font-size: 14px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 }
 /* line 331, ../sass/partials/_docu_upload.scss */
 .fwd-savie-wrapper .document-upload .upload-now-section .select-file label.mobile-camera-pic-file,
@@ -14237,7 +14245,7 @@ span.dup-error-msg {
 	cursor: pointer;
 	width: 100px;
 	height: 30px;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 }
 /* line 368, ../sass/partials/_docu_upload.scss */
 .fwd-savie-wrapper .document-upload .upload-now-section .select-file label.orange-select-file:hover,
@@ -14249,7 +14257,7 @@ span.dup-error-msg {
 	-ms-transition: background 0.1s ease-in;
 	-o-transition: background 0.1s ease-in;
 	transition: background 0.1s ease-in;
-	background-color: #ff8200;
+	background-color: #554344;
 }
 /* line 373, ../sass/partials/_docu_upload.scss */
 .fwd-savie-wrapper .document-upload .upload-now-section .select-file label.orange-select-file:hover>span.input-file-text,
@@ -14265,9 +14273,9 @@ span.dup-error-msg {
 	{
 	display: table-cell;
 	vertical-align: middle;
-	color: #ff8200;
+	color: #554344;
 	font-size: 14px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	height: 30px;
 	text-align: center;
 	width: 100px;
@@ -14277,7 +14285,7 @@ span.dup-error-msg {
 	{
 	margin: 0;
 	color: #373a36;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	text-align: center;
 }
 
@@ -14321,7 +14329,7 @@ span.dup-error-msg {
 	{
 	width: 85%;
 	font-size: 18px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	color: #373a36;
 	padding-top: 0;
 }
@@ -14356,7 +14364,7 @@ span.dup-error-msg {
 	position: absolute;
 	left: 0;
 	bottom: 65px;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 }
 /* line 463, ../sass/partials/_docu_upload.scss */
 .fwd-savie-wrapper .document-upload .upload-now-section .pull-left.residence-check label:after
@@ -14367,7 +14375,7 @@ span.dup-error-msg {
 	position: absolute;
 	top: 3px;
 	left: 2px;
-	border: 2px solid #ff8200;
+	border: 2px solid #554344;
 	border-top: none;
 	border-right: none;
 	background: transparent;
@@ -14397,7 +14405,7 @@ span.dup-error-msg {
 .fwd-savie-wrapper .document-upload h2 {
 	display: none;
 	margin: 0;
-	color: #ff8200;
+	color: #554344;
 	text-align: center;
 	padding-bottom: 20px;
 }
@@ -14480,7 +14488,7 @@ span.dup-error-msg {
 	{
 	color: #1b2e3a;
 	font-size: 17px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 }
 /* line 565, ../sass/partials/_docu_upload.scss */
 .fwd-savie-wrapper .document-upload .clearfix.document-upload-rd-btn .pull-left.upload-now p,
@@ -14517,9 +14525,9 @@ span.dup-error-msg {
 	position: relative;
 	cursor: pointer;
 	width: 100%;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 	text-align: center;
-	color: #ff8200;
+	color: #554344;
 	font-family: 'Calibri';
 	font-weight: normal;
 	height: 40px;
@@ -14527,7 +14535,7 @@ span.dup-error-msg {
 /* line 605, ../sass/partials/_docu_upload.scss */
 .fwd-savie-wrapper .document-upload .clearfix.document-upload-rd-btn label.give-store-radio:hover
 	{
-	background-color: #ff8200;
+	background-color: #554344;
 	color: #fff;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
@@ -14564,7 +14572,7 @@ span.dup-error-msg {
 	/* line 622, ../sass/partials/_docu_upload.scss */
 	.fwd-savie-wrapper .document-upload .clearfix.document-upload-rd-btn label.give-store-radio:after
 		{
-		background-color: #ff8200;
+		background-color: #554344;
 		opacity: 0;
 		width: 16px;
 		height: 16px;
@@ -14588,7 +14596,7 @@ span.dup-error-msg {
 /* line 644, ../sass/partials/_docu_upload.scss */
 .fwd-savie-wrapper .document-upload .clearfix.document-upload-rd-btn label.give-store-radio :checked+span.give-store-text
 	{
-	background: #ff8200;
+	background: #554344;
 	display: table;
 	color: #fff;
 	width: 101%;
@@ -14604,7 +14612,7 @@ span.dup-error-msg {
 	/* line 644, ../sass/partials/_docu_upload.scss */
 	.fwd-savie-wrapper .document-upload .clearfix.document-upload-rd-btn label.give-store-radio :checked+span.give-store-text
 		{
-		background-color: #ff8200;
+		background-color: #554344;
 		width: 16px;
 		height: 16px;
 		position: absolute;
@@ -14646,9 +14654,9 @@ span.dup-error-msg {
 	position: relative;
 	cursor: pointer;
 	width: 100%;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 	text-align: center;
-	color: #ff8200;
+	color: #554344;
 	font-family: 'Calibri';
 	font-weight: normal;
 	height: 40px;
@@ -14656,7 +14664,7 @@ span.dup-error-msg {
 /* line 704, ../sass/partials/_docu_upload.scss */
 .fwd-savie-wrapper .document-upload .clearfix.document-upload-rd-btn label.upload-later-radio:hover
 	{
-	background-color: #ff8200;
+	background-color: #554344;
 	color: #fff;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
@@ -14693,7 +14701,7 @@ span.dup-error-msg {
 	/* line 721, ../sass/partials/_docu_upload.scss */
 	.fwd-savie-wrapper .document-upload .clearfix.document-upload-rd-btn label.upload-later-radio:after
 		{
-		background-color: #ff8200;
+		background-color: #554344;
 		opacity: 0;
 		width: 16px;
 		height: 16px;
@@ -14717,7 +14725,7 @@ span.dup-error-msg {
 /* line 743, ../sass/partials/_docu_upload.scss */
 .fwd-savie-wrapper .document-upload .clearfix.document-upload-rd-btn label.upload-later-radio :checked+span.upload-later-text
 	{
-	background: #ff8200;
+	background: #554344;
 	display: table;
 	color: #fff;
 	width: 101%;
@@ -14733,7 +14741,7 @@ span.dup-error-msg {
 	/* line 743, ../sass/partials/_docu_upload.scss */
 	.fwd-savie-wrapper .document-upload .clearfix.document-upload-rd-btn label.upload-later-radio :checked+span.upload-later-text
 		{
-		background-color: #ff8200;
+		background-color: #554344;
 		width: 16px;
 		height: 16px;
 		position: absolute;
@@ -14775,9 +14783,9 @@ span.dup-error-msg {
 	position: relative;
 	cursor: pointer;
 	width: 100%;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 	text-align: center;
-	color: #ff8200;
+	color: #554344;
 	font-family: 'Calibri';
 	font-weight: normal;
 	height: 40px;
@@ -14785,7 +14793,7 @@ span.dup-error-msg {
 /* line 804, ../sass/partials/_docu_upload.scss */
 .fwd-savie-wrapper .document-upload .clearfix.document-upload-rd-btn label.upload-now-radio:hover
 	{
-	background-color: #ff8200;
+	background-color: #554344;
 	color: #fff;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
@@ -14822,7 +14830,7 @@ span.dup-error-msg {
 	/* line 821, ../sass/partials/_docu_upload.scss */
 	.fwd-savie-wrapper .document-upload .clearfix.document-upload-rd-btn label.upload-now-radio:after
 		{
-		background-color: #ff8200;
+		background-color: #554344;
 		opacity: 0;
 		width: 16px;
 		height: 16px;
@@ -14846,7 +14854,7 @@ span.dup-error-msg {
 /* line 843, ../sass/partials/_docu_upload.scss */
 .fwd-savie-wrapper .document-upload .clearfix.document-upload-rd-btn label.upload-now-radio :checked+span.upload-now-text
 	{
-	background: #ff8200;
+	background: #554344;
 	display: table;
 	color: #fff;
 	width: 101%;
@@ -14862,7 +14870,7 @@ span.dup-error-msg {
 	/* line 843, ../sass/partials/_docu_upload.scss */
 	.fwd-savie-wrapper .document-upload .clearfix.document-upload-rd-btn label.upload-now-radio :checked+span.upload-now-text
 		{
-		background-color: #ff8200;
+		background-color: #554344;
 		width: 16px;
 		height: 16px;
 		position: absolute;
@@ -15017,12 +15025,12 @@ span.dup-error-msg {
 }
 /* line 13, ../sass/partials/_thank-you-update.scss */
 .fwd-savie-wrapper .thank-you-container h1 {
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 30px;
 	text-align: center;
 	margin: 0;
 	padding: 33px 0 36px 0;
-	color: #ff8200;
+	color: #554344;
 }
 
 @media ( min-width : 992px) {
@@ -15064,10 +15072,10 @@ span.dup-error-msg {
 /* line 45, ../sass/partials/_thank-you-update.scss */
 .fwd-savie-wrapper .thank-you-container .details-container h2 {
 	font-size: 24px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	margin: 0;
 	padding-bottom: 13px;
-	color: #ff8200;
+	color: #554344;
 }
 
 @media ( min-width : 992px) {
@@ -15090,7 +15098,7 @@ span.dup-error-msg {
 }
 /* line 63, ../sass/partials/_thank-you-update.scss */
 .fwd-savie-wrapper .thank-you-container .details-container p span {
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 }
 /* line 68, ../sass/partials/_thank-you-update.scss */
 .fwd-savie-wrapper .thank-you-container .details-container p.steps {
@@ -15139,7 +15147,7 @@ span.dup-error-msg {
 /* line 101, ../sass/partials/_thank-you-update.scss */
 .fwd-savie-wrapper .thank-you-container .details-container .reminder span
 	{
-	color: #ff8200;
+	color: #554344;
 }
 /* line 106, ../sass/partials/_thank-you-update.scss */
 .fwd-savie-wrapper .thank-you-container .details-container .print-document
@@ -15163,16 +15171,16 @@ span.dup-error-msg {
 .fwd-savie-wrapper .thank-you-container .details-container .print-document a
 	{
 	position: relative;
-	border-bottom: 1px solid #ff8200;
+	border-bottom: 1px solid #554344;
 	margin-left: 33px;
 	line-height: 14px;
-	color: #ff8200;
+	color: #554344;
 }
 /* line 125, ../sass/partials/_thank-you-update.scss */
 .fwd-savie-wrapper .thank-you-container .details-container .print-document a:hover,
 	.fwd-savie-wrapper .thank-you-container .details-container .print-document a:active
 	{
-	color: #ff8200;
+	color: #554344;
 	text-decoration: none;
 	outline: 0;
 }
@@ -15235,7 +15243,7 @@ span.dup-error-msg {
 	color: #ffffff;
 	font-family: 'foco_bold';
 	font-size: 26px;
-	background: #ff8200;
+	background: #554344;
 	border: 3px solid #ffffff;
 	border-radius: 50%;
 	width: 56px;
@@ -15275,7 +15283,7 @@ span.dup-error-msg {
 	line-height: 32px;
 	margin: 0;
 	padding-bottom: 7px;
-	color: #ff8200;
+	color: #554344;
 }
 
 @media ( min-width : 992px) {
@@ -15465,7 +15473,7 @@ span.dup-error-msg {
 
 /* line 372, ../sass/partials/_thank-you-update.scss */
 button#thank-you-continue {
-	background: #ff8200;
+	background: #554344;
 	color: white;
 	height: 50px;
 	font-family: "Calibri";
@@ -15483,7 +15491,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .plan-row {
 	padding: 35px 45px 45px;
 	color: #061d2a;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	margin-left: -15px;
 	margin-right: -15px;
 }
@@ -15546,7 +15554,7 @@ button#thank-you-continue {
 }
 /* line 59, ../sass/partials/_illustration-review.scss */
 .fwd-savie-wrapper .plan-row.inner-plan-row h3 {
-	color: #ff8200;
+	color: #554344;
 	padding-left: 15px;
 }
 /* line 64, ../sass/partials/_illustration-review.scss */
@@ -15590,7 +15598,7 @@ button#thank-you-continue {
 /* line 87, ../sass/partials/_illustration-review.scss */
 .fwd-savie-wrapper .plan-row.inner-plan-row .inner-plan-col .inner-col h3 a
 	{
-	color: #ff8200;
+	color: #554344;
 	font-size: 14px;
 	text-decoration: underline;
 	font-family: 'Calibri';
@@ -15721,7 +15729,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .illustration-review .illustration-head h2 {
 	margin: 0;
 	padding: 19px 0 14px 0;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 30px;
 }
 /* line 189, ../sass/partials/_illustration-review.scss */
@@ -15778,8 +15786,8 @@ button#thank-you-continue {
 .fwd-savie-wrapper .illustration-review .btn-style .btn-next {
 	font-size: 24px;
 	font-family: "Calibri-Bold";
-	color: #ff8200;
-	border: solid 1px #ff8200;
+	color: #554344;
+	border: solid 1px #554344;
 	background-color: #fff;
 	padding: 12px 0;
 	width: 100%;
@@ -15791,7 +15799,7 @@ button#thank-you-continue {
 	.fwd-savie-wrapper .illustration-review .btn-style .btn-next:focus {
 	outline: 0;
 	color: #fff;
-	background-color: #ff8200;
+	background-color: #554344;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
 	-ms-transition: background 0.1s ease-in;
@@ -15863,7 +15871,7 @@ button#thank-you-continue {
 /* line 292, ../sass/partials/_illustration-review.scss */
 .fwd-savie-wrapper .modal.application-modal .modal-dialog .modal-content .modal-body h2
 	{
-	color: #ff8200;
+	color: #554344;
 	font-size: 30px;
 	line-height: 35px;
 	margin-top: 6px;
@@ -15892,8 +15900,8 @@ button#thank-you-continue {
 /* line 313, ../sass/partials/_illustration-review.scss */
 .fwd-savie-wrapper .modal.application-modal .modal-dialog .modal-content .modal-body .amount
 	{
-	color: #ff8200;
-	font-family: 'Calibri-Bold';
+	color: #554344;
+	font-family: 'Calibri';
 	margin-top: -6px;
 	display: block;
 	margin-bottom: 4px;
@@ -15949,7 +15957,7 @@ button#thank-you-continue {
 }
 /* line 30, ../sass/partials/_fna.scss */
 .fwd-savie-wrapper .fnas-container input[type="radio"]:checked+label {
-	background: #ff8200;
+	background: #554344;
 	color: #fff;
 }
 /* line 34, ../sass/partials/_fna.scss */
@@ -15994,7 +16002,7 @@ button#thank-you-continue {
 	text-align: center;
 	line-height: 29px;
 	border-bottom: 1px dashed #9ba5a7;
-	color: #ff8200;
+	color: #554344;
 }
 
 @media ( min-width : 992px) {
@@ -16011,8 +16019,8 @@ button#thank-you-continue {
 }
 /* line 78, ../sass/partials/_fna.scss */
 .fwd-savie-wrapper .fna-container p a {
-	border-bottom: 1px solid #ff8200;
-	color: #ff8200;
+	border-bottom: 1px solid #554344;
+	color: #554344;
 }
 /* line 84, ../sass/partials/_fna.scss */
 .fwd-savie-wrapper .fna-container p.hotline {
@@ -16025,8 +16033,8 @@ button#thank-you-continue {
 }
 /* line 92, ../sass/partials/_fna.scss */
 .fwd-savie-wrapper .fna-container p.hotline span {
-	font-family: 'Calibri-Bold';
-	color: #ff8200;
+	font-family: 'Calibri';
+	color: #554344;
 }
 
 @media ( min-width : 992px) {
@@ -16060,8 +16068,8 @@ button#thank-you-continue {
 /* line 122, ../sass/partials/_fna.scss */
 .fwd-savie-wrapper .fna-container .yes-fna, .fwd-savie-wrapper .fna-container .no-fna
 	{
-	border: 1px solid #ff8200;
-	color: #ff8200;
+	border: 1px solid #554344;
+	color: #554344;
 	max-width: 520px;
 	margin-left: auto;
 	margin-right: auto;
@@ -16079,7 +16087,7 @@ button#thank-you-continue {
 /* line 135, ../sass/partials/_fna.scss */
 .fwd-savie-wrapper .fna-container .yes-fna:hover, .fwd-savie-wrapper .fna-container .no-fna:hover
 	{
-	background: #ff8200;
+	background: #554344;
 	color: #fff;
 }
 /* line 142, ../sass/partials/_fna.scss */
@@ -16209,7 +16217,7 @@ button#thank-you-continue {
 /* line 248, ../sass/partials/_fna.scss */
 .fwd-savie-wrapper #fna-yes .modal-dialog .modal-content p {
 	color: #061d2a;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	margin-bottom: 3px;
 }
 /* line 254, ../sass/partials/_fna.scss */
@@ -16223,7 +16231,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .fna-row {
 	padding: 35px 15px;
 	color: #061d2a;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	margin-left: -15px;
 	margin-right: -15px;
 }
@@ -16310,7 +16318,7 @@ button#thank-you-continue {
 		display: block;
 		width: 11px;
 		height: 11px;
-		background-color: #ff8200;
+		background-color: #554344;
 		border-radius: 50%;
 		top: 7px;
 		left: 2px;
@@ -16334,7 +16342,7 @@ button#thank-you-continue {
 }
 /* line 101, ../sass/partials/_fna-review.scss */
 .fwd-savie-wrapper .fna-row.inner-fna-row h3 {
-	color: #ff8200;
+	color: #554344;
 	border-bottom: dashed 1px #b0bdbd;
 }
 /* line 106, ../sass/partials/_fna-review.scss */
@@ -16549,7 +16557,7 @@ button#thank-you-continue {
 /* line 266, ../sass/partials/_fna-review.scss */
 .fwd-savie-wrapper .fna-row.inner-fna-row .inner-fna-col .inner-col h3 a
 	{
-	color: #ff8200;
+	color: #554344;
 	font-size: 14px;
 	text-decoration: underline;
 	font-family: 'Calibri';
@@ -16620,7 +16628,7 @@ button#thank-you-continue {
 }
 /* line 321, ../sass/partials/_fna-review.scss */
 .fwd-savie-wrapper .fna-sales-review p span.orange {
-	color: #ff8200;
+	color: #554344;
 }
 /* line 327, ../sass/partials/_fna-review.scss */
 .fwd-savie-wrapper .fna-sales-review .btn-style {
@@ -16656,8 +16664,8 @@ button#thank-you-continue {
 .fwd-savie-wrapper .fna-sales-review .btn-style .btn-next {
 	font-size: 24px;
 	font-family: "Calibri-Bold";
-	color: #ff8200;
-	border: solid 1px #ff8200;
+	color: #554344;
+	border: solid 1px #554344;
 	background-color: #fff;
 	padding: 7px 0;
 	width: 100%;
@@ -16667,7 +16675,7 @@ button#thank-you-continue {
 	.fwd-savie-wrapper .fna-sales-review .btn-style .btn-next:hover,
 	.fwd-savie-wrapper .fna-sales-review .btn-style .btn-next:focus {
 	color: #fff;
-	background-color: #ff8200;
+	background-color: #554344;
 	outline: 0;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
@@ -16709,7 +16717,7 @@ button#thank-you-continue {
 	.fwd-savie-wrapper .fna-sales-review .btn-style .btn-next.edit-btn {
 		font-size: 14px;
 		font-family: "Calibri";
-		color: #ff8200;
+		color: #554344;
 		border: none;
 		background-color: transparent;
 		position: absolute;
@@ -16730,7 +16738,7 @@ button#thank-you-continue {
 	.fwd-savie-wrapper .fna-sales-review .btn-style .btn-next.done-btn {
 		font-size: 14px;
 		font-family: "Calibri";
-		color: #ff8200;
+		color: #554344;
 		border: none;
 		background-color: transparent;
 		position: absolute;
@@ -16744,7 +16752,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .fna-sales-review .btn-style .cancel-btn {
 	font-size: 18px;
 	font-family: "Calibri";
-	color: #ff8200;
+	color: #554344;
 	border: none;
 	background-color: #fff;
 	padding: 8px 0 0;
@@ -16775,9 +16783,9 @@ button#thank-you-continue {
 
 /* line 4, ../sass/partials/_page-set-appointment.scss */
 .fwd-savie-wrapper #set-appointment h2 {
-	font-family: 'Calibri-bold';
+	font-family: 'Calibri';
 	font-size: 30px;
-	color: #ff8200;
+	color: #554344;
 	text-align: center;
 	margin: 35px 20%;
 	line-height: 30px;
@@ -16794,13 +16802,13 @@ button#thank-you-continue {
 /* line 17, ../sass/partials/_page-set-appointment.scss */
 .fwd-savie-wrapper #set-appointment h5 {
 	font-size: 14px;
-	font-family: 'Calibri-bold';
+	font-family: 'Calibri';
 	margin: 0;
 }
 /* line 22, ../sass/partials/_page-set-appointment.scss */
 .fwd-savie-wrapper #set-appointment h4 {
 	color: #061d2a;
-	font-family: 'Calibri-bold';
+	font-family: 'Calibri';
 	font-size: 18px;
 	margin: 0;
 }
@@ -16813,9 +16821,9 @@ button#thank-you-continue {
 	width: 100%;
 	height: 50px;
 	font-size: 24px;
-	font-family: 'Calibri-bold';
-	color: #ff8200;
-	border: 1px solid #ff8200;
+	font-family: 'Calibri';
+	color: #554344;
+	border: 1px solid #554344;
 	background: white;
 	margin-top: 8px;
 }
@@ -16835,7 +16843,7 @@ button#thank-you-continue {
 	text-align: center;
 	padding: 7px 0;
 	font-size: 24px;
-	font-family: 'Calibri-bold';
+	font-family: 'Calibri';
 }
 
 @media ( min-width : 992px) {
@@ -16847,7 +16855,7 @@ button#thank-you-continue {
 }
 /* line 63, ../sass/partials/_page-set-appointment.scss */
 .fwd-savie-wrapper #set-appointment .radio-label:hover {
-	background: #ff8200;
+	background: #554344;
 	color: #fff;
 	cursor: pointer;
 }
@@ -16857,14 +16865,14 @@ button#thank-you-continue {
 }
 /* line 73, ../sass/partials/_page-set-appointment.scss */
 .fwd-savie-wrapper #set-appointment input[type="radio"]:checked+label {
-	background: #ff8200;
+	background: #554344;
 	color: #fff;
 }
 /* line 79, ../sass/partials/_page-set-appointment.scss */
 .fwd-savie-wrapper #set-appointment .select:hover, .fwd-savie-wrapper #set-appointment .select:active
 	{
 	color: white;
-	background: #ff8200;
+	background: #554344;
 	outline: 0;
 }
 /* line 85, ../sass/partials/_page-set-appointment.scss */
@@ -17015,7 +17023,7 @@ button#thank-you-continue {
 /* line 199, ../sass/partials/_page-set-appointment.scss */
 .fwd-savie-wrapper #set-appointment #view-selected-appointment .selected
 	{
-	color: #ff8200;
+	color: #554344;
 	margin-top: 32px;
 	margin-bottom: 2px;
 }
@@ -17276,7 +17284,7 @@ button#thank-you-continue {
 }
 /* line 415, ../sass/partials/_page-set-appointment.scss */
 .fwd-savie-wrapper #set-appointment p.confirm-call {
-	color: #ff8200;
+	color: #554344;
 }
 /* line 419, ../sass/partials/_page-set-appointment.scss */
 .fwd-savie-wrapper #set-appointment .preferred-date {
@@ -17431,7 +17439,7 @@ button#thank-you-continue {
 }
 /* line 26, ../sass/partials/_overall.scss */
 .fwd-savie-wrapper .overall-disclaimer p a {
-	color: #f68a1d;
+	color: #363e3f;
 	text-decoration: underline;
 }
 /* line 31, ../sass/partials/_overall.scss */
@@ -17484,8 +17492,8 @@ button#thank-you-continue {
 /* line 67, ../sass/partials/_overall.scss */
 .fwd-savie-wrapper .fwd-overall .overall-btn {
 	font-size: 24px;
-	color: #ff8200;
-	border: solid 1px #ff8200;
+	color: #554344;
+	border: solid 1px #554344;
 	background-color: #fff;
 	padding: 8px 0;
 	width: 148px;
@@ -17494,7 +17502,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .fwd-overall .overall-btn:active, .fwd-savie-wrapper .fwd-overall .overall-btn:hover,
 	.fwd-savie-wrapper .fwd-overall .overall-btn:focus {
 	color: #fff;
-	background-color: #ff8200;
+	background-color: #554344;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
 	-ms-transition: background 0.1s ease-in;
@@ -17569,7 +17577,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .yellow-stick-btn {
 	color: #fffffe;
 	font-size: 24px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	background-color: #fdb714;
 	height: 80px;
 	width: 80px;
@@ -17745,7 +17753,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .modal.fade .modal-dialog.teaserSurvey .modal-content.teaserSurvey h2
 	{
 	font-size: 30px;
-	color: #ff8200;
+	color: #554344;
 	text-align: center;
 	margin: 0;
 	padding-top: 22px;
@@ -17801,7 +17809,7 @@ button#thank-you-continue {
 	font-size: 18px;
 	color: #061d2a;
 	text-align: center;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	line-height: 20px;
 }
 
@@ -17912,7 +17920,7 @@ button#thank-you-continue {
 	height: 40px;
 	position: absolute;
 	font-size: 18px;
-	color: #ff8200;
+	color: #554344;
 	padding-top: 11px;
 	right: 0;
 	padding-right: 17px;
@@ -17941,8 +17949,8 @@ button#thank-you-continue {
 	{
 	font-size: 30px;
 	margin: 0;
-	font-family: 'Calibri-Bold';
-	color: #ff8200;
+	font-family: 'Calibri';
+	color: #554344;
 	line-height: 30px;
 }
 /* line 303, ../sass/partials/_teaser.scss */
@@ -17983,7 +17991,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .modal.fade .modal-content.willToSave .modal-body.willToSave span.amount
 	{
 	padding-top: 30px;
-	color: #ff8200;
+	color: #554344;
 	font-size: 30px;
 	font-family: 'foco_regular';
 	text-align: center;
@@ -17993,7 +18001,7 @@ button#thank-you-continue {
 /* line 342, ../sass/partials/_teaser.scss */
 .fwd-savie-wrapper .modal.fade .modal-content.willToSave .modal-body.willToSave span.figures
 	{
-	color: #ff8200;
+	color: #554344;
 	font-size: 30px;
 	font-family: 'foco_bold';
 }
@@ -18031,8 +18039,8 @@ button#thank-you-continue {
 /* line 380, ../sass/partials/_teaser.scss */
 .fwd-savie-wrapper .sign-up-teaser button.get-started {
 	background-color: white;
-	color: #ff8200;
-	font-family: 'calibri-bold';
+	color: #554344;
+	font-family: 'Calibri';
 	height: 48px;
 	width: 65%;
 	max-width: 245px;
@@ -18063,9 +18071,9 @@ button#thank-you-continue {
 	}
 	/* line 407, ../sass/partials/_teaser.scss */
 	.fwd-savie-wrapper .sign-up-teaser button.get-started {
-		background-color: #ff8200;
+		background-color: #554344;
 		color: white;
-		font-family: 'calibri-bold';
+		font-family: 'Calibri';
 		font-size: 32px;
 		display: block;
 		width: 94%;
@@ -18157,9 +18165,9 @@ button#thank-you-continue {
 }
 /* line 487, ../sass/partials/_teaser.scss */
 .fwd-savie-wrapper .sign-up-teaser p.sign-up-header {
-	color: #ff8200;
+	color: #554344;
 	font-size: 24px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	text-align: center;
 	max-width: 300px;
 	margin: 0 auto;
@@ -18238,18 +18246,18 @@ button#thank-you-continue {
 	margin-top: 10px;
 	width: 100%;
 	height: 60px;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 	color: #fff;
-	background-color: #ff8200;
+	background-color: #554344;
 	font-size: 24px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	padding: 7px 40px;
 }
 /* line 561, ../sass/partials/_teaser.scss */
 .fwd-savie-wrapper .sign-up-teaser .btn-orange-teaser:hover,
 	.fwd-savie-wrapper .sign-up-teaser .btn-orange-teaser:focus,
 	.fwd-savie-wrapper .sign-up-teaser .btn-orange-teaser:active {
-	background-color: #ff8200;
+	background-color: #554344;
 	color: #fff;
 	outline: 0;
 }
@@ -18257,7 +18265,7 @@ button#thank-you-continue {
 @media ( min-width : 992px) {
 	/* line 549, ../sass/partials/_teaser.scss */
 	.fwd-savie-wrapper .sign-up-teaser .btn-orange-teaser {
-		background-color: #ff8200;
+		background-color: #554344;
 		color: #fff;
 		border: 0;
 	}
@@ -18274,7 +18282,7 @@ button#thank-you-continue {
 /* line 584, ../sass/partials/_teaser.scss */
 .fwd-savie-wrapper .sign-up-teaser .pull-left.checkbox label {
 	width: 16px;
-	border: solid 1px #f68a1d;
+	border: solid 1px #363e3f;
 	min-height: 16px;
 	padding: 0;
 	cursor: pointer;
@@ -18294,7 +18302,7 @@ button#thank-you-continue {
 	position: absolute;
 	top: 5px;
 	left: 5px;
-	border: 2px solid #ff8200;
+	border: 2px solid #554344;
 	border-top: none;
 	border-right: none;
 	background: transparent;
@@ -18342,8 +18350,8 @@ button#thank-you-continue {
 }
 /* line 642, ../sass/partials/_teaser.scss */
 .fwd-savie-wrapper .sign-up-teaser .pull-left.text a {
-	color: #ff8200;
-	border-bottom: solid 1px #ff8200;
+	color: #554344;
+	border-bottom: solid 1px #554344;
 }
 /* line 649, ../sass/partials/_teaser.scss */
 .fwd-savie-wrapper .sign-up-teaser ::-webkit-input-placeholder {
@@ -18430,8 +18438,8 @@ button#thank-you-continue {
 /* line 721, ../sass/partials/_teaser.scss */
 .fwd-savie-wrapper .teaser .teaser-banner-text a.product {
 	font-size: 18px;
-	color: #ff8200;
-	font-family: 'Calibri-Bold';
+	color: #554344;
+	font-family: 'Calibri';
 	display: block;
 	text-align: center;
 }
@@ -18591,8 +18599,8 @@ button#thank-you-continue {
 /* line 861, ../sass/partials/_teaser.scss */
 .fwd-savie-wrapper p.save-my-way {
 	font-size: 38px;
-	font-family: 'Calibri-Bold';
-	color: #ff8200;
+	font-family: 'Calibri';
+	color: #554344;
 	text-align: center;
 	line-height: 30px;
 }
@@ -18606,8 +18614,8 @@ button#thank-you-continue {
 }
 /* line 874, ../sass/partials/_teaser.scss */
 .fwd-savie-wrapper p.guaranteed {
-	font-family: 'Calibri-Bold';
-	color: #ff8200;
+	font-family: 'Calibri';
+	color: #554344;
 	font-size: 28px;
 	line-height: 34px;
 	text-align: center;
@@ -18667,8 +18675,8 @@ button#thank-you-continue {
 .fwd-savie-wrapper p.additional.top {
 	padding: 32px 0 0 0;
 	font-size: 30px;
-	font-family: 'Calibri-Bold';
-	color: #ff8200;
+	font-family: 'Calibri';
+	color: #554344;
 	line-height: 28px;
 }
 
@@ -18695,7 +18703,7 @@ button#thank-you-continue {
 /* line 941, ../sass/partials/_teaser.scss */
 .fwd-savie-wrapper p.sign-up {
 	text-align: center;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	color: #fff;
 	font-size: 18px;
 	padding: 10px 10% 0 10%;
@@ -18729,7 +18737,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper p.bottom-text.upper {
 	margin-top: 5px;
 	margin-bottom: 10px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 }
 
 @media ( min-width : 992px) {
@@ -18745,13 +18753,13 @@ button#thank-you-continue {
 }
 /* line 979, ../sass/partials/_teaser.scss */
 .fwd-savie-wrapper p.bottom-text.lower span.asterisk {
-	color: #ff8200;
+	color: #554344;
 }
 /* line 987, ../sass/partials/_teaser.scss */
 .fwd-savie-wrapper span.add {
-	color: #ff8200;
+	color: #554344;
 	font-size: 18px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 }
 
 @media ( min-width : 992px) {
@@ -18787,8 +18795,8 @@ button#thank-you-continue {
 .fwd-savie-wrapper .teaser-confirmation h2 {
 	margin: 0;
 	font-size: 30px;
-	color: #ff8200;
-	font-family: 'Calibri-Bold';
+	color: #554344;
+	font-family: 'Calibri';
 }
 /* line 28, ../sass/partials/_teaser-confirmation.scss */
 .fwd-savie-wrapper .teaser-confirmation h2 span.next-line {
@@ -18815,13 +18823,13 @@ button#thank-you-continue {
 }
 /* line 50, ../sass/partials/_teaser-confirmation.scss */
 .fwd-savie-wrapper .teaser-confirmation h4 span.savie-bold {
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 }
 /* line 56, ../sass/partials/_teaser-confirmation.scss */
 .fwd-savie-wrapper .teaser-confirmation h3 {
 	margin: 0;
 	color: #061d2a;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	padding-top: 17px;
 	padding-bottom: 15px;
 	line-height: 23px;
@@ -18972,7 +18980,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .teaser-confirmation .back-at-home-div {
 	margin-top: 57px;
 	height: 60px;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 	cursor: pointer;
 	max-width: 500px;
 	margin-left: auto;
@@ -18980,9 +18988,9 @@ button#thank-you-continue {
 }
 /* line 192, ../sass/partials/_teaser-confirmation.scss */
 .fwd-savie-wrapper .teaser-confirmation a.back-at-home {
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 24px;
-	color: #ff8200;
+	color: #554344;
 	height: 60px;
 	display: block;
 	padding-top: 18px;
@@ -18992,7 +19000,7 @@ button#thank-you-continue {
 	.fwd-savie-wrapper .teaser-confirmation a.back-at-home:focus,
 	.fwd-savie-wrapper .teaser-confirmation a.back-at-home:active {
 	color: #fff;
-	background-color: #ff8200;
+	background-color: #554344;
 }
 
 /* line 1, ../sass/partials/_application-registration.scss */
@@ -19032,7 +19040,7 @@ button#thank-you-continue {
 /* line 28, ../sass/partials/_application-registration.scss */
 #application-registration h1 {
 	font-size: 30px;
-	color: #ff8200;
+	color: #554344;
 	line-height: 31px;
 }
 
@@ -19083,7 +19091,7 @@ button#thank-you-continue {
 	/* line 71, ../sass/partials/_application-registration.scss */
 	#application-registration form .right h2 {
 		margin-top: 5px;
-		color: #ff8200;
+		color: #554344;
 	}
 	/* line 76, ../sass/partials/_application-registration.scss */
 	#application-registration form .right h4 {
@@ -19198,7 +19206,7 @@ button#thank-you-continue {
 /* line 161, ../sass/partials/_application-registration.scss */
 #application-registration form .statement .notice a,
 	#application-registration form .statement .notice-password a {
-	color: #ff8200;
+	color: #554344;
 	text-decoration: underline;
 }
 /* line 168, ../sass/partials/_application-registration.scss */
@@ -19259,7 +19267,7 @@ button#thank-you-continue {
 	position: absolute;
 	left: 0;
 	top: 3px;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 }
 /* line 211, ../sass/partials/_application-registration.scss */
 #application-registration form .fwd-checkbox label:after {
@@ -19269,7 +19277,7 @@ button#thank-you-continue {
 	position: absolute;
 	top: 4px;
 	left: 4px;
-	border: 2px solid #ff8200;
+	border: 2px solid #554344;
 	border-top: none;
 	border-right: none;
 	background: transparent;
@@ -19301,7 +19309,7 @@ button#thank-you-continue {
 /* line 248, ../sass/partials/_application-registration.scss */
 #application-registration .tooltip-inner {
 	max-width: none;
-	background-color: #ff8200;
+	background-color: #554344;
 	padding: 16px 20px;
 	margin-left: -90px;
 	margin-top: -13px;
@@ -19316,7 +19324,7 @@ button#thank-you-continue {
 	-webkit-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
-	background-color: #ff8200;
+	background-color: #554344;
 	width: 20px;
 	height: 20px;
 	top: 31px;
@@ -19366,7 +19374,7 @@ button#thank-you-continue {
 /* line 23, ../sass/partials/_hunger-selling.scss */
 .fwd-savie-wrapper .banner-widget .hunger-selling-text {
 	font-size: 24px;
-	font-family: 'Calibri-bold';
+	font-family: 'Calibri';
 	color: white;
 	text-shadow: 1px 1px 10px #000;
 	padding: 0;
@@ -19390,7 +19398,7 @@ button#thank-you-continue {
 }
 /* line 51, ../sass/partials/_hunger-selling.scss */
 .fwd-savie-wrapper .banner-widget .buy-now.hunger-buy-now {
-	font-family: 'Calibri-bold';
+	font-family: 'Calibri';
 	color: #ff8000;
 	border: 1px solid #ff8000;
 	background-color: #fff;
@@ -19482,9 +19490,9 @@ button#thank-you-continue {
 /* line 130, ../sass/partials/_hunger-selling.scss */
 .fwd-savie-wrapper .hunger-selling-container-sign-up-now.container-fluid.modal-dialog .hunger-selling-content .hunger-selling-header .hunger-selling-title
 	{
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 30px;
-	color: #ff8200;
+	color: #554344;
 	line-height: 31px;
 	padding: 0 15px;
 }
@@ -19546,8 +19554,8 @@ button#thank-you-continue {
 	{
 	font-size: 27px;
 	font-family: "Calibri-Bold";
-	color: #ff8200;
-	border: solid 1px #ff8200;
+	color: #554344;
+	border: solid 1px #554344;
 	background-color: #fff;
 	padding: 6px 0;
 	width: 100%;
@@ -19559,7 +19567,7 @@ button#thank-you-continue {
 	.fwd-savie-wrapper .hunger-selling-container-sign-up-now.container-fluid.modal-dialog .hunger-selling-content .hunger-selling-body form .hunger-btn:focus
 	{
 	color: #fff;
-	background-color: #ff8200;
+	background-color: #554344;
 	outline: 0;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
@@ -19638,9 +19646,9 @@ button#thank-you-continue {
 /* line 254, ../sass/partials/_hunger-selling.scss */
 .fwd-savie-wrapper .hunger-selling-container.container-fluid.modal-dialog .hunger-selling-content .hunger-selling-header .hunger-selling-title
 	{
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 30px;
-	color: #ff8200;
+	color: #554344;
 	line-height: 31px;
 	padding: 0 30px;
 }
@@ -19694,8 +19702,8 @@ button#thank-you-continue {
 	{
 	font-size: 27px;
 	font-family: "Calibri-Bold";
-	color: #ff8200;
-	border: solid 1px #ff8200;
+	color: #554344;
+	border: solid 1px #554344;
 	background-color: #fff;
 	padding: 6px 0;
 	width: 100%;
@@ -19707,7 +19715,7 @@ button#thank-you-continue {
 	.fwd-savie-wrapper .hunger-selling-container.container-fluid.modal-dialog .hunger-selling-content .hunger-selling-body form .hunger-btn:focus
 	{
 	color: #fff;
-	background-color: #ff8200;
+	background-color: #554344;
 	outline: 0;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
@@ -19739,7 +19747,7 @@ button#thank-you-continue {
 }
 /* line 9, ../sass/partials/_purchase-history.scss */
 .purchase-history h2 {
-	color: #ff8200;
+	color: #554344;
 	font-family: "Calibri-Bold";
 	margin-bottom: 25px;
 	width: 70%;
@@ -19783,7 +19791,7 @@ button#thank-you-continue {
 	height: 38px;
 	position: absolute;
 	font-size: 18px;
-	color: #ff8200;
+	color: #554344;
 	padding-top: 11px;
 	right: 0;
 	padding-right: 10px;
@@ -19863,7 +19871,7 @@ button#thank-you-continue {
 /* line 111, ../sass/partials/_purchase-history.scss */
 .purchase-history .plan-item .plan-item-cols #eservices-document-upload-link
 	{
-	color: #ff8200;
+	color: #554344;
 	width: 100%;
 	display: inline;
 	font-size: 18px;
@@ -19983,7 +19991,7 @@ button#thank-you-continue {
 }
 /* line 195, ../sass/partials/_purchase-history.scss */
 .purchase-history .asterisk {
-	color: #ff8200;
+	color: #554344;
 	font-weight: normal;
 }
 /* line 199, ../sass/partials/_purchase-history.scss */
@@ -20027,11 +20035,11 @@ button#thank-you-continue {
 	width: 100%;
 	max-width: 520px;
 	height: 60px;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 	background: transparent;
-	color: #ff8200;
+	color: #554344;
 	font-size: 24px;
-	font-family: 'Calibri-bold';
+	font-family: 'Calibri';
 	border-radius: 0;
 	outline: none;
 }
@@ -20039,7 +20047,7 @@ button#thank-you-continue {
 /* line 243, ../sass/partials/_purchase-history.scss */
 .view-all:hover {
 	color: white !important;
-	background: #ff8200;
+	background: #554344;
 }
 
 /* line 1, ../sass/partials/_eservices-referral.scss */
@@ -20057,7 +20065,7 @@ button#thank-you-continue {
 }
 /* line 8, ../sass/partials/_eservices-referral.scss */
 .referral h2 {
-	color: #ff8200;
+	color: #554344;
 	font-family: "Calibri-Bold";
 	margin-bottom: 14px;
 	font-size: 30px;
@@ -20267,10 +20275,10 @@ button#thank-you-continue {
 	height: 40px;
 	width: 100%;
 	max-width: 520px;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 	background: #fff;
-	color: #ff8200;
-	font-family: 'Calibri-bold';
+	color: #554344;
+	font-family: 'Calibri';
 	border-radius: 0;
 	outline: none;
 }
@@ -20280,7 +20288,7 @@ button#thank-you-continue {
 	.referral .copy-code {
 		height: 44px;
 		max-width: none;
-		background-color: #ff8200;
+		background-color: #554344;
 		color: white;
 		opacity: .9;
 		margin-top: 0;
@@ -20295,7 +20303,7 @@ button#thank-you-continue {
 /* line 185, ../sass/partials/_eservices-referral.scss */
 .referral .copy-code:hover {
 	color: white;
-	background: #ff8200;
+	background: #554344;
 }
 /* line 190, ../sass/partials/_eservices-referral.scss */
 .referral .view-all {
@@ -20374,7 +20382,7 @@ button#thank-you-continue {
 /* line 239, ../sass/partials/_eservices-referral.scss */
 .referral .notice a, .referral #application-registration form .notice-password a,
 	#application-registration form .referral .notice-password a {
-	color: #ff8200;
+	color: #554344;
 	text-decoration: underline;
 }
 /* line 244, ../sass/partials/_eservices-referral.scss */
@@ -20526,13 +20534,13 @@ button#thank-you-continue {
 .referral .referral-link .your-referral-link .copy-link {
 	font-size: 24px;
 	color: white;
-	background-color: #ff8200;
+	background-color: #554344;
 	width: 53%;
 	height: 50px;
 	border-radius: 0;
 	outline: none;
 	float: left;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 }
 
 @media ( min-width : 992px) {
@@ -20552,7 +20560,7 @@ button#thank-you-continue {
 /* line 378, ../sass/partials/_eservices-referral.scss */
 .referral .title-orange {
 	font-weight: bold;
-	background-color: #ff8200;
+	background-color: #554344;
 	color: #fff;
 }
 /* line 384, ../sass/partials/_eservices-referral.scss */
@@ -20657,14 +20665,14 @@ button#thank-you-continue {
 /* line 60, ../sass/partials/_eServices-sidebar.scss */
 .fwd-savie-wrapper .pull-left.eServices-sidebar .profile {
 	text-align: center;
-	background-color: #ff8200;
+	background-color: #554344;
 	padding: 40px 0 52px 0;
 }
 /* line 66, ../sass/partials/_eServices-sidebar.scss */
 .fwd-savie-wrapper .pull-left.eServices-sidebar .profile p.name {
 	padding-top: 15px;
 	font-size: 18px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 }
 
 @media ( min-width : 992px) {
@@ -20995,7 +21003,7 @@ button#thank-you-continue {
 }
 /* line 13, ../sass/partials/_notifications-mobile.scss */
 .fwd-savie-wrapper .notification-header {
-	background-color: #ff8200;
+	background-color: #554344;
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -21030,7 +21038,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .notification-header .pull-left.notifications {
 	color: #fff;
 	font-size: 24px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 }
 /* line 50, ../sass/partials/_notifications-mobile.scss */
 .fwd-savie-wrapper .notification-header .pull-left.notifications .text {
@@ -21130,7 +21138,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .personal-row {
 	padding: 0 15px 35px;
 	color: #061d2a;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	margin-left: -15px;
 	margin-right: -15px;
 }
@@ -21236,7 +21244,7 @@ button#thank-you-continue {
 	font-size: 30px;
 	margin-top: 23px;
 	padding-bottom: 5px;
-	color: #ff8200;
+	color: #554344;
 }
 
 @media ( min-width : 992px) {
@@ -21251,7 +21259,7 @@ button#thank-you-continue {
 /* line 90, ../sass/partials/_eservices-personal-info.scss */
 .fwd-savie-wrapper .personal-row.inner-personal-row .inner-personal-col h3 a
 	{
-	color: #ff8200;
+	color: #554344;
 	font-size: 14px;
 	text-decoration: underline;
 	font-family: 'Calibri';
@@ -21376,7 +21384,7 @@ button#thank-you-continue {
 }
 /* line 190, ../sass/partials/_eservices-personal-info.scss */
 .fwd-savie-wrapper .eservices-personal-info .orange-header {
-	background-color: #ff8200;
+	background-color: #554344;
 	height: 78px;
 }
 /* line 194, ../sass/partials/_eservices-personal-info.scss */
@@ -21392,7 +21400,7 @@ button#thank-you-continue {
 	font-size: 24px;
 	color: #fff;
 	padding-left: 15px;
-	font-family: 'Calibri-Bold', Arial;
+	font-family: 'Calibri', Arial;
 }
 
 @media ( min-width : 992px) {
@@ -21437,8 +21445,8 @@ button#thank-you-continue {
 .fwd-savie-wrapper .eservices-personal-info .btn-style .btn-next {
 	font-size: 24px;
 	font-family: "Calibri-Bold";
-	color: #ff8200;
-	border: solid 1px #ff8200;
+	color: #554344;
+	border: solid 1px #554344;
 	background-color: #fff;
 	padding: 7px 0;
 	width: 100%;
@@ -21449,7 +21457,7 @@ button#thank-you-continue {
 	.fwd-savie-wrapper .eservices-personal-info .btn-style .btn-next:focus
 	{
 	color: #fff;
-	background-color: #ff8200;
+	background-color: #554344;
 	outline: 0;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
@@ -21481,14 +21489,14 @@ button#thank-you-continue {
 		{
 		font-size: 18px;
 		font-family: "Calibri";
-		color: #ff8200;
+		color: #554344;
 		border: none;
 		background-color: transparent;
 		position: relative;
 		top: -124px;
 		left: 233px;
 		width: 30px;
-		border-bottom: 1px #ff8200 solid;
+		border-bottom: 1px #554344 solid;
 		line-height: 4px;
 	}
 	/* line 280, ../sass/partials/_eservices-personal-info.scss */
@@ -21511,14 +21519,14 @@ button#thank-you-continue {
 		{
 		font-size: 18px;
 		font-family: "Calibri";
-		color: #ff8200;
+		color: #554344;
 		border: none;
 		background-color: transparent;
 		position: relative;
 		top: -153px;
 		left: 238px;
 		width: 30px;
-		border-bottom: 1px #ff8200 solid;
+		border-bottom: 1px #554344 solid;
 		line-height: 4px;
 	}
 	/* line 307, ../sass/partials/_eservices-personal-info.scss */
@@ -21676,7 +21684,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 }
 /* line 93, ../sass/partials/_elite-terms-widget.scss */
 .et-recent-work-wrap.et-recent-work-wrap-mid {
-	background-color: #f68a1d;
+	background-color: #363e3f;
 }
 
 /* line 98, ../sass/partials/_elite-terms-widget.scss */
@@ -21801,7 +21809,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 #et-testimonials .et-testimonial-title, #et-testimonials-mob .et-testimonial-title
 	{
 	margin-bottom: 30px;
-	color: #f68a1d;
+	color: #363e3f;
 	font-size: 24px;
 }
 
@@ -21904,7 +21912,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 .et-testimonials-inner .et-hr1 {
 	height: 1px;
 	width: 70%;
-	background-color: #f68a1d;
+	background-color: #363e3f;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -21936,7 +21944,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	font-size: 150px;
 	position: absolute;
 	line-height: 1;
-	color: #f68a1d;
+	color: #363e3f;
 	font-style: normal;
 	left: 45%;
 }
@@ -22042,8 +22050,10 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 429, ../sass/partials/_elite-terms-widget.scss */
 .et-medic-panel .panel-collapse p {
 	margin-bottom: 20px;
-	font-size: 18px;
-	color: #3f4547;
+	color: #061d2a;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 18px;
+    line-height: 26px;
 }
 
 @media ( min-width : 992px) {
@@ -22072,11 +22082,11 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 454, ../sass/partials/_elite-terms-widget.scss */
 .et-btn-medic {
 	width: 100%;
-	border: solid 1px #ff8200;
+	border: solid 1px #554344;
 	background: #fff;
-	color: #ff8200;
+	color: #554344;
 	font-size: 24px;
-	font-family: 'Calibri-bold';
+	font: normal 20px "AIASans","Calibri",sans-serif;;
 }
 
 @media ( min-width : 992px) {
@@ -22087,7 +22097,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 }
 /* line 466, ../sass/partials/_elite-terms-widget.scss */
 .et-btn-medic:focus {
-	color: #ff8200;
+	color: #554344;
 }
 /* line 470, ../sass/partials/_elite-terms-widget.scss */
 .et-btn-medic:hover {
@@ -22096,12 +22106,12 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	-ms-transition: background 0.1s ease-in;
 	-o-transition: background 0.1s ease-in;
 	transition: background 0.1s ease-in;
-	background: #ff8200;
+	background: #596c80;
 	color: white;
 }
 /* line 480, ../sass/partials/_elite-terms-widget.scss */
 .et-btn-medic.btn-selected {
-	background: #ff8200;
+	background: #554344;
 	color: white;
 }
 /* line 484, ../sass/partials/_elite-terms-widget.scss */
@@ -22116,8 +22126,13 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 }
 /* line 494, ../sass/partials/_elite-terms-widget.scss */
 .et-btn-medic.et-btn-medic-yes:hover {
-	background: #b7c3cd;
-	color: #fff;
+	background: #b7c3cd;	
+	color: #b7c3cd;
+    border: 1px solid #b7c3cd;
+    background-color: #769fab;
+    font: normal 20px "AIASans","Calibri",sans-serif;
+    background-color: #769fab;
+    line-height: 40px;
 }
 
 /* line 501, ../sass/partials/_elite-terms-widget.scss */
@@ -22265,7 +22280,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	{
 	width: 100%;
 	z-index: 5;
-	background-color: #ff8200;
+	background-color: #554344;
 }
 
 @media ( min-width : 992px) {
@@ -22422,7 +22437,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	.fwd-savie-wrapper .container-fluid.fwd-full-container .et-header-browse .et-header-info-btn.active.no-hover:hover
 		{
 		background-color: #fff;
-		color: #ff8200;
+		color: #554344;
 	}
 }
 /* line 161, ../sass/partials/_elite-terms-select-plan.scss */
@@ -22540,7 +22555,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	cursor: pointer;
 	top: 0;
 	border-radius: 0;
-	color: #ff8200;
+	color: #554344;
 	font-size: 24px;
 	text-align: center;
 	border: 1px solid #485b70;
@@ -22600,7 +22615,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	top: 0;
 	left: 0;
 	opacity: 0;
-	background-color: #ff8200;
+	background-color: #554344;
 	color: #fff;
 }
 /* line 260, ../sass/partials/_elite-terms-select-plan.scss */
@@ -22611,7 +22626,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	.fwd-savie-wrapper .container-fluid.fwd-container .et-about-urself label.et-before-we-start-no:hover,
 	.fwd-savie-wrapper .container-fluid.fwd-container .et-plan-option label.et-before-we-start-no:hover
 	{
-	background-color: #ff8200;
+	background-color: #554344;
 	color: #fff;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
@@ -22658,7 +22673,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	.fwd-savie-wrapper .container-fluid.fwd-container .et-about-urself input[type=radio]:checked+label,
 	.fwd-savie-wrapper .container-fluid.fwd-container .et-plan-option input[type=radio]:checked+label
 	{
-	background-color: #ff8200;
+	background-color: #554344;
 	color: #fff;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
@@ -22753,11 +22768,13 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 368, ../sass/partials/_elite-terms-select-plan.scss */
 .fwd-savie-wrapper .container-fluid.fwd-container .et-about-urself h4.et-gender-txt
 	{
-	color: #2a2c29;
 	margin: 0;
 	padding-top: 18px;
-	margin-bottom: 10px;
-	font-size: 18px;
+	margin-bottom: 10px;	
+	color: #061d2a;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 18px;
+    line-height: 26px;
 }
 
 @media ( min-width : 992px) {
@@ -22771,10 +22788,12 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 380, ../sass/partials/_elite-terms-select-plan.scss */
 .fwd-savie-wrapper .container-fluid.fwd-container .et-about-urself h4.et-dob-txt
 	{
-	color: #2a2c29;
 	margin: 0;
 	padding: 3px 0 7px 0;
-	font-size: 18px;
+	color: #061d2a;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 18px;
+    line-height: 26px;
 }
 
 @media ( min-width : 992px) {
@@ -22829,7 +22848,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 430, ../sass/partials/_elite-terms-select-plan.scss */
 .fwd-savie-wrapper .container-fluid.fwd-container .et-about-urself .et-gender-div input[type=radio]:checked+label
 	{
-	border: 3px solid #ff8200;
+	border: 3px solid #596c80;
 	background: none;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
@@ -23018,8 +23037,8 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 .fwd-savie-wrapper .container-fluid.fwd-container .et-plan-option-extra-info .et-extra-info span.et-amount
 	{
 	font-size: 30px;
-	font-family: 'Calibri-Bold';
-	color: #fc6d08;
+	font-family: "AIASans","Calibri",sans-serif;
+	color: #b8123e;
 	text-align: right;
 }
 /* line 636, ../sass/partials/_elite-terms-select-plan.scss */
@@ -23027,7 +23046,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	{
 	color: #2a2c29;
 	font-size: 28px;
-	font-family: 'Calibri-Bold';
+	font-family: "AIASans","Calibri",sans-serif;
 	line-height: 28px;
 	display: block;
 	padding-top: 16px;
@@ -23199,8 +23218,10 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 .fwd-savie-wrapper .container-fluid.fwd-container .et-plan-option h3.et-dollars
 	{
 	margin: 0;
-	color: #2a2c29;
-	font-size: 28px;
+	color: #061d2a;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 18px;
+    line-height: 26px;
 	text-align: center;
 	padding-top: 5px;
 }
@@ -23303,7 +23324,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	font-size: 14px;
 	display: block;
 	padding: 5px 0 15px 0;
-	color: #f68a1d;
+	color: #22a8da;
 	text-decoration: underline;
 	font-size: 14px;
 }
@@ -23609,7 +23630,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	display: block;
 	color: #fff;
 	padding: 11.5px 15px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 }
 /* line 1140, ../sass/partials/_elite-terms-select-plan.scss */
 .fwd-savie-wrapper .et-accrdn-list .panel-group .panel.et-panel-accordion .et-panel-heading a[aria-expanded="true"] .fa-angle-up
@@ -23659,7 +23680,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 .fwd-savie-wrapper .et-accrdn-list .jspPane p.et-accrdion-txt-bold {
 	color: #2a2c29;
 	font-size: 18px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	line-height: 22px;
 	padding-bottom: 20px;
 }
@@ -23678,7 +23699,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 .fwd-savie-wrapper .et-accrdn-list p.et-accrdion-txt-bold {
 	color: #2a2c29;
 	font-size: 18px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	line-height: 22px;
 	padding-bottom: 20px;
 }
@@ -23747,8 +23768,10 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	.fwd-savie-wrapper .row.et-select-plan-btns .btn.btn-white.et-proceed-appl.active
 	{
 	color: #fff;
-	background-color: #ff8200;
+	background-color: #b8123e;
 	box-shadow: none;
+	padding: 7px 40px;
+    font: normal 20px "AIASans","Calibri",sans-serif;
 }
 
 @media ( min-width : 992px) {
@@ -23769,7 +23792,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 }
 /* line 1290, ../sass/partials/_elite-terms-select-plan.scss */
 .fwd-savie-wrapper .et-contact-link {
-	color: #fc6d08;
+	color: #22a8da;
 	text-decoration: underline;
 }
 /* line 1294, ../sass/partials/_elite-terms-select-plan.scss */
@@ -23785,9 +23808,9 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 
 /* line 1210, ../sass/partials/_elite-terms-select-plan.scss */
 .et-po-amount-label {
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 14px;
-	color: #fc6d08;
+	color: #b8123e;
 	line-height: 15px;
 }
 
@@ -23802,7 +23825,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	padding: 5px 12px;
 	line-height: 17px;
 	border-radius: 7px;
-	background-color: #ff8200;
+	background-color: #554344;
 	text-align: left;
 	position: relative;
 	max-width: 200px;
@@ -23918,7 +23941,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 44, ../sass/partials/_et-cannot-apply-modal.scss */
 #cannot-apply-modal .et-modal-content h5, #customer-service-modal .et-modal-content h5
 	{
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 18px;
 	color: #2a2c29;
 }
@@ -23949,9 +23972,9 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 70, ../sass/partials/_et-cannot-apply-modal.scss */
 #cannot-apply-modal .modal-body p a, #customer-service-modal .modal-body p a
 	{
-	color: #ff8200;
+	color: #554344;
 	font-size: 14px;
-	border-bottom: 1px solid #ff8200;
+	border-bottom: 1px solid #554344;
 }
 
 @media ( min-width : 992px) {
@@ -23998,7 +24021,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 99, ../sass/partials/_et-cannot-apply-modal.scss */
 #cannot-apply-modal .modal-body form .input-items label,
 	#customer-service-modal .modal-body form .input-items label {
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 18px;
 	margin-bottom: 0;
 	font-weight: normal;
@@ -24107,7 +24130,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 171, ../sass/partials/_et-cannot-apply-modal.scss */
 #cannot-apply-modal .modal-body form .asterisk-holder .asterisk,
 	#customer-service-modal .modal-body form .asterisk-holder .asterisk {
-	color: #ff8200;
+	color: #554344;
 	font-size: 14px;
 }
 /* line 177, ../sass/partials/_et-cannot-apply-modal.scss */
@@ -24144,7 +24167,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 .fwd-generic-modal .modal-title {
 	text-align: center;
 	color: fc6d08;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 30px;
 }
 /* line 29, ../sass/partials/_et-birthday-dont-match-modal.scss */
@@ -24164,7 +24187,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 .fwd-generic-modal .btn-block {
 	color: #fff;
 	background: #fc6d08;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 24px;
 	border: 1px solid #fc6d08;
 	height: 50px;
@@ -24258,7 +24281,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 .et-document-upload p.notice .asterisk, .et-document-upload #application-registration form p.notice-password .asterisk,
 	#application-registration form .et-document-upload p.notice-password .asterisk
 	{
-	color: #ff8200;
+	color: #554344;
 }
 /* line 47, ../sass/partials/_elite-terms-document-upload.scss */
 .et-document-upload #submit-btn {
@@ -24267,8 +24290,8 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 50, ../sass/partials/_elite-terms-document-upload.scss */
 .et-document-upload #submit-btn button {
 	margin-top: 15px;
-	background-color: #ff8200;
-	border-color: #ff8200;
+	background-color: #554344;
+	border-color: #554344;
 }
 
 @media ( min-width : 992px) {
@@ -24285,7 +24308,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 @media ( min-width : 992px) {
 	/* line 61, ../sass/partials/_elite-terms-document-upload.scss */
 	.et-document-upload #submit-btn button:hover {
-		background-color: #ff8200;
+		background-color: #554344;
 	}
 }
 
@@ -24318,7 +24341,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 #etConfirm h2 {
 	margin: 0;
 	padding-bottom: 35px;
-	color: #ff8200;
+	color: #554344;
 	text-align: center;
 	line-height: 35px;
 }
@@ -24454,17 +24477,17 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 107, ../sass/partials/_et-confirmation.scss */
 #etConfirm .et-submit button {
 	margin-top: 0;
-	border: 1px solid #ff8200;
+	border: 1px solid #554344;
 	width: 100%;
 	height: 50px;
 	background-color: #fff;
-	color: #ff8200;
+	color: #554344;
 	font-size: 18px;
-	font-family: 'Calibri-bold';
+	font-family: 'Calibri';
 }
 /* line 120, ../sass/partials/_et-confirmation.scss */
 #etConfirm .et-submit button:hover, #etConfirm .et-submit button:focus {
-	background-color: #ff8200;
+	background-color: #554344;
 	color: #fff;
 }
 
@@ -24533,7 +24556,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	padding-bottom: 10px;
 	height: auto;
 	background-color: #fff;
-	color: #ff8200;
+	color: #554344;
 	width: 100%;
 }
 
@@ -24544,7 +24567,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 }
 /* line 187, ../sass/partials/_et-confirmation.scss */
 #etConfirm .et-back-home-btn:hover, #etConfirm .et-back-home-btn:focus {
-	background-color: #ff8200;
+	background-color: #554344;
 	color: #fff;
 }
 
@@ -24568,8 +24591,8 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 12, ../sass/partials/_elite-terms-payment.scss */
 .et-payment .page-header h2.page-header-title {
 	display: block;
-	font-family: 'Calibri-Bold';
-	color: #ff8200;
+	font-family: 'Calibri';
+	color: #554344;
 	margin-bottom: 28px;
 }
 
@@ -24604,7 +24627,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 }
 /* line 35, ../sass/partials/_elite-terms-payment.scss */
 .et-payment .page-header p.amount-holder {
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 }
 
 @media ( min-width : 992px) {
@@ -24661,8 +24684,8 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 73, ../sass/partials/_elite-terms-payment.scss */
 .et-payment .page-content h2 {
 	font-size: 30px;
-	font-family: 'Calibri-Bold';
-	color: #ff8200;
+	font-family: 'Calibri';
+	color: #554344;
 	margin-top: 18px;
 	margin-bottom: 28px;
 }
@@ -24683,7 +24706,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 }
 /* line 93, ../sass/partials/_elite-terms-payment.scss */
 .et-payment .page-content .page-content-item label {
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	font-size: 18px;
 	margin-bottom: 3px;
 	color: #000;
@@ -24725,7 +24748,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 123, ../sass/partials/_elite-terms-payment.scss */
 .et-payment .page-content .page-content-item .gray-textbox {
 	background-color: #fff;
-	border: 1px solid #ff8200;
+	border: 1px solid #554344;
 }
 /* line 127, ../sass/partials/_elite-terms-payment.scss */
 .et-payment .page-content .page-content-item .gray-textbox:active {
@@ -24734,7 +24757,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 130, ../sass/partials/_elite-terms-payment.scss */
 .et-payment .page-content .page-content-item .gray-textbox:hover,
 	.et-payment .page-content .page-content-item .gray-textbox:focus {
-	border: 1px solid #ff8200;
+	border: 1px solid #554344;
 }
 /* line 133, ../sass/partials/_elite-terms-payment.scss */
 .et-payment .page-content .page-content-item .card-month, .et-payment .page-content .page-content-item .selectDiv
@@ -24831,7 +24854,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	#application-registration form .et-payment .page-content .page-content-item .fwd-checkbox p.notice-password
 	{
 	font-size: 14px;
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	padding-left: 34px;
 	padding-top: 5px;
 	line-height: 17px;
@@ -24850,7 +24873,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 198, ../sass/partials/_elite-terms-payment.scss */
 .et-payment .page-content .page-content-item .selectDiv {
 	overflow: hidden;
-	border: 1px solid #ff8200;
+	border: 1px solid #554344;
 	height: 40px;
 	width: 47%;
 	float: right;
@@ -24897,7 +24920,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 237, ../sass/partials/_elite-terms-payment.scss */
 .et-payment .page-content .page-content-item .selectDiv:hover,
 	.et-payment .page-content .page-content-item .selectDiv:focus {
-	border: 1px solid #ff8200;
+	border: 1px solid #554344;
 }
 
 /* line 257, ../sass/partials/_elite-terms-payment.scss */
@@ -24917,18 +24940,18 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 268, ../sass/partials/_elite-terms-payment.scss */
 .et-payment .page-content .button-holder .et-payment-button-confirm:hover
 	{
-	background-color: #ff8200;
+	background-color: #554344;
 	color: #fff;
 }
 /* line 273, ../sass/partials/_elite-terms-payment.scss */
 .et-payment .page-content .button-holder .et-payment-button-back {
 	background-color: #fff;
-	color: #ff8200;
+	color: #554344;
 }
 /* line 277, ../sass/partials/_elite-terms-payment.scss */
 .et-payment .page-content .button-holder .et-payment-button-back:hover {
 	background-color: #fff;
-	color: #ff8200;
+	color: #554344;
 }
 /* line 284, ../sass/partials/_elite-terms-payment.scss */
 .et-payment .page-content .line {
@@ -25140,7 +25163,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 }
 /* line 10, ../sass/partials/_et-application-summary.scss */
 #application-summary h4, #application-summary h3 {
-	color: #ff8200;
+	color: #554344;
 }
 /* line 13, ../sass/partials/_et-application-summary.scss */
 #application-summary h4 span, #application-summary h3 span {
@@ -25490,7 +25513,7 @@ label.et-bene-radio,#et-application-second-section label,
 }
 /* line 17, ../sass/partials/_et-get-promotion-code-modal.scss */
 #get-promotion-code .modal-dialog .modal-content .form-container h2 {
-	color: #f68a1d;
+	color: #363e3f;
 	font-size: 24px;
 	text-align: left;
 }
@@ -25514,16 +25537,16 @@ label.et-bene-radio,#et-application-second-section label,
 /* line 37, ../sass/partials/_et-get-promotion-code-modal.scss */
 #get-promotion-code .modal-dialog .modal-content .form-container .form-control:focus:invalid:focus
 	{
-	border-color: #f68a1d;
-	-webkit-box-shadow: 0 0 6px #f68a1d;
-	-moz-box-shadow: 0 0 6px #f68a1d;
-	box-shadow: 0 0 6px #f68a1d;
+	border-color: #363e3f;
+	-webkit-box-shadow: 0 0 6px #363e3f;
+	-moz-box-shadow: 0 0 6px #363e3f;
+	box-shadow: 0 0 6px #363e3f;
 }
 /* line 44, ../sass/partials/_et-get-promotion-code-modal.scss */
 #get-promotion-code .modal-dialog .modal-content .form-container .form-control:focus:invalid
 	{
 	color: #b94a48;
-	border-color: #f68a1d;
+	border-color: #363e3f;
 }
 /* line 50, ../sass/partials/_et-get-promotion-code-modal.scss */
 #get-promotion-code .modal-dialog .modal-content .form-container button
@@ -25620,17 +25643,17 @@ label.et-bene-radio,#et-application-second-section label,
 
 	#et-select-plan-go-homepage {
 		color: #fff;
-		background: #ff8200;
+		background: #554344;
 		font-size: 24px;
-		font-family: 'Calibri-Bold';
+		font-family: 'Calibri';
 		padding: 7px 40px;
 		margin-bottom: 50px;
 	}
 	#et-select-plan-go-homepage:hover, #et-select-plan-go-homepage:focus
 		{
 		background: #fff;
-		color: #ff8200;
-		border: 1px solid #ff8200;
+		color: #554344;
+		border: 1px solid #554344;
 		-webkit-transition: background 0.1s ease-in;
 		-moz-transition: background 0.1s ease-in;
 		-ms-transition: background 0.1s ease-in;
@@ -25696,7 +25719,7 @@ label.et-bene-radio,#et-application-second-section label,
 
 .fwd-savie-wrapper #et-select-plan-section .container-fluid.fwd-container .et-before-we-start .elterm-btn-default:hover,
 .fwd-savie-wrapper #et-select-plan-section .container-fluid.fwd-container .et-before-we-start input[type=radio]:checked+.elterm-btn-default{
-	background-color: #769fab;
+	background-color: #596c80;
 	color: #fff;
 }
 .fwd-savie-wrapper .container-fluid.fwd-container .et-before-we-start label.et-before-we-start-yes{
@@ -25709,7 +25732,7 @@ label.et-bene-radio,#et-application-second-section label,
 }
 
 .fwd-savie-wrapper #employment-info .content #has-regular-income .regular-income-specific{
-    font-family: 'Calibri-bold';
+    font-family: 'Calibri';
     font-size: 18px;
     margin-bottom: 7px;
     color: #061d2a;
@@ -25731,7 +25754,7 @@ label.et-bene-radio,#et-application-second-section label,
 }
  
 .fwd-savie-wrapper #employment-info .content #has-regular-income .has-regular-income-selection{
-   font-family: 'Calibri-bold';
+   font-family: 'Calibri';
 }
 .fwd-savie-wrapper #employment-info .content #has-regular-income .radio-choice,#employmentInfoForm .radio-choice{
    margin-right: 30px;

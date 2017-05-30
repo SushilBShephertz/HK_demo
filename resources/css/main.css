@@ -2194,7 +2194,10 @@ h4.margin-shift {
 }
 
 .panel-title>a {
-	color: #4e4e4e;
+	color: #061d2a;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 18px;
+    line-height: 26px;
 }
 
 .accordion-inner img {
