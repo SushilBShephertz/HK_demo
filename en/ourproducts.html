@@ -2075,7 +2075,7 @@ brown"></span></h6>
         FB.getLoginStatus(function(response) {
             //statusChangeCallback(response);
             setTimeout(function() {
-                window.location.href = "http://http://13.88.191.53/en/term-life-insurance/select-plan.html";
+                window.location.href = "/en/term-life-insurance/select-plan.html";
             }, 1000);
 
         });
@@ -2103,7 +2103,7 @@ brown"></span></h6>
 
                             <select name="" id=""  style="position: absolute; left:10px; top:60px; z-index: 99;">
                                 <option selected="selected">AGENT</option>
-                                <option value="">AIA OFFICER</option>
+                                <option value="">AIA OFFICES</option>
                                 <option value="">DOCTOR</option>
 
                             </select>
@@ -2124,16 +2124,16 @@ brown"></span></h6>
 
     function init() {
         var locations = [
-            ['Jeng Qui', -33.890542, 151.274856, 4, "85265376263, 85287645398"],
-            ['Bingwen Jan', -33.923036, 151.259052, 5, "85283776426, 8527687326"],
-            ['Duyi lee', -34.028249, 151.157507, 3, "85287365387"],
-            ['Bojing Jang', -33.80010128657071, 151.28747820854187, 2, "85239873654"],
-            ['Jinhai Liang', -33.950198, 151.259302, 1, "85273628765"]
+            ['Jeng Qui', 22.286394, 114.149139, 4, "85265376263, 85287645398"],
+            ['Bingwen Jan', 22.267,114.189, 5, "85283776426, 8527687326"],
+            ['Wan Chai Gap', 22.267950, 114.170566, 3, "85287365387"],
+            ['Sui Ma Sha', 22.272609, 114.203178, 2, "85239873654"],
+            ['Chai Wan', 22.266441, 114.235368, 1, "85273628765"]
         ];
 
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 10,
-            center: new google.maps.LatLng(-33.92, 151.25),
+            center: new google.maps.LatLng(22.22, 114.25),
             mapTypeId: google.maps.MapTypeId.ROADMAP
         });
 
