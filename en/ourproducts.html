@@ -47,7 +47,9 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700|Roboto+Condensed:300,400,700' rel='stylesheet'
     type='text/css'>
   <script src="jquery-1.10.2.min.js"></script>
-
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWnatsjlP280e1emFSK5ztodIcNVAQQG0&callback=initMap"
+            type="text/javascript"></script>
   <script src="appwarp.min.js"></script>
   <script type="text/javascript">
   
@@ -2083,22 +2085,83 @@ brown"></span></h6>
 
 
 <!-- Modal -->
+<div id="location_popup" data-modal-tag-move-to="body" class="modal fade aia-modal in"
+     data-target="/content/group/en/tools/modal-pages/home-our-products/critical-illness-protection/jcr:content/content.html">
+    <div class="modal-dialog partial-screen-modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-t2">
+                <button class="modal-header-btn pull-left" data-dismiss="modal"><img
+                        src="term-life-insurance/images/closewhite-glyph.png" alt="close"></button>
+                <h6 class="w text-center"> Map Location</h6></div>
+            <div class="modal-container padding-top-3xl">
+                <div class="section-container section">
+                    <section style="background-color:bg-w;">
+                        <div class="map_container" style="margin-top:-48px; margin-left:-24px; margin-right:-24px;">
+                            <div id="map" style="height: 400px; width: 100%;"></div>
+                        </div>
 
+                    </section>
+                </div>
 
-<div id="location_popup" data-modal-tag-move-to="body" class="modal fade aia-modal in" data-target="/content/group/en/tools/modal-pages/home-our-products/critical-illness-protection/jcr:content/content.html" >
-    <div class="modal-dialog partial-screen-modal-dialog"><div class="modal-content"><div class="modal-header bg-t2"><button class="modal-header-btn pull-left" data-dismiss="modal"><img src="term-life-insurance/images/closewhite-glyph.png" alt="close"></button><h6 class="w text-center"> Map Location</h6></div><div class="modal-container padding-top-3xl">
-    <div class="section-container section">
-    <section style="background-color:bg-w;">
-        <div class="map_container" style="margin-top:-48px; margin-left:-24px; margin-right:-24px;">
-            <iframe id="mapIDForLocation" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15334.0801627712!2d114.10656036649469!3d22.39506746005595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403e2eda332980f%3A0xf08ab3badbeac97c!2sHong+Kong!5e0!3m2!1sen!2sin!4v1496149884922" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
         </div>
-    </section>
-    </div>
-
-    </div>
-    </div>
     </div>
 </div>
+
+<script type="text/javascript">
+
+    function init() {
+        var locations = [
+            ['Jeng Qui', -33.890542, 151.274856, 4, "85265376263, 85287645398"],
+            ['Bingwen Jan', -33.923036, 151.259052, 5, "85283776426, 8527687326"],
+            ['Duyi lee', -34.028249, 151.157507, 3, "85287365387"],
+            ['Bojing Jang', -33.80010128657071, 151.28747820854187, 2, "85239873654"],
+            ['Jinhai Liang', -33.950198, 151.259302, 1, "85273628765"]
+        ];
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 10,
+            center: new google.maps.LatLng(-33.92, 151.25),
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        });
+
+        var infowindow = new google.maps.InfoWindow();
+
+
+        var marker, i;
+
+        for (i = 0; i < locations.length; i++) {
+            marker = new google.maps.Marker({
+                position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                map: map
+            });
+
+
+            google.maps.event.addListener(marker, 'click', (function (marker, i) {
+                return function () {
+                    var contentString = '<div id="content">' +
+                        '<div id="siteNotice">' +
+                        '</div>' +
+                        '<h5 id="firstHeading" class="firstHeading">' + locations[i][0] + '</h5>' +
+                        '<div id="bodyContent">' +
+                        '<p>Contacts: ' + locations[i][4] +
+                        '</p>' +
+                        '</div>' +
+                        '</div>';
+
+
+                    infowindow.setContent(contentString);
+                    infowindow.open(map, marker);
+                }
+            })(marker, i));
+        }
+    }
+
+    $('#location_popup').on('shown.bs.modal', function () {
+        init();
+    });
+</script>
+
 
 <div id="login_popup" data-modal-tag-move-to="body" class="modal fade aia-modal in">
 <div class="modal-dialog partial-screen-modal-dialog"><div class="modal-content"><div class="modal-header bg-t2" style="background-color: #4867AA"><button class="modal-header-btn pull-left" data-dismiss="modal"><img src="term-life-insurance/images/closewhite-glyph.png" alt="close"></button>
