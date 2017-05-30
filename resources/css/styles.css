@@ -25775,3 +25775,5 @@ label.et-bene-radio,#et-application-second-section label,
 .success-msg{
 	color : #f68b1f;
 }
+.panel-heading a:hover{ background-color: transparent;}
+.et-medic-panel>.panel-heading a:hover{background-color: transparent!important; border: 0;}

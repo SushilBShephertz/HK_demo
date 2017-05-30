@@ -594,8 +594,8 @@
                 <li><a class="clearfix" href="index.html">
                     <svg class="icon icon-xs hide-on-fallback " role="img">
                         <g>
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
-                                 xlink:href="http://www.aia.com.hk/content/dam/aia/icons/icons.svg#home-menu"></use>
+                            <!--<use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 xlink:href="http://www.aia.com.hk/content/dam/aia/icons/icons.svg#home-menu"></use>-->
                             <image class="icon icon-xs " src="../content/dam/aia/icons/menu/home-menu.png"
                                    alt="undefined" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#"></image>
                         </g>
@@ -605,8 +605,8 @@
                     <div class="mobile-firstlevel"><a class="" href="our-products.html">
                         <svg class="icon icon-xs hide-on-fallback " role="img">
                             <g>
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
-                                     xlink:href="http://www.aia.com.hk/content/dam/aia/icons/icons.svg#life-menu"></use>
+                                <!--<use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                     xlink:href="http://www.aia.com.hk/content/dam/aia/icons/icons.svg#life-menu"></use>-->
                                 <image class="icon icon-xs " src="../content/dam/aia/icons/menu/life-menu.png"
                                        alt="undefined" xmlns:xlink="http://www.w3.org/1999/xlink"
                                        xlink:href="#"></image>
@@ -615,8 +615,8 @@
                         <span>Our Products</span> </a> <a class="dropdown-toggle pull-right" data-toggle="dropdown">
                         <svg class="icon icon-xs hide-on-fallback pull-right closed-show" role="img">
                             <g>
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
-                                     xlink:href="http://www.aia.com.hk/content/dam/aia/icons/icons.svg#open-2ndg"></use>
+                                <!--<use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                     xlink:href="http://www.aia.com.hk/content/dam/aia/icons/icons.svg#open-2ndg"></use>-->
                                 <image class="icon icon-xs pull-right closed-show"
                                        src="../content/dam/aia/icons/secondary/open-2ndg.png" alt="undefined"
                                        xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#"></image>
@@ -4687,7 +4687,7 @@ brown"></span></h6>
                         <div class="col-xs-12 col-md-12 right text-center">
                             <button type="button" onClick="submitLoginForm('loginform-pop');"
                                     class="btn btn-white et-proceed-appl bottom active">
-                                Login to Apply
+                                Next
                             </button>
                         </div>
                     </div>
@@ -11616,10 +11616,10 @@ brown"></span></h6>
                         </script>
             </form>
             <div class="row et-proceed-btn-wrapper">
-                <div class="col-xs-12 col-md-12 proceed-btn text-center">
-                    <button onclick="gotoSignature()" type="button" class="btn next et-btn-view-summary"
-                            data-back-text="Back to application summary">
-                        go to signture
+                <div class="col-xs-12 col-md-12 proceed-btn text-center et-next-btn-div">
+                    <button type="button" class="btn btn-orange et-next-btn et-pad-bot-50"
+                            data-back-text="Back to application summary" onclick="gotoSignature()" >
+                        Next
                     </button>
                     <!--Bind a click event temporarily to show the hidden Application Summary section-->
                 </div>
@@ -12325,8 +12325,8 @@ brown"></span></h6>
 							</span>
                 </div>
             </div>
-            <div class="proceed-btn">
-                <button id="et-signature-proceed-btn" onclick="gotoFinalPayment()" type="button" class="btn next">
+            <div class="proceed-btn et-next-btn-div">
+                <button id="btn btn-orange et-next-btn et-pad-bot-50" onclick="gotoFinalPayment()" type="button" class="btn next">
                     Proceed to payment
                 </button>
             </div>
