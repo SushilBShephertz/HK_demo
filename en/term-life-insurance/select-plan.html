@@ -487,7 +487,8 @@
     }
 
     function gotoUserProfile(){
-        
+         $("#select-plan").removeClass("active");
+         $("#application").addClass("active");
         $('#et-application-info-section').removeClass('hide-element');
         $('#et-medical-declaration').addClass('hide-element')
     }
@@ -4094,13 +4095,13 @@ brown"></span></h6>
             <div class="application-page-header et-header-browse">
                 <div class="row reset-margin">
                     <div class="col-md-2 reset-padding">
-                        <button type="button" class="et-header-info-btn et-bind-btn-header active" id="select-plan"
+                        <button type="button" class="et-header-info-btn et-bind-btn-header " id="select-plan"
                                 data-et-section-target="et-select-plan-section">
                             Select plan
                         </button>
                     </div>
                     <div class="col-md-2 reset-padding">
-                        <button type="button" class="et-header-info-btn et-bind-btn-header" id="application"
+                        <button type="button" class="et-header-info-btn et-bind-btn-header active" id="application"
                                 data-et-section-target="et-application-section">
                             Application
                         </button>
