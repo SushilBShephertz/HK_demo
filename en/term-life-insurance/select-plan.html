@@ -405,6 +405,16 @@
             $('#et-application-fourth-section').removeClass('hide-element');
         }
 
+        function gotoFinalPayment(){
+            $('#et-application-fourth-section').addClass('hide-element');
+            $('#et-application-five-section').removeClass('hide-element')
+        }
+
+        function gotoDeclaration(){
+                        $("#et-application-second-section").removeClass("hide-element");
+            $("#et-beneficiary-info-section").addClass("hide-element");
+        }
+
         function submitLoginForm(formID) {
             //hide parts
             $('#et-about-yoursel-section').addClass('hide-element');
@@ -8908,7 +8918,7 @@ brown"></span></h6>
                                 Centers.
                             </div>
                             <div class="button-row text-center btn-beneficiary">
-                                <button id="et-beneficiary-info-next" type="button" class="next">
+                                <button id="et-beneficiary-info-next"  onclick="gotoDeclaration()" type="button" class="next">
 								Next
 							</button>
                                 <!--Bind a click event temporarily to show the hidden Declaration & authorization section-->
@@ -9918,15 +9928,25 @@ brown"></span></h6>
                     </div>
                 </div>
                 <div class="proceed-btn">
-                    <button id="et-signature-proceed-btn" type="button" class="btn next">
+                    <button id="et-signature-proceed-btn" onclick="gotoFinalPayment()" type="button" class="btn next">
 							Proceed to payment
 						</button>
                 </div>
                 <canvas id="et-temp-canvas"></canvas>
             </div>
         </div>
+   
+   
     </div>
     <!-- END OF SIGNATURE SECTION -->
+      <div id="et-application-five-section" class="hide-element">
+          PAYMENT 
+          ffgf
+          hgfh
+          ffgh
+          f
+          hffh
+          </div>
     </div>
     </div>
     <!-- END Application Wrapper -->
@@ -10299,14 +10319,7 @@ brown"></span></h6>
             }
         });
 
-        $('#et-beneficiary-info-next').on('click', function(e) {
-            $("#et-beneficiary-info-section").addClass("hide-element");
-            putEtPageKeySession("7");
-            if (typeof ga !== 'undefined') {
-                ga('create', 'UA-60032236-1', 'auto');
-                ga('send', 'pageview', '/en/term-life-insurance/select-plan/step-8');
-            }
-        });
+
 
         $('#et-app-sum-proceed-btn').on('click', function(e) {
             putEtPageKeySession("8");

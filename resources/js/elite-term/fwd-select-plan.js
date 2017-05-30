@@ -2262,10 +2262,10 @@
    });
 
    function putEtPageKeySession(pageKey) {
-		$.ajax({
-	        type: "POST",
-	        url:contextPath+'/ajax/eliteTerm/putEtPageKeySession',
-	        data: { "etPageKey":pageKey },
-	        success:function(data){}
-		});
+	// 	$.ajax({
+	//         type: "POST",
+	//         url:contextPath+'/ajax/eliteTerm/putEtPageKeySession',
+	//         data: { "etPageKey":pageKey },
+	//         success:function(data){}
+	// 	});
 	}
