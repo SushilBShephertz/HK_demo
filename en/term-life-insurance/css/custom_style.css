@@ -49,3 +49,14 @@
 	.banner_content{width: 50%;}
 .banner_content .banner_title{    font-size: 29px; margin: 0 0  10px }
 }
+@media screen and (max-width:640px){
+	.banner_content .banner_title{ font-size: 20px;}
+	.banner_content .pera{ font-size: 12px;}
+	.banner_content .login_btn{   
+	 background: #d31145;
+    color: #fff;
+    padding: 7px 10px;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 15px;}
+}
