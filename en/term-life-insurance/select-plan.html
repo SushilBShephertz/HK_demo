@@ -431,6 +431,14 @@
 
         $('#et-application-second-section').addClass('hide-element');
         $('#et-application-fourth-section').removeClass('hide-element');
+
+        setTimeout(function(){
+            $('html, body').animate({
+                scrollTop: 0
+            }, 500);
+
+        },200);
+
     }
 
     function gotoFinalPayment() {
@@ -439,8 +447,19 @@
     }
 
     function gotoDeclaration() {
-        $("#et-application-second-section").removeClass("hide-element");
         $("#et-beneficiary-info-section").addClass("hide-element");
+        $("#et-application-second-section").removeClass("hide-element");
+
+        setTimeout(function(){
+            $('html, body').animate({
+                scrollTop: 0
+            }, 500);
+
+        },200);
+
+
+
+
     }
 
     function submitLoginForm(formID) {
