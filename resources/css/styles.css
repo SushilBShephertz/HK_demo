@@ -160,17 +160,16 @@ body.modal-open footer {
 /* line 62, ../sass/partials/_common.scss */
 .fwd-savie-wrapper .btn-orange {
 	color: #fff;
-	background: #ff8200;
-	font-size: 24px;
-	font-family: 'Calibri-Bold';
+	background: #b8123e;
 	padding: 7px 40px;
+	font: normal 20px "AIASans","Calibri",sans-serif;
 }
 /* line 70, ../sass/partials/_common.scss */
 .fwd-savie-wrapper .btn-orange:hover, .fwd-savie-wrapper .btn-orange:focus
 	{
-	background: #fff;
-	color: #ff8200;
-	border: 1px solid #ff8200;
+	background: #e86487;
+	color: #fff;
+	border: 1px solid #e86487;
 	-webkit-transition: background 0.1s ease-in;
 	-moz-transition: background 0.1s ease-in;
 	-ms-transition: background 0.1s ease-in;
@@ -25696,7 +25695,7 @@ label.et-bene-radio,#et-application-second-section label,
 
 .fwd-savie-wrapper #et-select-plan-section .container-fluid.fwd-container .et-before-we-start .elterm-btn-default:hover,
 .fwd-savie-wrapper #et-select-plan-section .container-fluid.fwd-container .et-before-we-start input[type=radio]:checked+.elterm-btn-default{
-	background-color: #769fab;
+	background-color: #596c80;
 	color: #fff;
 }
 .fwd-savie-wrapper .container-fluid.fwd-container .et-before-we-start label.et-before-we-start-yes{

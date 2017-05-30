@@ -50,7 +50,7 @@ td,th{padding:0}
 .icon-xs .icon-fallback{display:block;width:24px;height:24px}
 .icon-s{font-size:32px}
 .icon-s .icon-fallback{display:block;width:32px;height:32px}
-.icon-m{font-size:64px}
+.icon-m{font-size:120px}
 .icon-m .icon-fallback{display:block;width:64px;height:64px}
 .icon-l{font-size:96px}
 .icon-l .icon-fallback{display:block;width:96px;height:96px}
@@ -1596,8 +1596,8 @@ tbody.collapse.in{display:table-row-group}
 .curator .curator-age-validation{display:none}
 .curator select option{color:#363e3f}
 .hero-icon-list{padding-left:0;list-style:none}
-.hero-icon-list>li{width:80px;display:inline-block}
-.hero-icon-list>li>.hover-thumb{position:relative;width:64px;height:72px;margin-left:auto;margin-right:auto}
+.hero-icon-list>li{width:150px;display:inline-block}
+.hero-icon-list>li>.hover-thumb{position:relative;/****width:64px;height:72px; ***/margin-left:auto;margin-right:auto}
 .hero-icon-list>li>.hover-thumb>svg{top:0;position:absolute;display:block;-webkit-transition:top .2s ease-in-out;transition:top .2s ease-in-out}
 .hero-icon-list>li>p{display:block;line-height:14px;opacity:0;filter:alpha(opacity=0);-webkit-transition:opacity .25s linear;transition:opacity .25s linear}
 .hero-icon-list>li:hover>.hover-thumb>svg{top:-8px}
@@ -2250,7 +2250,7 @@ select.primary-select.filter-select{vertical-align:top;width:160px}
 .btn-filter,.btn-filter:hover{vertical-align:top}
 .btn-stretch:hover{width:100%}
 .hero-icon-list>li{vertical-align:top;position:relative}
-.hero-icon-list>li>p{position:absolute;left:0;top:70px;width:100%}
+.hero-icon-list>li>p{position:absolute;left:0;top:130px;width:100%}
 .table-responsive{width:100%}
 .table-responsive svg{padding:0;margin-top:3px}
 .table-responsive .figure-down{background-image:url("../../../content/dam/aia/icons/arrow-down.png");background-size:16px 16px;background-repeat:no-repeat;padding-left:20px;vertical-align:top;color:#b8123e}
@@ -2681,3 +2681,4 @@ img.jssocials-share-logo{height:2.2em}
 
 /************ new css **************/
 .mrtp70{margin-top: 70px;}
+.mrtp120{margin-top: 120px;}
