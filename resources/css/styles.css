@@ -22,7 +22,7 @@
 }
 
 @font-face {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	src: url("https://i.fwd.com.hk/resources/fonts/Calibri_gdi.eot");
 	/* IE9 Compat Modes */
 	src: url("https://i.fwd.com.hk/resources/fonts/Calibri_gdi.eot?#iefix") format("embedded-opentype"),
@@ -33,7 +33,7 @@
 }
 
 @font-face {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	src: url("https://i.fwd.com.hk/resources/fonts/Calibri-Bold_gdi.eot");
 	/* IE9 Com@media screen and (min-width: 768px) and (max-width: 991px) {pat Modes */
 	src: url("https://i.fwd.com.hk/resources/fonts/Calibri-Bold_gdi.eot?#iefix")
@@ -182,7 +182,7 @@ body.modal-open footer {
 	background-color: #fff;
 	color: #554344;
 	font-size: 24px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding: 7px 40px;
 	border: 1px solid #554344;
 }
@@ -201,7 +201,7 @@ body.modal-open footer {
 .fwd-savie-wrapper .btn-full {
 	width: 100%;
 	height: 50px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 24px;
 	background-color: #554344;
 	color: #fff;
@@ -349,7 +349,7 @@ label {
 	height: 33px;
 	background-color: #061d29;
 	color: #fff;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 14px;
 }
 
@@ -416,7 +416,7 @@ label {
 	color: #373a36;
 	border-left: solid 4px #554344;
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 89, ../sass/partials/_header.scss */
 .fwd-savie-wrapper header .navbar-fixed-top .notification-menu .btn-notifications:hover,
@@ -453,7 +453,7 @@ label {
 /* line 115, ../sass/partials/_header.scss */
 .fwd-savie-wrapper header .navbar-fixed-top .notification-menu p.time {
 	font-size: 12px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #9ba5a7;
 }
 /* line 123, ../sass/partials/_header.scss */
@@ -508,7 +508,7 @@ label {
 	border-top: none;
 	color: #373a36;
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	text-align: center;
 	padding: 10px 0;
 }
@@ -550,7 +550,7 @@ label {
 /* line 208, ../sass/partials/_header.scss */
 .fwd-savie-wrapper header .navbar-fixed-top .desktop-add-menu .header-top-menu ul li
 	{
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	display: block;
 	float: left;
 	color: #333230;
@@ -615,7 +615,7 @@ label {
 		height: 40px;
 		padding: 8px;
 		margin-left: 5px;
-		font-family: 'Calibri';
+		font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 		font-size: 14px;
 		line-height: 24px;
 		color: #fff;
@@ -643,7 +643,7 @@ label {
 		height: 40px;
 		padding: 8px;
 		margin-left: 5px;
-		font-family: 'Calibri';
+		font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 		font-size: 16px;
 		line-height: 24px;
 		color: #fff;
@@ -664,7 +664,7 @@ label {
 		width: auto;
 		max-width: none;
 		height: 40px;
-		font-family: 'Calibri';
+		font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 		font-size: 16px;
 		padding: 9px 17px;
 	}
@@ -741,7 +741,7 @@ label {
 .fwd-savie-wrapper header .navbar-fixed-top .buttons-and-chat .btn-chinese .login-eServices
 	{
 	position: relative;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 14px;
 }
 
@@ -752,7 +752,7 @@ label {
 		width: auto;
 		max-width: none;
 		height: 40px;
-		font-family: 'Calibri';
+		font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 		font-size: 14px;
 		padding: 9px 17px;
 	}
@@ -761,7 +761,7 @@ label {
 .fwd-savie-wrapper header .navbar-fixed-top .buttons-and-chat .btn-login
 	{
 	display: none;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 16px;
 	background-color: black;
 	height: 50px;
@@ -947,7 +947,7 @@ label {
 	padding: 0 30px 0 15px;
 	margin-top: 28px;
 	margin-bottom: 18px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 24px;
 }
 /* line 553, ../sass/partials/_header.scss */
@@ -965,7 +965,7 @@ label {
 .fwd-savie-wrapper header .navbar-menu .header-menu li .dropdown-menu .savie-dropdown h3
 	{
 	font-size: 24px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #554344;
 	margin-top: 0;
 	margin-bottom: 25px;
@@ -979,7 +979,7 @@ label {
 .fwd-savie-wrapper header .navbar-menu .header-menu li .dropdown-menu .savie-dropdown p
 	{
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #000;
 	margin-top: 3px;
 	margin-bottom: 15px;
@@ -1089,7 +1089,7 @@ label {
 	top: 25px;
 	width: 100%;
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 684, ../sass/partials/_header.scss */
 .fwd-savie-wrapper header .navbar-menu.teaser-header .header-menu li .orange-header-menu:hover,
@@ -1230,7 +1230,7 @@ label {
 /* line 104, ../sass/partials/_header-mobile.scss */
 .fwd-savie-wrapper .header-nav-mobile .header-nav-menu-mobile .mobile-accrdn-list
 	{
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 30px;
 }
 /* line 108, ../sass/partials/_header-mobile.scss */
@@ -1250,7 +1250,7 @@ label {
 	background-color: #061d2a;
 	color: #fff;
 	font-size: 24px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	outline: 0;
 	border-radius: 0;
 	border: 0;
@@ -1439,7 +1439,7 @@ label {
 	background-color: #020202;
 	font-size: 13px;
 	color: #fff;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding: 0 15px;
 }
 
@@ -1509,7 +1509,7 @@ label {
 .fwd-savie-wrapper footer .fwd-full-container.footer-tm .footer-max-width .footer-trade .footer-list li
 	{
 	display: inline;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 16px;
 	line-height: 22px;
 	color: #df7f1e;
@@ -1631,7 +1631,7 @@ label {
 	color: #554344;
 	padding-right: 0px;
 	padding-left: 0px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 @media ( min-width : 992px) {
@@ -2477,13 +2477,13 @@ label {
 .fwd-savie-wrapper .banner-widget .text-content.et-text-content {
 	margin-top: 0;
 	font-size: 30px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #fff;
 }
 /* line 48, ../sass/partials/_image-banner.scss */
 .fwd-savie-wrapper .banner-widget .buy-now {
 	font-size: 28px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: white;
 	border: 1px solid #ff8000;
 	background-color: #ff8000;
@@ -2555,7 +2555,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 .fwd-savie-wrapper .banner-widget .widget-btns a {
 	color: #fff;
 	background: #554344;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 28px;
 	padding: 8px 75px;
 	margin: 0 2px;
@@ -2588,7 +2588,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 /* line 117, ../sass/partials/_image-banner.scss */
 .fwd-savie-wrapper .banner-widget .widget-link a {
 	color: #fff;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 18px;
 	text-decoration: underline;
 }
@@ -2679,7 +2679,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 }
 /* line 28, ../sass/partials/_box.scss */
 .fwd-savie-wrapper .box-container .btn {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 24px;
 	text-align: center;
 	width: 100%;
@@ -2898,7 +2898,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 }
 /* line 172, ../sass/partials/_benefits.scss */
 .et-overlay-wrapper h5 {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 18px;
 }
 
@@ -2971,7 +2971,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 /* line 22, ../sass/partials/_our-blog.scss */
 .fwd-savie-wrapper .blog-widget .read-blog-mobile a {
 	font-size: 24px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #fff;
 }
 
@@ -3039,7 +3039,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 /* line 86, ../sass/partials/_our-blog.scss */
 .fwd-savie-wrapper .blog-widget #sticker a {
 	font-size: 24px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #fff;
 }
 /* line 93, ../sass/partials/_our-blog.scss */
@@ -3250,7 +3250,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 }
 /* line 88, ../sass/partials/_three-column-widget.scss */
 .fwd-savie-wrapper .three-column-widget .fwd-col .col-content h2 {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 24px;
 	margin-bottom: 0;
 	margin-top: 0;
@@ -3831,7 +3831,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 /* line 68, ../sass/partials/_email.scss */
 .fwd-savie-wrapper .email-row .email-input .email-text {
 	width: 100%;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 16.64px;
 	border-left: none;
 	border-right: none;
@@ -3909,7 +3909,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 }
 /* line 129, ../sass/partials/_email.scss */
 .fwd-savie-wrapper .email-row .email-input p {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	text-align: left;
 	font-size: 12px;
 	margin-bottom: 0;
@@ -4009,7 +4009,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 }
 /* line 15, ../sass/partials/_login.scss */
 .fwd-savie-wrapper .modal.fade {
-	/*font-family: 'Calibri';*/
+	/*font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;*/
 	font-size: 24px;
 	color: #061d2a;
 	padding-right: 0 !important;
@@ -4067,7 +4067,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 /* line 62, ../sass/partials/_login.scss */
 .fwd-savie-wrapper .modal.fade .modal-dialog .modal-content .modal-header h4
 	{
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 36px;
 	color: #363e3f;
 }
@@ -4076,7 +4076,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 	{
 	font-size: 24px;
 	color: #f58220;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 74, ../sass/partials/_login.scss */
 .fwd-savie-wrapper .modal.fade .modal-dialog .modal-content .modal-header .close
@@ -4116,7 +4116,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 	{
 	color: #0a1d29;
 	font-size: 18px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding-top: 10px;
 }
 /* line 109, ../sass/partials/_login.scss */
@@ -4131,7 +4131,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 	{
 	font-size: 14px;
 	color: #f58220;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	border-bottom: 1px solid #f58220;
 }
 /* line 121, ../sass/partials/_login.scss */
@@ -4164,7 +4164,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 	border: 0;
 	color: #9aa4a6;
 	background-color: #ebeded;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	margin-top: 2px;
 	box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
 }
@@ -4238,7 +4238,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 	{
 	font-style: italic;
 	font-size: 18px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	margin: 0;
 }
 /* line 212, ../sass/partials/_login.scss */
@@ -4248,14 +4248,14 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 	margin: 0;
 	text-align: center;
 	color: #0a1d29;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 218, ../sass/partials/_login.scss */
 .fwd-savie-wrapper .modal.fade .modal-dialog .modal-content .modal-footers h6.plan-details,
 	.fwd-savie-wrapper .modal.fade .modal-dialog .modal-content .modal-footers p.plan-details
 	{
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #0a1d29;
 	padding-top: 4px;
 	margin-bottom: -10px;
@@ -4302,7 +4302,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 	/* line 245, ../sass/partials/_login.scss */
 	.fwd-savie-wrapper .modal.fade .modal-dialog .modal-content .modal-footers a.register
 		{
-		font-family: 'Calibri';
+		font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	}
 }
 /* line 255, ../sass/partials/_login.scss */
@@ -4469,7 +4469,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 }
 /* line 422, ../sass/partials/_login.scss */
 .fwd-savie-wrapper .login-mobile {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 24px;
 	color: #061d2a;
 	width: 100%;
@@ -4530,7 +4530,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 /* line 483, ../sass/partials/_login.scss */
 .fwd-savie-wrapper .login-mobile p.plan-details {
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #0a1d29;
 	padding-top: 15px;
 }
@@ -4966,7 +4966,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 	.fwd-savie-wrapper #fwd-carousel .carousel-inner .item p,
 		.fwd-savie-wrapper #fwd-carousel .carousel-inner .item.next p {
 		font-size: 24px;
-		font-family: 'Calibri';
+		font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 		line-height: 24px;
 	}
 }
@@ -5535,14 +5535,14 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 /* line 338, ../sass/partials/_o2o-landing.scss */
 .fwd-savie-wrapper .o2o-landing.saving-plans .savings-banner p {
 	font-size: 24px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #fff;
 	background-color: #fdb714;
 	padding: 15px 10%;
 }
 /* line 345, ../sass/partials/_o2o-landing.scss */
 .fwd-savie-wrapper .o2o-landing.saving-plans .savings-banner p .bold {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 @media ( min-width : 992px) {
@@ -5692,7 +5692,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 	.fwd-savie-wrapper .o2o-landing.saving-plans .savings-menu .sign-up a .action-text h2
 	{
 	font-size: 26px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding: 0 15px;
 	margin: 0 0 15px;
 }
@@ -5951,7 +5951,7 @@ body.chin .fwd-savie-wrapper .banner-widget .buy-now {
 	color: #554344;
 	border: 1px solid #554344;
 	font-size: 24px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding: 7px 40px;
 	width: 100%;
 	max-width: 338px;
@@ -6127,7 +6127,7 @@ span.o2o-top {
 /* line 69, ../sass/partials/_page-product-details.scss */
 .fwd-savie-wrapper .product-details .carousel .carousel-inner .item .carousel-caption.add-padding
 	{
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding-bottom: 80px;
 }
 /* line 73, ../sass/partials/_page-product-details.scss */
@@ -6190,7 +6190,7 @@ span.o2o-top {
 	/* line 21, ../sass/partials/_product-info.scss */
 	.fwd-savie-wrapper #motto h2 {
 		padding: 0px 26%;
-		font-family: 'Calibri';
+		font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 		font-size: 36px;
 		margin-top: 0;
 		margin-bottom: 0;
@@ -6259,7 +6259,7 @@ span.o2o-top {
 	/* line 79, ../sass/partials/_product-info.scss */
 	.fwd-savie-wrapper #message h2 {
 		margin-top: -6px;
-		font-family: 'Calibri';
+		font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 		font-weight: bold;
 		padding: 0 8%;
 	}
@@ -6280,7 +6280,7 @@ span.o2o-top {
 @media ( min-width : 992px) {
 	/* line 95, ../sass/partials/_product-info.scss */
 	.fwd-savie-wrapper #message #letter {
-		font-family: 'Calibri';
+		font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 		font-size: 30px;
 		width: 50px;
 		padding: 4px 0;
@@ -6300,7 +6300,7 @@ span.o2o-top {
 @media ( min-width : 992px) {
 	/* line 117, ../sass/partials/_product-info.scss */
 	.fwd-savie-wrapper #message p {
-		font-family: 'Calibri';
+		font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 		font-size: 16px;
 		margin-top: -4px;
 	}
@@ -6319,7 +6319,7 @@ span.o2o-top {
 /* line 144, ../sass/partials/_product-info.scss */
 .fwd-savie-wrapper #questions .right {
 	display: inline-block;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: black;
 	margin-top: 9px;
 }
@@ -6360,7 +6360,7 @@ span.o2o-top {
 /* line 185, ../sass/partials/_product-info.scss */
 .fwd-savie-wrapper #product-highlights h2 {
 	font-size: 30px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-weight: bold;
 	color: black;
 	padding-bottom: 10px;
@@ -6391,7 +6391,7 @@ span.o2o-top {
 /* line 218, ../sass/partials/_product-info.scss */
 .fwd-savie-wrapper #get-covered h3 {
 	font-size: 26.9px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: white;
 	font-weight: bold;
 	padding: 11px 0;
@@ -6615,7 +6615,7 @@ span.o2o-top {
 }
 /* line 12, ../sass/partials/_page-sales-illustration.scss */
 .fwd-savie-wrapper .page-sales-illustration .sales-head h1 {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-weight: bold;
 	font-size: 36px;
 	color: #f6871f;
@@ -6680,7 +6680,7 @@ span.o2o-top {
 }
 /* line 73, ../sass/partials/_page-sales-illustration.scss */
 #illustration-filters span.error-msg-promo {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #e4002b;
 	font-size: 14px;
 	display: block;
@@ -6688,7 +6688,7 @@ span.o2o-top {
 }
 /* line 81, ../sass/partials/_page-sales-illustration.scss */
 #illustration-filters span.error-msg-dob {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #e4002b;
 	font-size: 14px;
 	position: absolute;
@@ -6803,7 +6803,7 @@ span.o2o-top {
 }
 /* line 181, ../sass/partials/_page-sales-illustration.scss */
 #illustration-filters #investment-amount #hkd span {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-weight: normal;
 }
 /* line 187, ../sass/partials/_page-sales-illustration.scss */
@@ -6896,7 +6896,7 @@ span.o2o-top {
 	border: none;
 	padding: 0;
 	color: #000;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 17.92px;
 	padding-left: 20px;
 	margin-top: 5px;
@@ -7012,7 +7012,7 @@ span.o2o-top {
 	border: none;
 	padding: 0;
 	color: #000;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 17.92px;
 	padding-left: 60px;
 	width: 100%;
@@ -7439,7 +7439,7 @@ span.explanation {
 /* line 15, ../sass/partials/_next-sales.scss */
 .fwd-savie-wrapper .next-sales-block .explanation-content h4 {
 	font-size: 18px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	margin: 0 0 5px 0;
 }
 /* line 21, ../sass/partials/_next-sales.scss */
@@ -7474,7 +7474,7 @@ span.explanation {
 }
 /* line 49, ../sass/partials/_next-sales.scss */
 .fwd-savie-wrapper .next-sales-block .next-btn {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 24px;
 	text-align: center;
 	width: 100%;
@@ -7844,7 +7844,7 @@ span.explanation {
 		{
 		height: 80px;
 		font-size: 36px;
-		font-family: 'Calibri';
+		font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 		width: 220px;
 	}
 }
@@ -7929,7 +7929,7 @@ span.explanation {
 		height: 80px;
 		width: 535px;
 		font-size: 36px;
-		font-family: 'Calibri';
+		font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	}
 }
 /* line 105, ../sass/partials/_investment.scss */
@@ -7986,7 +7986,7 @@ span.explanation {
 }
 /* line 139, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .investment-table-desktop {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 30px;
 	padding-bottom: 15px;
 	position: relative;
@@ -8083,7 +8083,7 @@ span.explanation {
 .fwd-savie-wrapper .investment .investment-table-desktop .credit-rate-dropdown
 	{
 	font-size: 18px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 221, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .investment-table-desktop .credit-rate-dropdown .btn.dropdown-toggle.selectpicker.btn-default
@@ -8148,14 +8148,14 @@ span.explanation {
 }
 /* line 275, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .investment-table-desktop .description {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 14px;
 	color: #000;
 }
 /* line 282, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .investment-summary-title-desktop {
 	font-size: 30px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding-bottom: 15px;
 }
 
@@ -8186,7 +8186,7 @@ span.explanation {
 }
 /* line 307, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .investment-summary-title-desktop p {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 15px;
 	margin: 8px 0 0 0;
 }
@@ -8243,7 +8243,7 @@ span.explanation {
 /* line 345, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .investment-summary-title-desktop .checkbox-credit-rates
 	{
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 18px;
 	color: #868789;
 	font-weight: normal;
@@ -8388,7 +8388,7 @@ span.explanation {
 }
 /* line 480, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .nav.nav-pills.nav-justified {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 24px;
 }
 
@@ -8433,7 +8433,7 @@ span.explanation {
 .fwd-savie-wrapper .investment .tab-content.credits {
 	font-size: 18px;
 	color: #554344;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 529, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .tab-content.credits .expand-desktop {
@@ -8501,7 +8501,7 @@ span.explanation {
 	font-size: 18px;
 	color: #b0bdbd;
 	width: 80px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	line-height: 20px;
 	margin: 9px auto 25px 14px;
 }
@@ -8635,7 +8635,7 @@ span.explanation {
 	color: #000;
 	padding-top: 10px;
 	padding-right: 4px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 18px;
 	margin: 0 0 10px 0;
 	padding: 10px 4px 0 0;
@@ -8770,7 +8770,7 @@ span.explanation {
 }
 /* line 788, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment .tab-content.credits table thead {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 18px;
 }
 
@@ -8973,7 +8973,7 @@ span.explanation {
 }
 /* line 942, ../sass/partials/_investment.scss */
 .fwd-savie-wrapper .investment-summary .fwd-chart .fwd-chart-age {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 18px;
 	color: #554344;
 }
@@ -9018,7 +9018,7 @@ span.explanation {
 	background: rgba(176, 189, 189, 0.6);
 	padding: 52px 20px;
 	border-radius: 50%;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #ffffff;
 	line-height: 18px;
 }
@@ -9198,7 +9198,7 @@ span.explanation {
 	{
 	color: #fff;
 	font-size: 18px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	margin-bottom: -4px;
 }
 /* line 129, ../sass/partials/_application-orange-header.scss */
@@ -9216,14 +9216,14 @@ span.explanation {
 /* line 138, ../sass/partials/_application-orange-header.scss */
 .fwd-savie-wrapper .application-page-header .orange-section .dollars-monthly-right span.dollars
 	{
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 30px;
 	line-height: 32px;
 }
 /* line 144, ../sass/partials/_application-orange-header.scss */
 .fwd-savie-wrapper .application-page-header .orange-section .dollars-monthly-right span.dollars2
 	{
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 24px;
 	line-height: 32px;
 }
@@ -9235,7 +9235,7 @@ span.explanation {
 /* line 154, ../sass/partials/_application-orange-header.scss */
 .fwd-savie-wrapper .application-page-header .orange-section .dollars-monthly-right span.monthly
 	{
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 18px;
 }
 /* line 159, ../sass/partials/_application-orange-header.scss */
@@ -9359,7 +9359,7 @@ span.explanation {
 /* line 5, ../sass/partials/_page-application.scss */
 .bv-form .help-block {
 	color: #e4002b !important;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 /* line 11, ../sass/partials/_page-application.scss */
@@ -9371,7 +9371,7 @@ span.error-msg {
 span.dup-error-msg {
 	font-size: 15px;
 	color: #e4002b;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 /* line 26, ../sass/partials/_page-application.scss */
@@ -9385,7 +9385,7 @@ span.dup-error-msg {
 	height: 50px;
 	border: 0;
 	margin-bottom: 9px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding-left: 18px;
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
 	font-size: 18px;
@@ -9426,7 +9426,7 @@ span.dup-error-msg {
 	width: 100%;
 	height: 100%;
 	color: #c4c3c8;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 16px;
 }
 
@@ -9499,7 +9499,7 @@ span.dup-error-msg {
 	height: 45px;
 	border: 0;
 	margin-bottom: 9px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding-left: 13px;
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
 	font-size: 18px;
@@ -9639,13 +9639,13 @@ span.dup-error-msg {
 .fwd-savie-wrapper .page-application .application-page-input-text.et-input-label span
 	{
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #505759;
 }
 /* line 205, ../sass/partials/_page-application.scss */
 .fwd-savie-wrapper .page-application span.optional {
 	color: #9ba5a7;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 }
@@ -9668,7 +9668,7 @@ span.dup-error-msg {
 	background-color: #f1f3f5;
 	font-size: 18px;
 	margin-bottom: 0;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #b4bcbe;
 	padding-left: 20px;
 	width: 100%;
@@ -9699,7 +9699,7 @@ span.dup-error-msg {
 	background: #554344;
 	color: white;
 	font-size: 24px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 @media ( min-width : 992px) {
@@ -9768,7 +9768,7 @@ span.dup-error-msg {
 	background: #554344;
 	color: white;
 	font-size: 24px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 @media ( min-width : 992px) {
@@ -9886,7 +9886,7 @@ span.dup-error-msg {
 }
 /* line 20, ../sass/partials/_personal_info.scss */
 .fwd-savie-wrapper .personal-info-widget {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 18px;
 }
 /* line 24, ../sass/partials/_personal_info.scss */
@@ -9907,7 +9907,7 @@ span.dup-error-msg {
 /* line 36, ../sass/partials/_personal_info.scss */
 .fwd-savie-wrapper .personal-info-widget .has-error .help-block {
 	color: #e4002b;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 41, ../sass/partials/_personal_info.scss */
 .fwd-savie-wrapper .personal-info-widget .form-control.gray-textbox.residential
@@ -9927,7 +9927,7 @@ span.dup-error-msg {
 	margin-top: 5px;
 	margin-bottom: 5px;
 	background-position-y: -3px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 18px;
 }
 
@@ -10022,7 +10022,7 @@ span.dup-error-msg {
 .fwd-savie-wrapper .personal-info-widget h2 .tooltip-inner {
 	background-color: #554344;
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	max-width: 100%;
 	height: 46px;
 	display: table-cell;
@@ -10113,7 +10113,7 @@ span.dup-error-msg {
 }
 /* line 231, ../sass/partials/_personal_info.scss */
 .fwd-savie-wrapper .personal-info-widget .btn.gender-btn {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	background-color: #554344;
 	font-size: 18px;
 	color: #fff;
@@ -10204,7 +10204,7 @@ span.dup-error-msg {
 /* line 304, ../sass/partials/_personal_info.scss */
 .fwd-savie-wrapper .personal-info-widget .gender-section .descriptions {
 	display: none;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 @media ( min-width : 992px) {
@@ -10242,7 +10242,7 @@ span.dup-error-msg {
 	border: solid 1px #554344;
 	text-align: center;
 	color: #554344;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-weight: normal;
 	height: 40px;
 }
@@ -10371,7 +10371,7 @@ span.dup-error-msg {
 	border: solid 1px #554344;
 	text-align: center;
 	color: #554344;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-weight: normal;
 	height: 40px;
 }
@@ -10561,7 +10561,7 @@ span.dup-error-msg {
 	{
 	color: #162a35;
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding-top: 15px;
 }
 /* line 600, ../sass/partials/_personal_info.scss */
@@ -10663,7 +10663,9 @@ span.dup-error-msg {
 .fwd-savie-wrapper .personal-info-widget .checkbox-section .pull-left.right-checkbox label.checkbox-text
 	{
 	color: #061d2a;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	font-size: 16px;
+    line-height: 22px;
 }
 /* line 683, ../sass/partials/_personal_info.scss */
 .fwd-savie-wrapper .personal-info-widget label {
@@ -10793,7 +10795,7 @@ span.dup-error-msg {
 .et-app-info-tooltip .tooltip-inner {
 	background-color: #554344;
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	max-width: 100%;
 	display: table-cell;
 	vertical-align: middle;
@@ -10867,7 +10869,7 @@ span.dup-error-msg {
 /* line 9, ../sass/partials/_employment-info.scss */
 .fwd-savie-wrapper #employment-info h2 {
 	color: #554344;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 30px;
 	margin: 32px 0 0;
 }
@@ -10891,7 +10893,7 @@ span.dup-error-msg {
 .fwd-savie-wrapper #employment-info .content .employment-info-row label
 	{
 	color: black;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 18px;
 	margin-bottom: 7px;
 	color: #061d2a;
@@ -11060,7 +11062,7 @@ span.dup-error-msg {
 	{
 	background-color: #554344;
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	max-width: 100%;
 	height: 46px;
 	display: table-cell;
@@ -11084,7 +11086,7 @@ span.dup-error-msg {
 }
 /* line 81, ../sass/partials/_beneficiary-info.scss */
 .fwd-savie-wrapper #beneficiary-info .beneficiary-info-header h4 {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 18px;
 	color: #9ba5a7;
 	margin: 5px 0 35px;
@@ -11148,7 +11150,7 @@ span.dup-error-msg {
 /* line 130, ../sass/partials/_beneficiary-info.scss */
 .fwd-savie-wrapper #beneficiary-info .add-beneficiary .add-beneficiary-text h4
 	{
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #9ba5a7;
 }
 
@@ -11213,7 +11215,7 @@ span.dup-error-msg {
 .fwd-savie-wrapper #beneficiary-info .content h3.mobile-desc {
 	margin: 0;
 	color: #554344;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 185, ../sass/partials/_beneficiary-info.scss */
 .fwd-savie-wrapper #beneficiary-info .content h3.mobile-desc span {
@@ -11264,7 +11266,7 @@ span.dup-error-msg {
 	cursor: pointer;
 	position: absolute;
 	left: 49px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	margin-top: 7px;
 	color: white;
 }
@@ -11405,7 +11407,7 @@ span.dup-error-msg {
 	border: solid 1px #554344;
 	text-align: center;
 	color: #554344;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-weight: normal;
 	height: 40px;
 }
@@ -11534,7 +11536,7 @@ span.dup-error-msg {
 	border: solid 1px #554344;
 	text-align: center;
 	color: #554344;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-weight: normal;
 	height: 40px;
 }
@@ -11679,7 +11681,7 @@ span.dup-error-msg {
 	background: white;
 	position: relative;
 	float: left;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #554344;
 	padding-top: 7px;
 	font-weight: normal;
@@ -11990,7 +11992,7 @@ span.dup-error-msg {
 }
 /* line 64, ../sass/partials/_payment.scss */
 .fwd-savie-wrapper .fwd-payment form .pay-later .more-details {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: white;
 	font-size: 18px;
 }
@@ -12006,7 +12008,7 @@ span.dup-error-msg {
 .fwd-savie-wrapper .fwd-payment form .pay-later span.pay-la {
 	display: block;
 	color: white;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	position: absolute;
 	font-size: 18px;
 	width: 100%;
@@ -12019,7 +12021,7 @@ span.dup-error-msg {
 @media ( min-width : 992px) {
 	/* line 75, ../sass/partials/_payment.scss */
 	.fwd-savie-wrapper .fwd-payment form .pay-later span.pay-la {
-		font-family: 'Calibri';
+		font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 		margin-left: 30px;
 		color: #1b2e3a;
 		margin-top: 0;
@@ -12039,7 +12041,7 @@ span.dup-error-msg {
 	border: solid 1px #554344;
 	background-color: #fff;
 	color: #554344;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-weight: normal;
 	padding-top: 15px;
 	line-height: 18px;
@@ -12070,7 +12072,7 @@ span.dup-error-msg {
 	color: #fff;
 	top: 0;
 	left: 0;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-weight: normal;
 	padding-top: 10px;
 }
@@ -12128,7 +12130,7 @@ span.dup-error-msg {
 }
 /* line 191, ../sass/partials/_payment.scss */
 .fwd-savie-wrapper .fwd-payment form .pay-online .more-details {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: white;
 	font-size: 18px;
 }
@@ -12144,7 +12146,7 @@ span.dup-error-msg {
 .fwd-savie-wrapper .fwd-payment form .pay-online span.pay-ol {
 	display: block;
 	color: white;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	position: absolute;
 	font-size: 18px;
 	width: 100%;
@@ -12156,7 +12158,7 @@ span.dup-error-msg {
 @media ( min-width : 992px) {
 	/* line 202, ../sass/partials/_payment.scss */
 	.fwd-savie-wrapper .fwd-payment form .pay-online span.pay-ol {
-		font-family: 'Calibri';
+		font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 		margin-left: 30px;
 		color: #1b2e3a;
 		margin-top: 0;
@@ -12175,7 +12177,7 @@ span.dup-error-msg {
 	height: 100%;
 	background-color: #fff;
 	color: #554344;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-weight: normal;
 	padding-top: 10px;
 	border: solid 1px #554344;
@@ -12208,7 +12210,7 @@ span.dup-error-msg {
 	color: #fff;
 	top: 0;
 	left: 0;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-weight: normal;
 	padding-top: 10px;
 }
@@ -12535,7 +12537,7 @@ span.dup-error-msg {
 .fwd-savie-wrapper .declare-authorize h5 {
 	margin: 0;
 	color: #061d2a;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-weight: normal;
 	padding-top: 37px;
 	padding-bottom: 15px;
@@ -12556,7 +12558,7 @@ span.dup-error-msg {
 /* line 73, ../sass/partials/_declaration-authorization.scss */
 .fwd-savie-wrapper .declare-authorize .declare-agree {
 	padding: 0 0 13px 0;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 14px;
 }
 /* line 81, ../sass/partials/_declaration-authorization.scss */
@@ -12604,7 +12606,7 @@ span.dup-error-msg {
 /* line 118, ../sass/partials/_declaration-authorization.scss */
 .fwd-savie-wrapper .declare-authorize .agreement-description .clearfix.declaration.application-declaration span.order
 	{
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 124, ../sass/partials/_declaration-authorization.scss */
 .fwd-savie-wrapper .declare-authorize .agreement-description .clearfix.declaration.application-declaration.sub-header,
@@ -12663,7 +12665,7 @@ span.dup-error-msg {
 .fwd-savie-wrapper .declare-authorize .agreement-description .yes-policy-replace-desc span.note
 	{
 	display: none;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 14px;
 	color: #9ba5a7;
 	padding-top: 2px;
@@ -12672,14 +12674,14 @@ span.dup-error-msg {
 .fwd-savie-wrapper .declare-authorize .agreement-description .yes-policy-replace-desc span.orange-number
 	{
 	color: #554344;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 177, ../sass/partials/_declaration-authorization.scss */
 .fwd-savie-wrapper .declare-authorize .agreement-description .pull-left.yes-policy-replace-desc
 	{
 	width: 85%;
 	font-size: 14px;
-    font-family: 'Calibri';
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
     color: #061d2a;
     line-height: 15px;
     padding-top: 3px;
@@ -12717,7 +12719,7 @@ span.dup-error-msg {
 	{
 	width: 85%;
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #061d2a;
 	line-height: 15px;
 	padding-top: 3px;
@@ -12737,10 +12739,10 @@ span.dup-error-msg {
 	.fwd-savie-wrapper .declare-authorize .agreement-description .policy-desc
 	{
 	width: 89%;
-	font-size: 14px;
-	font-family: 'Calibri';
+	font-size: 16px;
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #061d2a;
-	line-height: 15px;
+	line-height: 22px;
 	padding-top: 3px;
 }
 
@@ -12795,7 +12797,7 @@ span.dup-error-msg {
 	border: 0;
 	color: #9aa4a6;
 	background-color: #f1f3f5;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	margin-top: 2px;
 	box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
 	margin-top: 8px;
@@ -12821,7 +12823,7 @@ span.dup-error-msg {
 	width: 89%;
 	color: #9ba5a7;
 	font-size: 16px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	line-height: 19px;
 }
 
@@ -13239,7 +13241,7 @@ span.dup-error-msg {
 	border: solid 1px #554344;
 	text-align: center;
 	color: #554344;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-weight: normal;
 	height: 40px;
 }
@@ -13368,7 +13370,7 @@ span.dup-error-msg {
 	border: solid 1px #554344;
 	text-align: center;
 	color: #554344;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-weight: normal;
 	height: 40px;
 }
@@ -13528,7 +13530,7 @@ span.dup-error-msg {
 	height: 40px;
 	font-size: 14px;
 	color: #fff;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	display: table-cell;
 	vertical-align: middle;
 	border-radius: 5px;
@@ -13550,7 +13552,7 @@ span.dup-error-msg {
 .fwd-savie-wrapper .signature span.span-text-img {
 	margin: 0;
 	color: #1b2e3a;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	text-align: center;
 	font-weight: normal;
 	padding-top: 15px;
@@ -13617,7 +13619,7 @@ span.dup-error-msg {
 .fwd-savie-wrapper .signature .signature-section h4 {
 	margin: 0;
 	color: #1b2e3a;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	text-align: center;
 	padding-bottom: 15px;
 }
@@ -13733,13 +13735,13 @@ span.dup-error-msg {
 	{
 	color: #1b2e3a;
 	font-size: 17px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 499, ../sass/partials/_signature.scss */
 .fwd-savie-wrapper .signature .pull-left.digital-signature p {
 	color: #9ba5a7;
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 506, ../sass/partials/_signature.scss */
 .fwd-savie-wrapper .signature .pull-left.offline-signature {
@@ -13767,13 +13769,13 @@ span.dup-error-msg {
 	{
 	color: #1b2e3a;
 	font-size: 17px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 529, ../sass/partials/_signature.scss */
 .fwd-savie-wrapper .signature .pull-left.offline-signature p {
 	color: #9ba5a7;
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 539, ../sass/partials/_signature.scss */
 .fwd-savie-wrapper .et-signature {
@@ -14039,7 +14041,7 @@ span.dup-error-msg {
 	margin: 18px 10px;
 	font-size: 18px;
 	color: #061d2a;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 @media ( min-width : 992px) {
@@ -14209,7 +14211,7 @@ span.dup-error-msg {
 	{
 	color: #373a36;
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 331, ../sass/partials/_docu_upload.scss */
 .fwd-savie-wrapper .document-upload .upload-now-section .select-file label.mobile-camera-pic-file,
@@ -14238,7 +14240,7 @@ span.dup-error-msg {
 	{
 	color: #373a36;
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 355, ../sass/partials/_docu_upload.scss */
 .fwd-savie-wrapper .document-upload .upload-now-section .select-file input[type="file"],
@@ -14286,7 +14288,7 @@ span.dup-error-msg {
 	vertical-align: middle;
 	color: #554344;
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	height: 30px;
 	text-align: center;
 	width: 100px;
@@ -14296,7 +14298,7 @@ span.dup-error-msg {
 	{
 	margin: 0;
 	color: #373a36;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	text-align: center;
 }
 
@@ -14312,7 +14314,7 @@ span.dup-error-msg {
 	{
 	margin: 0;
 	color: #9ba5a7;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	text-align: center;
 	padding-bottom: 17px;
 	padding-top: 1px;
@@ -14340,7 +14342,7 @@ span.dup-error-msg {
 	{
 	width: 85%;
 	font-size: 18px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #373a36;
 	padding-top: 0;
 }
@@ -14499,7 +14501,7 @@ span.dup-error-msg {
 	{
 	color: #1b2e3a;
 	font-size: 17px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 565, ../sass/partials/_docu_upload.scss */
 .fwd-savie-wrapper .document-upload .clearfix.document-upload-rd-btn .pull-left.upload-now p,
@@ -14508,7 +14510,7 @@ span.dup-error-msg {
 	{
 	color: #9ba5a7;
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 @media ( min-width : 992px) {
@@ -14539,7 +14541,7 @@ span.dup-error-msg {
 	border: solid 1px #554344;
 	text-align: center;
 	color: #554344;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-weight: normal;
 	height: 40px;
 }
@@ -14668,7 +14670,7 @@ span.dup-error-msg {
 	border: solid 1px #554344;
 	text-align: center;
 	color: #554344;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-weight: normal;
 	height: 40px;
 }
@@ -14797,7 +14799,7 @@ span.dup-error-msg {
 	border: solid 1px #554344;
 	text-align: center;
 	color: #554344;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-weight: normal;
 	height: 40px;
 }
@@ -14942,7 +14944,7 @@ span.dup-error-msg {
 .fwd-savie-wrapper .document-upload .description {
 	font-size: 18px;
 	color: #373a36;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding-top: 35px;
 	padding-bottom: 35px;
 }
@@ -15036,7 +15038,7 @@ span.dup-error-msg {
 }
 /* line 13, ../sass/partials/_thank-you-update.scss */
 .fwd-savie-wrapper .thank-you-container h1 {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 30px;
 	text-align: center;
 	margin: 0;
@@ -15083,7 +15085,7 @@ span.dup-error-msg {
 /* line 45, ../sass/partials/_thank-you-update.scss */
 .fwd-savie-wrapper .thank-you-container .details-container h2 {
 	font-size: 24px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	margin: 0;
 	padding-bottom: 13px;
 	color: #554344;
@@ -15109,7 +15111,7 @@ span.dup-error-msg {
 }
 /* line 63, ../sass/partials/_thank-you-update.scss */
 .fwd-savie-wrapper .thank-you-container .details-container p span {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 68, ../sass/partials/_thank-you-update.scss */
 .fwd-savie-wrapper .thank-you-container .details-container p.steps {
@@ -15502,7 +15504,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .plan-row {
 	padding: 35px 45px 45px;
 	color: #061d2a;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	margin-left: -15px;
 	margin-right: -15px;
 }
@@ -15539,7 +15541,7 @@ button#thank-you-continue {
 }
 /* line 39, ../sass/partials/_illustration-review.scss */
 .fwd-savie-wrapper .plan-row .plan-col {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	word-break: break-word;
 }
 /* line 43, ../sass/partials/_illustration-review.scss */
@@ -15612,7 +15614,7 @@ button#thank-you-continue {
 	color: #554344;
 	font-size: 14px;
 	text-decoration: underline;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 94, ../sass/partials/_illustration-review.scss */
 .fwd-savie-wrapper .plan-row.inner-plan-row .inner-plan-col .inner-col h3.h3-pad
@@ -15740,7 +15742,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .illustration-review .illustration-head h2 {
 	margin: 0;
 	padding: 19px 0 14px 0;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 30px;
 }
 /* line 189, ../sass/partials/_illustration-review.scss */
@@ -15912,7 +15914,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .modal.application-modal .modal-dialog .modal-content .modal-body .amount
 	{
 	color: #554344;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	margin-top: -6px;
 	display: block;
 	margin-bottom: 4px;
@@ -16044,7 +16046,7 @@ button#thank-you-continue {
 }
 /* line 92, ../sass/partials/_fna.scss */
 .fwd-savie-wrapper .fna-container p.hotline span {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #554344;
 }
 
@@ -16171,7 +16173,7 @@ button#thank-you-continue {
 	height: 203px;
 	padding: 15px 20px;
 	font-size: 18px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 @media ( min-width : 992px) {
@@ -16188,7 +16190,7 @@ button#thank-you-continue {
 	border: 0;
 	background-color: #e2e7eb;
 	font-size: 18px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding: 7px 20px;
 }
 /* line 223, ../sass/partials/_fna.scss */
@@ -16228,7 +16230,7 @@ button#thank-you-continue {
 /* line 248, ../sass/partials/_fna.scss */
 .fwd-savie-wrapper #fna-yes .modal-dialog .modal-content p {
 	color: #061d2a;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	margin-bottom: 3px;
 }
 /* line 254, ../sass/partials/_fna.scss */
@@ -16242,7 +16244,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .fna-row {
 	padding: 35px 15px;
 	color: #061d2a;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	margin-left: -15px;
 	margin-right: -15px;
 }
@@ -16259,7 +16261,7 @@ button#thank-you-continue {
 }
 /* line 17, ../sass/partials/_fna-review.scss */
 .fwd-savie-wrapper .fna-row .fna-col {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	word-break: break-word;
 	padding-bottom: 5px;
 }
@@ -16571,7 +16573,7 @@ button#thank-you-continue {
 	color: #554344;
 	font-size: 14px;
 	text-decoration: underline;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 274, ../sass/partials/_fna-review.scss */
 .fwd-savie-wrapper .fna-row.inner-fna-row .inner-fna-col .inner-col .name-break
@@ -16589,7 +16591,7 @@ button#thank-you-continue {
 /* line 281, ../sass/partials/_fna-review.scss */
 .fwd-savie-wrapper .fna-row.inner-fna-row .inner-fna-col .inner-col .note
 	{
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding-top: 5px;
 	padding-left: 15px;
 	margin-bottom: -38px;
@@ -16794,7 +16796,7 @@ button#thank-you-continue {
 
 /* line 4, ../sass/partials/_page-set-appointment.scss */
 .fwd-savie-wrapper #set-appointment h2 {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 30px;
 	color: #554344;
 	text-align: center;
@@ -16813,13 +16815,13 @@ button#thank-you-continue {
 /* line 17, ../sass/partials/_page-set-appointment.scss */
 .fwd-savie-wrapper #set-appointment h5 {
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	margin: 0;
 }
 /* line 22, ../sass/partials/_page-set-appointment.scss */
 .fwd-savie-wrapper #set-appointment h4 {
 	color: #061d2a;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 18px;
 	margin: 0;
 }
@@ -16832,7 +16834,7 @@ button#thank-you-continue {
 	width: 100%;
 	height: 50px;
 	font-size: 24px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #554344;
 	border: 1px solid #554344;
 	background: white;
@@ -16854,7 +16856,7 @@ button#thank-you-continue {
 	text-align: center;
 	padding: 7px 0;
 	font-size: 24px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 @media ( min-width : 992px) {
@@ -16943,7 +16945,7 @@ button#thank-you-continue {
 }
 /* line 129, ../sass/partials/_page-set-appointment.scss */
 .fwd-savie-wrapper #set-appointment .service-centre-cells .content p {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 14px;
 	line-height: 15px;
 	margin-top: 2px;
@@ -17105,7 +17107,7 @@ button#thank-you-continue {
 	background-color: #f1f3f5;
 	margin-bottom: 5px;
 	background-position-y: -2px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 18px;
 	background-position-x: 3px;
 }
@@ -17133,7 +17135,7 @@ button#thank-you-continue {
 	height: 40px;
 	border: 0;
 	margin-bottom: 9px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding-left: 25px;
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
 	font-size: 18px;
@@ -17412,7 +17414,7 @@ button#thank-you-continue {
 	min-width: 200px;
 	font-size: 30px;
 	padding: 15px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 /* line 3, ../sass/partials/_overall.scss */
@@ -17588,7 +17590,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .yellow-stick-btn {
 	color: #fffffe;
 	font-size: 24px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	background-color: #fdb714;
 	height: 80px;
 	width: 80px;
@@ -17801,7 +17803,7 @@ button#thank-you-continue {
 	{
 	font-size: 18px;
 	color: #061d2a;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	text-align: center;
 	padding-top: 10px;
 	line-height: 21px;
@@ -17820,7 +17822,7 @@ button#thank-you-continue {
 	font-size: 18px;
 	color: #061d2a;
 	text-align: center;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	line-height: 20px;
 }
 
@@ -17857,7 +17859,7 @@ button#thank-you-continue {
 	border-radius: 0;
 	height: 40px;
 	border: 0;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding-left: 18px;
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
 	font-size: 18px;
@@ -17960,7 +17962,7 @@ button#thank-you-continue {
 	{
 	font-size: 30px;
 	margin: 0;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #554344;
 	line-height: 30px;
 }
@@ -18051,7 +18053,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .sign-up-teaser button.get-started {
 	background-color: white;
 	color: #554344;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	height: 48px;
 	width: 65%;
 	max-width: 245px;
@@ -18084,7 +18086,7 @@ button#thank-you-continue {
 	.fwd-savie-wrapper .sign-up-teaser button.get-started {
 		background-color: #554344;
 		color: white;
-		font-family: 'Calibri';
+		font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 		font-size: 32px;
 		display: block;
 		width: 94%;
@@ -18178,7 +18180,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .sign-up-teaser p.sign-up-header {
 	color: #554344;
 	font-size: 24px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	text-align: center;
 	max-width: 300px;
 	margin: 0 auto;
@@ -18227,7 +18229,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .sign-up-teaser p.email-notification {
 	color: #061d2a;
 	font-size: 18px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	text-align: center;
 	line-height: 22px;
 }
@@ -18261,7 +18263,7 @@ button#thank-you-continue {
 	color: #fff;
 	background-color: #554344;
 	font-size: 24px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding: 7px 40px;
 }
 /* line 561, ../sass/partials/_teaser.scss */
@@ -18345,7 +18347,7 @@ button#thank-you-continue {
 /* line 629, ../sass/partials/_teaser.scss */
 .fwd-savie-wrapper .sign-up-teaser .pull-left.text {
 	width: 90%;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #061d2a;
 	font-size: 14px;
 	line-height: 15px;
@@ -18450,7 +18452,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .teaser .teaser-banner-text a.product {
 	font-size: 18px;
 	color: #554344;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	display: block;
 	text-align: center;
 }
@@ -18606,11 +18608,12 @@ button#thank-you-continue {
 /* line 858, ../sass/partials/_teaser.scss */
 .fwd-savie-wrapper p {
 	margin: 0;
+	color: #858586;
 }
 /* line 861, ../sass/partials/_teaser.scss */
 .fwd-savie-wrapper p.save-my-way {
 	font-size: 38px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #554344;
 	text-align: center;
 	line-height: 30px;
@@ -18625,7 +18628,7 @@ button#thank-you-continue {
 }
 /* line 874, ../sass/partials/_teaser.scss */
 .fwd-savie-wrapper p.guaranteed {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #554344;
 	font-size: 28px;
 	line-height: 34px;
@@ -18670,7 +18673,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper p.additional {
 	font-size: 18px;
 	color: #fff;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	line-height: 23px;
 	text-align: center;
 }
@@ -18686,7 +18689,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper p.additional.top {
 	padding: 32px 0 0 0;
 	font-size: 30px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #554344;
 	line-height: 28px;
 }
@@ -18714,7 +18717,7 @@ button#thank-you-continue {
 /* line 941, ../sass/partials/_teaser.scss */
 .fwd-savie-wrapper p.sign-up {
 	text-align: center;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #fff;
 	font-size: 18px;
 	padding: 10px 10% 0 10%;
@@ -18748,7 +18751,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper p.bottom-text.upper {
 	margin-top: 5px;
 	margin-bottom: 10px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 @media ( min-width : 992px) {
@@ -18770,7 +18773,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper span.add {
 	color: #554344;
 	font-size: 18px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 @media ( min-width : 992px) {
@@ -18778,7 +18781,7 @@ button#thank-you-continue {
 	.fwd-savie-wrapper span.add {
 		color: #fff;
 		font-size: 24px;
-		font-family: 'Calibri';
+		font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	}
 }
 
@@ -18807,7 +18810,7 @@ button#thank-you-continue {
 	margin: 0;
 	font-size: 30px;
 	color: #554344;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 28, ../sass/partials/_teaser-confirmation.scss */
 .fwd-savie-wrapper .teaser-confirmation h2 span.next-line {
@@ -18816,7 +18819,7 @@ button#thank-you-continue {
 /* line 34, ../sass/partials/_teaser-confirmation.scss */
 .fwd-savie-wrapper .teaser-confirmation h4 {
 	margin: 0;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #061d2a;
 	padding-top: 14px;
 	padding-bottom: 38px;
@@ -18834,13 +18837,13 @@ button#thank-you-continue {
 }
 /* line 50, ../sass/partials/_teaser-confirmation.scss */
 .fwd-savie-wrapper .teaser-confirmation h4 span.savie-bold {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 56, ../sass/partials/_teaser-confirmation.scss */
 .fwd-savie-wrapper .teaser-confirmation h3 {
 	margin: 0;
 	color: #061d2a;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding-top: 17px;
 	padding-bottom: 15px;
 	line-height: 23px;
@@ -18999,7 +19002,7 @@ button#thank-you-continue {
 }
 /* line 192, ../sass/partials/_teaser-confirmation.scss */
 .fwd-savie-wrapper .teaser-confirmation a.back-at-home {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 24px;
 	color: #554344;
 	height: 60px;
@@ -19034,7 +19037,7 @@ button#thank-you-continue {
 	height: 40px;
 	border: 0;
 	margin-bottom: 9px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding-left: 18px;
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
 	font-size: 18px;
@@ -19385,7 +19388,7 @@ button#thank-you-continue {
 /* line 23, ../sass/partials/_hunger-selling.scss */
 .fwd-savie-wrapper .banner-widget .hunger-selling-text {
 	font-size: 24px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: white;
 	text-shadow: 1px 1px 10px #000;
 	padding: 0;
@@ -19409,7 +19412,7 @@ button#thank-you-continue {
 }
 /* line 51, ../sass/partials/_hunger-selling.scss */
 .fwd-savie-wrapper .banner-widget .buy-now.hunger-buy-now {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #ff8000;
 	border: 1px solid #ff8000;
 	background-color: #fff;
@@ -19501,7 +19504,7 @@ button#thank-you-continue {
 /* line 130, ../sass/partials/_hunger-selling.scss */
 .fwd-savie-wrapper .hunger-selling-container-sign-up-now.container-fluid.modal-dialog .hunger-selling-content .hunger-selling-header .hunger-selling-title
 	{
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 30px;
 	color: #554344;
 	line-height: 31px;
@@ -19657,7 +19660,7 @@ button#thank-you-continue {
 /* line 254, ../sass/partials/_hunger-selling.scss */
 .fwd-savie-wrapper .hunger-selling-container.container-fluid.modal-dialog .hunger-selling-content .hunger-selling-header .hunger-selling-title
 	{
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 30px;
 	color: #554344;
 	line-height: 31px;
@@ -19819,7 +19822,7 @@ button#thank-you-continue {
 	border-radius: 0;
 	height: 38px;
 	border: 0;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding-left: 18px;
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
 	font-size: 18px;
@@ -20050,7 +20053,7 @@ button#thank-you-continue {
 	background: transparent;
 	color: #554344;
 	font-size: 24px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	border-radius: 0;
 	outline: none;
 }
@@ -20289,7 +20292,7 @@ button#thank-you-continue {
 	border: solid 1px #554344;
 	background: #fff;
 	color: #554344;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	border-radius: 0;
 	outline: none;
 }
@@ -20551,7 +20554,7 @@ button#thank-you-continue {
 	border-radius: 0;
 	outline: none;
 	float: left;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 @media ( min-width : 992px) {
@@ -20629,7 +20632,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .pull-left.eServices-sidebar {
 	color: #fff;
 	width: 100%;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 @media ( min-width : 992px) {
@@ -20683,7 +20686,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .pull-left.eServices-sidebar .profile p.name {
 	padding-top: 15px;
 	font-size: 18px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 @media ( min-width : 992px) {
@@ -21049,7 +21052,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .notification-header .pull-left.notifications {
 	color: #fff;
 	font-size: 24px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 50, ../sass/partials/_notifications-mobile.scss */
 .fwd-savie-wrapper .notification-header .pull-left.notifications .text {
@@ -21062,7 +21065,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .notifications-mobile .notification-body {
 	color: #373a36;
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 68, ../sass/partials/_notifications-mobile.scss */
 .fwd-savie-wrapper .notifications-mobile .notification-body ul.notifications-ul
@@ -21081,7 +21084,7 @@ button#thank-you-continue {
 	{
 	color: #373a36;
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 84, ../sass/partials/_notifications-mobile.scss */
 .fwd-savie-wrapper .notifications-mobile .notification-body ul li.notifications-list .table
@@ -21149,7 +21152,7 @@ button#thank-you-continue {
 .fwd-savie-wrapper .personal-row {
 	padding: 0 15px 35px;
 	color: #061d2a;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	margin-left: -15px;
 	margin-right: -15px;
 }
@@ -21166,7 +21169,7 @@ button#thank-you-continue {
 }
 /* line 17, ../sass/partials/_eservices-personal-info.scss */
 .fwd-savie-wrapper .personal-row .personal-col {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding-bottom: 5px;
 }
 
@@ -21273,7 +21276,7 @@ button#thank-you-continue {
 	color: #554344;
 	font-size: 14px;
 	text-decoration: underline;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 98, ../sass/partials/_eservices-personal-info.scss */
 .fwd-savie-wrapper .personal-row.inner-personal-row .inner-personal-col .inner-col
@@ -22056,15 +22059,15 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 425, ../sass/partials/_elite-terms-widget.scss */
 .et-medic-panel .panel-collapse {
 	background-color: #f3f4f4;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 429, ../sass/partials/_elite-terms-widget.scss */
 .et-medic-panel .panel-collapse p {
-	margin-bottom: 20px;
+	/* margin-bottom: 20px;
 	color: #061d2a;
     font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
     font-size: 18px;
-    line-height: 26px;
+    line-height: 26px; */
 }
 
 @media ( min-width : 992px) {
@@ -22123,7 +22126,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 }
 /* line 480, ../sass/partials/_elite-terms-widget.scss */
 .et-btn-medic.btn-selected {
-	background: #554344;
+	background: #596c80 !important;
 	color: white;
 }
 /* line 484, ../sass/partials/_elite-terms-widget.scss */
@@ -23083,7 +23086,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	{
 	color: #2a2c29;
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	line-height: 14px;
 	padding-bottom: 15px;
 }
@@ -23186,7 +23189,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	{
 	font-size: 14px;
 	color: #fff;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	max-width: 410px;
 	height: 80px;
 	padding: 5px 12px;
@@ -23485,7 +23488,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	border: none;
 	padding: 0;
 	color: #000;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 17.92px;
 	padding-left: 20px;
 	margin-top: 5px;
@@ -23642,7 +23645,8 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	display: block;
 	color: #fff;
 	padding: 11.5px 15px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	border: 1px solid #8a9496;
 }
 /* line 1140, ../sass/partials/_elite-terms-select-plan.scss */
 .fwd-savie-wrapper .et-accrdn-list .panel-group .panel.et-panel-accordion .et-panel-heading a[aria-expanded="true"] .fa-angle-up
@@ -23692,7 +23696,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 .fwd-savie-wrapper .et-accrdn-list .jspPane p.et-accrdion-txt-bold {
 	color: #2a2c29;
 	font-size: 18px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	line-height: 22px;
 	padding-bottom: 20px;
 }
@@ -23700,7 +23704,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 .fwd-savie-wrapper .et-accrdn-list .jspPane p.et-accrdion-txt-normal {
 	color: #2a2c29;
 	font-size: 18px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 1197, ../sass/partials/_elite-terms-select-plan.scss */
 .fwd-savie-wrapper .et-accrdn-list .jspPane p.et-accrdion-txt-normal.bottom
@@ -23711,7 +23715,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 .fwd-savie-wrapper .et-accrdn-list p.et-accrdion-txt-bold {
 	color: #2a2c29;
 	font-size: 18px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	line-height: 22px;
 	padding-bottom: 20px;
 }
@@ -23719,7 +23723,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 .fwd-savie-wrapper .et-accrdn-list p.et-accrdion-txt-normal {
 	color: #2a2c29;
 	font-size: 18px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 1218, ../sass/partials/_elite-terms-select-plan.scss */
 .fwd-savie-wrapper .et-accrdn-list p.et-accrdion-txt-normal.bottom {
@@ -23820,7 +23824,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 
 /* line 1210, ../sass/partials/_elite-terms-select-plan.scss */
 .et-po-amount-label {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 14px;
 	color: #b8123e;
 	line-height: 15px;
@@ -23833,7 +23837,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 .et-sp-tooltip-wrapper .tooltip-inner {
 	font-size: 14px;
 	color: #fff;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding: 5px 12px;
 	line-height: 17px;
 	border-radius: 7px;
@@ -23953,7 +23957,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 44, ../sass/partials/_et-cannot-apply-modal.scss */
 #cannot-apply-modal .et-modal-content h5, #customer-service-modal .et-modal-content h5
 	{
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 18px;
 	color: #2a2c29;
 }
@@ -23978,7 +23982,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	{
 	font-size: 18px;
 	color: #2a2c29;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	line-height: 18px;
 }
 /* line 70, ../sass/partials/_et-cannot-apply-modal.scss */
@@ -24032,7 +24036,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 99, ../sass/partials/_et-cannot-apply-modal.scss */
 #cannot-apply-modal .modal-body form .input-items label,
 	#customer-service-modal .modal-body form .input-items label {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 18px;
 	margin-bottom: 0;
 	font-weight: normal;
@@ -24178,7 +24182,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 .fwd-generic-modal .modal-title {
 	text-align: center;
 	color: fc6d08;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 30px;
 }
 /* line 29, ../sass/partials/_et-birthday-dont-match-modal.scss */
@@ -24198,7 +24202,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 .fwd-generic-modal .btn-block {
 	color: #fff;
 	background: #fc6d08;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 24px;
 	border: 1px solid #fc6d08;
 	height: 50px;
@@ -24269,7 +24273,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 34, ../sass/partials/_elite-terms-document-upload.scss */
 .et-document-upload p.notice, .et-document-upload #application-registration form p.notice-password,
 	#application-registration form .et-document-upload p.notice-password {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 18px;
 	line-height: 21px;
 	margin-top: 18px;
@@ -24494,7 +24498,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	background-color: #fff;
 	color: #554344;
 	font-size: 18px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 120, ../sass/partials/_et-confirmation.scss */
 #etConfirm .et-submit button:hover, #etConfirm .et-submit button:focus {
@@ -24602,7 +24606,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 12, ../sass/partials/_elite-terms-payment.scss */
 .et-payment .page-header h2.page-header-title {
 	display: block;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #554344;
 	margin-bottom: 28px;
 }
@@ -24638,7 +24642,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 }
 /* line 35, ../sass/partials/_elite-terms-payment.scss */
 .et-payment .page-header p.amount-holder {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 @media ( min-width : 992px) {
@@ -24695,7 +24699,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 /* line 73, ../sass/partials/_elite-terms-payment.scss */
 .et-payment .page-content h2 {
 	font-size: 30px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	color: #554344;
 	margin-top: 18px;
 	margin-bottom: 28px;
@@ -24717,7 +24721,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 }
 /* line 93, ../sass/partials/_elite-terms-payment.scss */
 .et-payment .page-content .page-content-item label {
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 18px;
 	margin-bottom: 3px;
 	color: #000;
@@ -24865,7 +24869,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	#application-registration form .et-payment .page-content .page-content-item .fwd-checkbox p.notice-password
 	{
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	padding-left: 34px;
 	padding-top: 5px;
 	line-height: 17px;
@@ -24877,7 +24881,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 		.et-payment .page-content .page-content-item .fwd-checkbox #application-registration form p.notice-password,
 		#application-registration form .et-payment .page-content .page-content-item .fwd-checkbox p.notice-password
 		{
-		font-family: 'Calibri';
+		font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 		padding-right: 20px;
 	}
 }
@@ -25369,7 +25373,7 @@ body.chin .fwd-savie-wrapper .teaser-confirmation .btn-fwd-fb {
 	{
 	font-size: 18px;
 	color: #2a2c29;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	margin-top: 10px;
 	padding-left: 56px;
 	list-style-type: none;
@@ -25531,7 +25535,7 @@ label.et-bene-radio,#et-application-second-section label,
 /* line 23, ../sass/partials/_et-get-promotion-code-modal.scss */
 #get-promotion-code .modal-dialog .modal-content .form-container h4 {
 	font-weight: normal;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 /* line 28, ../sass/partials/_et-get-promotion-code-modal.scss */
 #get-promotion-code .modal-dialog .modal-content .form-container .form-control
@@ -25564,7 +25568,7 @@ label.et-bene-radio,#et-application-second-section label,
 	{
 	height: 57px;
 	font-size: 30px;
-	font-family: 'calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	margin-top: 8px;
 }
 /* line 57, ../sass/partials/_et-get-promotion-code-modal.scss */
@@ -25656,7 +25660,7 @@ label.et-bene-radio,#et-application-second-section label,
 		color: #fff;
 		background: #554344;
 		font-size: 24px;
-		font-family: 'Calibri';
+		font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 		padding: 7px 40px;
 		margin-bottom: 50px;
 	}
@@ -25715,7 +25719,7 @@ label.et-bene-radio,#et-application-second-section label,
 .fwd-savie-wrapper ol.et-accrdion-txt-normal li {
 	color: #2a2c29;
 	font-size: 18px;
-	font-family: 'Calibri';
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 /* ticket 2930 */
@@ -25743,7 +25747,7 @@ label.et-bene-radio,#et-application-second-section label,
 }
 
 .fwd-savie-wrapper #employment-info .content #has-regular-income .regular-income-specific{
-    font-family: 'Calibri';
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
     font-size: 18px;
     margin-bottom: 7px;
     color: #061d2a;
@@ -25765,7 +25769,7 @@ label.et-bene-radio,#et-application-second-section label,
 }
  
 .fwd-savie-wrapper #employment-info .content #has-regular-income .has-regular-income-selection{
-   font-family: 'Calibri';
+   font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 .fwd-savie-wrapper #employment-info .content #has-regular-income .radio-choice,#employmentInfoForm .radio-choice{
    margin-right: 30px;
@@ -25776,4 +25780,8 @@ label.et-bene-radio,#et-application-second-section label,
 	color : #f68b1f;
 }
 .panel-heading a:hover{ background-color: transparent;}
-.et-medic-panel>.panel-heading a:hover{background-color: transparent!important; border: 0;}
+.et-medic-panel>.panel-heading a:hover{background-color: transparent!important; border: 0 !important;}
+#et-medical-declaration .fwd-savie-wrapper button:hover, .fwd-savie-wrapper a:hover { border: solid 1px #596c80; background: #596c80;}
+#et-medical-declaration  .et-btn-medic.btn-selected {background: #596c80 !important; color: white;}
+small, .small {font-size: 80%;}
+
