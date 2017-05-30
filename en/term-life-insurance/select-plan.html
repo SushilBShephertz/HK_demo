@@ -438,6 +438,8 @@
         $('#et-application-third-section').addClass('hide-element');
         $('#et-declaration-proceed-btn').parent().removeClass('hidden');
 
+        $('#et-application-second-section').addClass('hide-element');
+        $('#et-application-fourth-section').removeClass('hide-element');
 
     }
 
@@ -459,9 +461,9 @@
         setTimeout(function(){
             $('html, body').animate({
                 scrollTop: 0
-            }, 500);
+            }, 0);
 
-        },200);
+        },0);
 
     }
 
@@ -477,9 +479,9 @@
         setTimeout(function(){
             $('html, body').animate({
                 scrollTop: 0
-            }, 500);
+            },0);
 
-        },200);
+        },0);
 
 
 
@@ -4095,13 +4097,13 @@ brown"></span></h6>
             <div class="application-page-header et-header-browse">
                 <div class="row reset-margin">
                     <div class="col-md-2 reset-padding">
-                        <button type="button" class="et-header-info-btn et-bind-btn-header " id="select-plan"
+                        <button type="button" class="et-header-info-btn et-bind-btn-header active " id="select-plan"
                                 data-et-section-target="et-select-plan-section">
                             Select plan
                         </button>
                     </div>
                     <div class="col-md-2 reset-padding">
-                        <button type="button" class="et-header-info-btn et-bind-btn-header active" id="application"
+                        <button type="button" class="et-header-info-btn et-bind-btn-header " id="application"
                                 data-et-section-target="et-application-section">
                             Application
                         </button>
@@ -4878,8 +4880,8 @@ brown"></span></h6>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="et-medical-next-brn next-btn">
-                                    <button onclick="gotoUserProfile()" type="submit" class="btn next pi et-medic-next"
+                                <div class="et-medical-next-brn next-btn et-next-btn-div">
+                                    <button onclick="gotoUserProfile()" type="submit" class="btn btn-orange et-next-btn et-pad-bot-50"
                                             >
                                         Next
                                     </button>
@@ -5421,8 +5423,8 @@ brown"></span></h6>
                                        class="form-control bmg_custom_placeholder gray-textbox check-emp login-input"
                                        value=""/>
                         </div>
-                        <div class="next-btn center">
-                            <button id="et-personal-info-next" class="btn next pi" onClick="submitUserInfo()">
+                        <div class="next-btn center et-next-btn-div">
+                            <button id="et-personal-info-next" class="btn btn-orange et-next-btn et-pad-bot-50" onClick="submitUserInfo()">
                                 Next
                             </button>
                         </div>
@@ -11187,9 +11189,9 @@ brown"></span></h6>
                             make the change request in person at one of our Customer Service
                             Centers.
                         </div>
-                        <div class="button-row text-center btn-beneficiary">
+                        <div class="button-row text-center btn-beneficiary et-next-btn-div">
                             <button id="et-beneficiary-info-next" onclick="gotoDeclaration()" type="button"
-                                    class="next">
+                                    class="btn btn-orange et-next-btn et-pad-bot-50">
                                 Next
                             </button>
                             <!--Bind a click event temporarily to show the hidden Declaration & authorization section-->
