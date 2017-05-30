@@ -2948,3 +2948,8 @@ button.close {
     padding: 6px;
     border: 1px solid #e86487;
 }
+.checkbox-section .fwd-savie-wrapper .personal-info-widget .checkbox-section .pull-left.right-checkbox span.checkbox-text, .fwd-savie-wrapper .personal-info-widget .checkbox-section .pull-left.right-checkbox label.checkbox-text {
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 16px;
+    color: #061d2a !important;
+}
