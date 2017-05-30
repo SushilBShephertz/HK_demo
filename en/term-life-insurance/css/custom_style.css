@@ -57,6 +57,12 @@
 }
 .map_container img{ width:100%;}
 #location_popup .modal-header-btn img, #login_popup .modal-header-btn img{ width: 24px}
+.login_content{padding-bottom:30px; text-align:center}
+.login_content p{ margin-bottom:15px;}
+ .login_content .fb_iframe_widget {padding: 8px 15px;border-radius: 4px; background: #4c69ba;
+    background: linear-gradient(#4c69ba, #3b55a0);
+    border-color: #4c69ba;}
+._4z_d{height:29px;}
 @media screen and (max-width:992px){
 	.banner_content{width: 50%;}
 .banner_content .banner_title{    font-size: 29px; margin: 0 0  10px }
