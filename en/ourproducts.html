@@ -12,6 +12,9 @@
     <meta name="description" content="AIA Hong Kong provides insurance products for both individuals and businesses. Find out more about our services and get the latest updates!">
     <meta name="format-detection" content="telephone=no">
     <script type="text/javascript">
+    $(document).ready(function(){
+    $(window).scrollTop(0);
+});
         function fallbackSvgs() {
             if (!/Safari|iPhone|iPad|iPod/.test(navigator.userAgent) || !/Apple Computer/.test(navigator.vendor)) return;
             var svgs = document.getElementsByTagName('svg');
@@ -1257,7 +1260,9 @@ brown"></span></h6>
                         <div class="pera">
                         Securing your family has never been more affordable get a life cover of 1 cr. at just Rs. 576/month*
                         </div>
-                        <a class="login_btn" href="#">Social login</a>
+                            <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+    </fb:login-button>
+                        <!--<a class="login_btn" href="#">Social login</a>-->
                         </div>
                     </div>
                 </div>
@@ -1822,10 +1827,6 @@ brown"></span></h6>
     <script type="text/javascript" src="../etc/clientlibs/aia/aia-footer.min.26662511a9eccc290c94140746cd126c.js"></script>
     <script type="text/javascript" src="../etc/clientlibs/aia/country-footer/hk.min.98f8a9d2435a1a03199d2d66a3f1ce53.js"></script>
     <div class="cloudservices servicecomponents"> </div>
-    sfgsgsgss
-    <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-    </fb:login-button>
-
 </body>
 
 <script>
