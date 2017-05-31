@@ -552,10 +552,15 @@ body.chin .fwd-et-wrapper .container-fluid.fwd-container .et-plan-option .et-min
 }
 
 #et-cust-serv-form .btn {
-    border: solid 1px #ff8200;
-    background: #ff8200;
+    border: solid 1px #b8123e;
+    background: #b8123e;
     color: white;
-    font-size: 24px; 
+    padding: 7px 40px;
+    font: normal 20px "AIASans","Calibri",sans-serif;	
+}
+#et-cust-serv-form .btn:hover{ 
+    border: solid 1px #e86487;
+    background: #e86487;
 }
 
 #cannot-apply-modal .modal-header button{

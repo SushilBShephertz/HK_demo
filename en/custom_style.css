@@ -470,7 +470,7 @@ appbox-menu .item:hover .member-details { margin-top: -212px; }
 .onlineuser:before{width: 8px;height: 8px;background-color: #4CAF22;border-radius: 4px;margin-top: 7px;left: 23px;content: "";position: absolute;}
 .offlineuser:before{width: 8px;height: 8px;background-color: #EA4747;border-radius: 4px;margin-top: 7px;left: 23px;content: "";position: absolute;}
 #responseManager .chat-bubble.chat-bubble-right p{word-wrap: break-word!important; text-align: right;}
-#responseManager .chat-bubble.chat-bubble-left p{word-wrap: break-word!important; text-align: left;}
+#responseManager .chat-bubble.chat-bubble-left p{word-wrap: break-word!important; text-align: left; color: #061d2a; font-family: Arial,"Helvetica Neue",Helvetica,sans-serif; font-size: 16px; line-height: 22px;}
 #responseManager .contbox{height: 180px;overflow-y: scroll;overflow-x: hidden;}
 .user_col{border-right: 1px dashed #cfcfcf;height: 100%;}
 .chat_col{height: 100%!important;}
