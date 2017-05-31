@@ -38,7 +38,7 @@
     </script>
 
      <link rel='stylesheet' href='custom_style.css'>
-  <link rel='stylesheet' href='app.css'>
+ <!--  <link rel='stylesheet' href='app.css'> -->
   <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700|Roboto+Condensed:300,400,700' rel='stylesheet'
     type='text/css'>
@@ -175,7 +175,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="http://www.aia.com.hk/favicon.ico">
     <meta name="google-site-verification" content="54r_aeWlMn4GlJ3E33iIBXCVRWlQ9u3NirgocpAQpz4" />
-    <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
+ <!--    <link rel="stylesheet" href="../resources/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="../etc/clientlibs/aia/aia-header.min.bcd411696935f5791900a3b839f536d9.css" type="text/css">
     
     <link rel="stylesheet" href="term-life-insurance/css/custom_style.css">
@@ -1400,9 +1400,10 @@ brown"></span></h6>
                         <div class="pera">
                         Securing your family has never been more affordable get a life cover of HK$ 100k at just HK$ 576/month*
                         </div>
-                            <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-    </fb:login-button>
-                        <!--<a class="login_btn" href="#">Social login</a>-->
+                          
+    
+                        <a class="login_btn" data-toggle="modal" data-target="#login_popup" href="#">Social login</a>
+                         <fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>
                         </div>
                     </div>
                 </div>
@@ -1434,8 +1435,8 @@ brown"></span></h6>
                 
             </div>
             <div class="content">
-                <h4 class="margin-bottom-xs" id="card-title1204709706">Lorem Ipsum is simply </h4>
-                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<br>
+                <h4 class="margin-bottom-xs" id="card-title1204709706">Lump Sum Benefit </h4>
+                <p>20% of Basic or Indexed Sum Insured (whichever is applicable)<br>
 
 </p>
         </div>
@@ -1464,42 +1465,8 @@ brown"></span></h6>
                 
             </div>
             <div class="content">
-                <h4 class="margin-bottom-xs" id="card-title1204709706">Lorem Ipsum is simply </h4>
-                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<br>
-
-</p>
-
-
-
-
-            </div>
-        </div>
-    </div>
-    </a>
-    
-        
-    
-
-</div>
-
-</div>
-
-        </div>
-        <div class="col-card-sm-12 col-sm-6 col-md-3 card-col">
-            <div class="par6 parsys"><div class="card-product-category section">
-    
-        <a href="#" aria-labelledby="card-title1204709706" data-target="#product-category-card-modal-1646180621" data-toggle="modal">
-    
-    <div class="card-col" style="float:initial;">
-        <div class="block single_section press-card " style="text-align: center; height: 305px;">
-            <div class="thumbnail">
-                
-                    <img src="term-life-insurance/images/savings-prime1.png">
-                
-            </div>
-            <div class="content">
-                <h4 class="margin-bottom-xs" id="card-title1204709706">Lorem Ipsum is simply </h4>
-                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<br>
+                <h4 class="margin-bottom-xs" id="card-title1204709706">Death Benefit </h4>
+                <p>On death during the term of the policy, a lump sum Death Benefit will be paid to the nominee of the life insured.<br>
 
 </p>
 
@@ -1532,8 +1499,42 @@ brown"></span></h6>
                 
             </div>
             <div class="content">
-                <h4 class="margin-bottom-xs" id="card-title1204709706">Lorem Ipsum is simply </h4>
-                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<br>
+                <h4 class="margin-bottom-xs" id="card-title1204709706">Tax Benefits</h4>
+                <p>You may be entitled to certain tax benefits on your premiums and Policy benefits<br>
+
+</p>
+
+
+
+
+            </div>
+        </div>
+    </div>
+    </a>
+    
+        
+    
+
+</div>
+
+</div>
+
+        </div>
+        <div class="col-card-sm-12 col-sm-6 col-md-3 card-col">
+            <div class="par6 parsys"><div class="card-product-category section">
+    
+        <a href="#" aria-labelledby="card-title1204709706" data-target="#product-category-card-modal-1646180621" data-toggle="modal">
+    
+    <div class="card-col" style="float:initial;">
+        <div class="block single_section press-card " style="text-align: center; height: 305px;">
+            <div class="thumbnail">
+                
+                    <img src="term-life-insurance/images/savings-prime1.png">
+                
+            </div>
+            <div class="content">
+                <h4 class="margin-bottom-xs" id="card-title1204709706">Maturity Benefit </h4>
+                <p>At the end of Policy Term, the Policyholder will get Guaranteed Maturity Sum<br>
 
 </p>
 
@@ -1567,56 +1568,58 @@ brown"></span></h6>
             </section>
 
 <section class="plans_section">
-              <div class="container">                
-                <div class="tab-content">
-                  <div id="individual" data-id="cards" class="row tab-pane fade in card-row margin-bottom-xxl active ">
-                    <div class="product-hero-icon section">
-                      <ul class="text-center margin-bottom-sm-l">
-                        <li data-toggle="modal" data-target="#location_popup">
-                          <div class="hover-thumb"> <a href="#">
-                            <img class="icon icon-l " src="../content/dam/aia/icons/primary/normal/savings-prime1.png" alt="Savings">
-                            </a> </div>
-                          <p class="bt5 b6"> <a href="our-products/savings.html" class="bt5 b6" aria-hidden="true" tabindex="-1"> Savings </a> </p>
-                        </li>
-                        <li>
-                          <div class="hover-thumb"> <a href="our-products/insurance-with-investment-focus.html">
-                            <img class="icon icon-l " src="../content/dam/aia/icons/primary/normal/investment_insurance-prime1.png" alt="Insurance with Investment Focus">
-                            </a> </div>
-                          <p class="bt5 b6"> <a href="our-products/insurance-with-investment-focus.html" class="bt5 b6" aria-hidden="true" tabindex="-1"> Insurance with Investment Focus </a> </p>
-                        </li>
-                        <li>
-                          <div class="hover-thumb"> <a href="our-products/life-protection.html">
-                            <img class="icon icon-l " src="../content/dam/aia/icons/primary/normal/lifepro-prime1.png" alt="undefined">
-                            </a> </div>
-                          <p class="bt5 b6"> <a href="our-products/life-protection.html" class="bt5 b6" aria-hidden="true" tabindex="-1"> Life Protection </a> </p>
-                        </li>
-                        <li>
-                          <div class="hover-thumb"> <a href="our-products/critical-illness-protection.html">
-                            <img class="icon icon-l " src="../content/dam/aia/icons/primary/normal/criticalillnesspro-prime1.png" alt="Critical Illness Protection">
-                            </a> </div>
-                          <p class="bt5 b6"> <a href="our-products/critical-illness-protection.html" class="bt5 b6" aria-hidden="true" tabindex="-1"> Critical Illness Protection </a> </p>
-                        </li>
-                        <li>
-                          <div class="hover-thumb"> <a href="our-products/medical-protection.html">
-                            <img class="icon icon-l " src="../content/dam/aia/icons/primary/normal/medicalpro-prime1.png" alt="Medical Protection">
-                            </a> </div>
-                          <p class="bt5 b6"> <a href="our-products/medical-protection.html" class="bt5 b6" aria-hidden="true" tabindex="-1"> Medical Protection </a> </p>
-                        </li>
-                        <li>
-                          <div class="hover-thumb"> <a href="our-products/retirement-income.html">
-                            <img class="icon icon-l " src="../content/dam/aia/icons/primary/normal/retirement-prime1.png" alt="Retirement Income">
-                            </a> </div>
-                          <p class="bt5 b6"> <a href="our-products/retirement-income.html" class="bt5 b6" aria-hidden="true" tabindex="-1"> Retirement Income </a> </p>
-                        </li>
-                        <li>
-                          <div class="hover-thumb"> <a href="our-products/aia-vitality.html">
-                            <img class="icon icon-l " src="../content/dam/aia/icons/primary/normal/vitality-prime1.png" alt="AIA Vitality">
-                            </a> </div>
-                          <p class="bt5 b6"> <a href="our-products/aia-vitality.html" class="bt5 b6" aria-hidden="true" tabindex="-1"> AIA Vitality </a> </p>
-                        </li>
-                      </ul>
+              <div class="container">
+                  <div class="row">                
+                    <div class="tab-content">
+                      <div id="individual" data-id="cards" class="row tab-pane fade in card-row margin-bottom-xxl active ">
+                        <div class="product-hero-icon section">
+                          <ul class="text-center margin-bottom-sm-l">
+                            <li data-toggle="modal" data-target="#location_popup">
+                              <div class="hover-thumb"> <a href="#">
+                                <img class="icon icon-l " src="../content/dam/aia/icons/primary/normal/savings-prime1.png" alt="Savings">
+                                </a> </div>
+                              <p class="bt5 b6"> <a href="our-products/savings.html" class="bt5 b6" aria-hidden="true" tabindex="-1"> Savings </a> </p>
+                            </li>
+                            <li>
+                              <div class="hover-thumb"> <a href="our-products/insurance-with-investment-focus.html">
+                                <img class="icon icon-l " src="../content/dam/aia/icons/primary/normal/investment_insurance-prime1.png" alt="Insurance with Investment Focus">
+                                </a> </div>
+                              <p class="bt5 b6"> <a href="our-products/insurance-with-investment-focus.html" class="bt5 b6" aria-hidden="true" tabindex="-1"> Insurance with Investment Focus </a> </p>
+                            </li>
+                            <li>
+                              <div class="hover-thumb"> <a href="our-products/life-protection.html">
+                                <img class="icon icon-l " src="../content/dam/aia/icons/primary/normal/lifepro-prime1.png" alt="undefined">
+                                </a> </div>
+                              <p class="bt5 b6"> <a href="our-products/life-protection.html" class="bt5 b6" aria-hidden="true" tabindex="-1"> Life Protection </a> </p>
+                            </li>
+                            <li>
+                              <div class="hover-thumb"> <a href="our-products/critical-illness-protection.html">
+                                <img class="icon icon-l " src="../content/dam/aia/icons/primary/normal/criticalillnesspro-prime1.png" alt="Critical Illness Protection">
+                                </a> </div>
+                              <p class="bt5 b6"> <a href="our-products/critical-illness-protection.html" class="bt5 b6" aria-hidden="true" tabindex="-1"> Critical Illness Protection </a> </p>
+                            </li>
+                            <li>
+                              <div class="hover-thumb"> <a href="our-products/medical-protection.html">
+                                <img class="icon icon-l " src="../content/dam/aia/icons/primary/normal/medicalpro-prime1.png" alt="Medical Protection">
+                                </a> </div>
+                              <p class="bt5 b6"> <a href="our-products/medical-protection.html" class="bt5 b6" aria-hidden="true" tabindex="-1"> Medical Protection </a> </p>
+                            </li>
+                            <li>
+                              <div class="hover-thumb"> <a href="our-products/retirement-income.html">
+                                <img class="icon icon-l " src="../content/dam/aia/icons/primary/normal/retirement-prime1.png" alt="Retirement Income">
+                                </a> </div>
+                              <p class="bt5 b6"> <a href="our-products/retirement-income.html" class="bt5 b6" aria-hidden="true" tabindex="-1"> Retirement Income </a> </p>
+                            </li>
+                            <li>
+                              <div class="hover-thumb"> <a href="our-products/aia-vitality.html">
+                                <img class="icon icon-l " src="../content/dam/aia/icons/primary/normal/vitality-prime1.png" alt="AIA Vitality">
+                                </a> </div>
+                              <p class="bt5 b6"> <a href="our-products/aia-vitality.html" class="bt5 b6" aria-hidden="true" tabindex="-1"> AIA Vitality </a> </p>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
-                  </div>
                 </div>
               </div>
             </section>
@@ -2077,6 +2080,16 @@ brown"></span></h6>
         <img src="term-life-insurance/images/map.png"
     </div>
     </div>
+</section>
+</div>
+
+</div></div></div>
+</div>
+
+<div id="login_popup" data-modal-tag-move-to="body" class="modal fade aia-modal in" data-target="/content/group/en/tools/modal-pages/home-our-products/critical-illness-protection/jcr:content/content.html" ><div class="modal-dialog partial-screen-modal-dialog"><div class="modal-content"><div class="modal-header bg-t2"><button class="modal-header-btn pull-left" data-dismiss="modal"><img src="term-life-insurance/images/closewhite-glyph.png" alt="close"></button><h6 class="w text-center"> Facebook Login<h6></div><div class="modal-container padding-top-3xl"><div class="section-container section"><section style="background-color:bg-w;">
+    <div class="container ">
+      <fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>
+   </div>
 </section>
 </div>
 
